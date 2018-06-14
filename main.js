@@ -15,7 +15,7 @@ let config = convict({
 	basePath: {
 		doc: "The PrizmDoc log file path.",
 		format: "*",
-		default: path.join("/", "Users", "kthomas",  "Documents", "PrizmDoc Phase 2", "logs"),
+		default: path.join("/", "Prizm", "logs"),
 		env: "BASE_PATH",
 		arg: "basePath"
 	},
