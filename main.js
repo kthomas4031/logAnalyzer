@@ -31,7 +31,9 @@ let config = convict({
 // Perform validation
 config.validate({ allowed: "strict" });
 
-(function main() {
+const blacklist = ["console", "pm2.log", "MsOfficeConverter.log", "ms-office-conversion-service.log", "mongod.log"];
+
+function enumerateFiles() {
 	let files = [];
 
     fs.readdirSync(config.get("basePath")).forEach(function(file) {
@@ -47,8 +49,50 @@ config.validate({ allowed: "strict" });
 		}
 	});
 
+	return files;
+}
+
+function sanitize(files) {
+	let sanitizedFiles = [];
+
 	for (let x = 0; x < files.length; x++) {
-		console.log(files[x]);
+		let onBlacklist = false;
+
+		for (let y = 0; y < blacklist.length; y++) {
+			if (files[x].indexOf(blacklist[y]) !== -1) {
+				onBlacklist = true;
+				break;
+			}
+		}
+
+		if (onBlacklist === false) {
+			sanitizedFiles.push(files[x]);
+		}
 	}
+
+	return sanitizedFiles;
+}
+
+(function main() {
+	let files = enumerateFiles();
+
+	let sanitizedFiles = sanitize(files)
+
+	// Check for valid JSON
+	for (let x = 0; x < sanitizedFiles.length; x++) {
+		let readline = require('readline').createInterface({
+			input: require('fs').createReadStream(sanitizedFiles[x])
+		});
 	
+		let lines = [];
+
+		readline.on("line", function(line) {
+				if (line !== "") {
+					JSON.parse(line);
+				}
+		});
+
+		readline.on("close", function() {
+		})
+	}
 })();
