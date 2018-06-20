@@ -41,6 +41,18 @@ const blacklist = [
   `mongod.log`
 ];
 
+const whitelistJSON = [
+  `name`,
+  `errorCode`,
+  `errorId`,
+  `service`,
+  `level`,
+  `error`,
+  `err`,
+  `resErr`,
+  `msg`
+];
+
 function enumerateFiles() {
   let files = [];
 
@@ -81,13 +93,14 @@ function sanitize(files) {
   return sanitizedFiles;
 }
 
-function removeProp(obj, propName) {
+function removeProp(obj) {
   for (var p in obj) {
     if (obj.hasOwnProperty(p)) {
-      if (p == propName) {
+      if (!whitelistJSON.includes(p)) {
         delete obj[p];
-      } else if (typeof obj[p] == "object") {
-        removeProp(obj[p], propName);
+      } else if (typeof obj[p] == `object`) {
+        /*&& !whitelistJSON.includes(obj[p])*/
+        removeProp(obj[p]);
       }
     }
   }
@@ -110,32 +123,19 @@ function scanLines(sanitizedFiles) {
     readline.on(`line`, function(line) {
       lineNumber += 1;
 
-      if (line !== "") {
+      if (line !== ``) {
         let jsonObject = JSON.parse(line);
 
         if (jsonObject !== undefined) {
-          // Only add this to uniqueJSONObjects if keys are unique
-          if (
-            !uniqueJSONObjects.includes(JSON.stringify(Object.keys(jsonObject)))
-          ) {
-            removeProp(jsonObject, "pid");
-            removeProp(jsonObject, "taskid");
-            removeProp(jsonObject, "gid");
-            removeProp(jsonObject, "tid");
-            removeProp(jsonObject, "time");
-            removeProp(jsonObject, "duration");
-            removeProp(jsonObject, "expirationTime");
-            removeProp(jsonObject, "duration");
-            removeProp(jsonObject, "cutoffDateTime");
+          removeProp(jsonObject);
 
-            if (count[JSON.stringify(jsonObject)] === undefined) {
-              count[JSON.stringify(jsonObject)] = 1;
-            } else {
-              count[JSON.stringify(jsonObject)] += 1;
-            }
-
-            uniqueJSONObjects.push(JSON.stringify(Object.keys(jsonObject)));
+          if (count[JSON.stringify(jsonObject)] === undefined) {
+            count[JSON.stringify(jsonObject)] = 1;
+          } else {
+            count[JSON.stringify(jsonObject)] += 1;
           }
+
+          uniqueJSONObjects.push(JSON.stringify(Object.keys(jsonObject)));
         } else {
           console.error(
             `Error Parsing JSON line ${lineNumber} in ${sanitizedFiles[x]}`
@@ -145,16 +145,10 @@ function scanLines(sanitizedFiles) {
     });
 
     readline.on(`close`, function() {
-      for (let y = 0; y < uniqueJSONObjects.length; y++) {
-        if (y === 0) {
-          console.log();
-          console.log("==== " + sanitizedFiles[x] + " ====");
-          console.log();
-        }
-
-        // console.log(uniqueJSONObjects[y]);
-        console.log(count);
-      }
+      console.log();
+      console.log(`==== ` + sanitizedFiles[x] + `====`);
+      console.log();
+      console.log(count);
     });
   }
 }
