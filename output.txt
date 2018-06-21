@@ -1,0 +1,1871 @@
+
+==== \Prizm\logs\configuration-service.log====
+
+{}
+
+==== \Prizm\logs\configuration-service.log.0====
+
+{}
+
+==== \Prizm\logs\configuration-service.log.1====
+
+{}
+
+==== \Prizm\logs\configuration-service.log.3====
+
+{}
+
+==== \Prizm\logs\configuration-service.log.2====
+
+{}
+
+==== \Prizm\logs\configuration-service.log.4====
+
+{}
+
+==== \Prizm\logs\FileViewer.log====
+
+{}
+
+==== \Prizm\logs\FileViewer.log.0====
+
+{}
+
+==== \Prizm\logs\FileViewer.log.1====
+
+{}
+
+==== \Prizm\logs\FileViewer.log.2====
+
+{}
+
+==== \Prizm\logs\FileViewer.log.3====
+
+{}
+
+==== \Prizm\logs\FileViewer.log.4====
+
+{}
+
+==== \Prizm\logs\health-service.log====
+
+{}
+
+==== \Prizm\logs\health-service.log.1====
+
+{}
+
+==== \Prizm\logs\health-service.log.0====
+
+{}
+
+==== \Prizm\logs\health-service.log.2====
+
+{}
+
+==== \Prizm\logs\health-service.log.3====
+
+{}
+
+==== \Prizm\logs\health-service.log.4====
+
+{}
+
+==== \Prizm\logs\mongo-manager-service.log====
+
+{}
+
+==== \Prizm\logs\mongo-manager-service.log.0====
+
+{}
+
+==== \Prizm\logs\mongo-manager-service.log.1====
+
+{}
+
+==== \Prizm\logs\mongo-manager-service.log.3====
+
+{}
+
+==== \Prizm\logs\mongo-manager-service.log.2====
+
+{}
+
+==== \Prizm\logs\mongo-manager-service.log.4====
+
+{}
+
+==== \Prizm\logs\public-request-service.log====
+
+{}
+
+==== \Prizm\logs\public-request-service.log.0====
+
+{}
+
+==== \Prizm\logs\public-request-service.log.1====
+
+{}
+
+==== \Prizm\logs\public-request-service.log.2====
+
+{}
+
+==== \Prizm\logs\public-request-service.log.4====
+
+{}
+
+==== \Prizm\logs\public-request-service.log.3====
+
+{}
+
+==== \Prizm\logs\raster-form-extraction-service.log====
+
+{}
+
+==== \Prizm\logs\raster-form-extraction-service.log.0====
+
+{}
+
+==== \Prizm\logs\raster-form-extraction-service.log.2====
+
+{}
+
+==== \Prizm\logs\raster-form-extraction-service.log.1====
+
+{}
+
+==== \Prizm\logs\raster-form-extraction-service.log.3====
+
+{}
+
+==== \Prizm\logs\raster-form-extraction-service.log.4====
+
+{}
+
+==== \Prizm\logs\config-normalizer.log====
+
+{ '{"name":"config-normalizer","level":30,"msg":""}': 78 }
+
+==== \Prizm\logs\configuration-service.log.5====
+
+{ '{"name":"configuration-service","level":30,"msg":""}': 54 }
+
+==== \Prizm\logs\configuration-service.log.6====
+
+{ '{"name":"configuration-service","level":30,"msg":""}': 57 }
+
+==== \Prizm\logs\EmailProcessingService.2018-05-16.log====
+
+{ '{"level":60}': 1,
+  '{"level":30}': 30,
+  '{"level":30,"name":"EPS"}': 116 }
+
+==== \Prizm\logs\FileViewer.log.6====
+
+{ '{"name":"FileViewer","level":30,"msg":""}': 2 }
+
+==== \Prizm\logs\FileViewer.log.5====
+
+{ '{"name":"FileViewer","level":30,"msg":""}': 2 }
+
+==== \Prizm\logs\mongo-manager-service.log.5====
+
+{ '{"name":"mongo-manager-service","level":30,"msg":""}': 18,
+  '{"name":"mongo-manager-service","level":30,"msg":"mongo-manager-service listening on port 19186"}': 1,
+  '{"name":"mongo-manager-service","level":30,"msg":"Database Instance created"}': 1,
+  '{"name":"mongo-manager-service","level":30,"msg":"Starting the Database process."}': 1,
+  '{"name":"mongo-manager-service","level":30,"msg":"Started the Database process."}': 1,
+  '{"name":"mongo-manager-service","level":30,"err":{"name":"MongoError"},"msg":"Database connection attempt."}': 4,
+  '{"name":"mongo-manager-service","level":30,"err":null,"msg":"Database connection attempt."}': 1,
+  '{"name":"mongo-manager-service","level":30,"msg":"Database connected."}': 1,
+  '{"name":"mongo-manager-service","level":30,"msg":"Registering Database with consul"}': 1 }
+
+==== \Prizm\logs\mongo-manager-service.log.6====
+
+{ '{"name":"mongo-manager-service","level":30,"msg":""}': 18,
+  '{"name":"mongo-manager-service","level":30,"msg":"mongo-manager-service listening on port 19187"}': 1,
+  '{"name":"mongo-manager-service","level":30,"msg":"Database Instance created"}': 1,
+  '{"name":"mongo-manager-service","level":30,"msg":"Starting the Database process."}': 1,
+  '{"name":"mongo-manager-service","level":30,"msg":"Started the Database process."}': 1,
+  '{"name":"mongo-manager-service","level":30,"err":{"name":"MongoError"},"msg":"Database connection attempt."}': 3,
+  '{"name":"mongo-manager-service","level":30,"err":null,"msg":"Database connection attempt."}': 1,
+  '{"name":"mongo-manager-service","level":30,"msg":"Database connected."}': 1,
+  '{"name":"mongo-manager-service","level":30,"msg":"Registering Database with consul"}': 1 }
+
+==== \Prizm\logs\PccErrors.log====
+
+{ '{"errorCode":"WatchdogStarted","service":"WATCHDOG","errorId":"Cjpm5wcrY3DGpVPG8xdU7Q"}': 1,
+  '{"errorCode":"EPSIsUnhealthy","service":"WATCHDOG","errorId":"ZveuJKc6WJ6KcReD72d0qg"}': 1,
+  '{"errorCode":"EPSIsUnhealthy","service":"WATCHDOG","errorId":"SJt-SloECDneZBqLuj4jsw"}': 1,
+  '{"errorCode":"WatchdogStarted","service":"WATCHDOG","errorId":"a-GeAAUcn8TSXrn4X9HM5w"}': 1,
+  '{"errorCode":"EPSIsUnhealthy","service":"WATCHDOG","errorId":"8bjDzYNf-tcx0qnfMpwTxg"}': 1,
+  '{"errorCode":"PlbSepHealthDataIsUnhealthy","service":"WATCHDOG","errorId":"QlJz-PfL8gx-iMzNBhHB4A"}': 1,
+  '{"errorCode":"Pccis1IsUnhealthy","service":"WATCHDOG","errorId":"gwMLWQRLRq7Zs-K_QfiOvw"}': 1,
+  '{"errorCode":"EPSIsUnhealthy","service":"WATCHDOG","errorId":"eH_m1IqN8gjQluyfdgMcBw"}': 1,
+  '{"errorCode":"PlbSepServersPropertiesIsUnhealthy","service":"WATCHDOG","errorId":"hnhbFYKdjPwO3iRNclGoGw"}': 1,
+  '{"errorCode":"PlbSepHealthDataIsUnhealthy","service":"WATCHDOG","errorId":"WfdkAVVGawmf4xWHM4_UUg"}': 1,
+  '{"errorCode":"PlbSepServersPropertiesIsUnhealthy","service":"WATCHDOG","errorId":"eWobC7WDYaRqkggeFdL-xA"}': 1,
+  '{"errorCode":"PlbSepHealthDataIsUnhealthy","service":"WATCHDOG","errorId":"trM9P1cpz1yBSZFbGTTJzg"}': 1,
+  '{"errorCode":"EPSIsUnhealthy","service":"WATCHDOG","errorId":"pljVZLHoCQNfU3V2xDp6Hw"}': 1,
+  '{"errorCode":"Pccis1IsUnhealthy","service":"WATCHDOG","errorId":"iGyipTC2f_rqZBX-0cgGjw"}': 1,
+  '{"errorCode":"PlbSepServersPropertiesIsUnhealthy","service":"WATCHDOG","errorId":"VkomHpgaf-EPrsMoQerlzw"}': 1,
+  '{"errorCode":"PlbSepHealthDataIsUnhealthy","service":"WATCHDOG","errorId":"iPbARfD1Y46TcCSnnc5A6w"}': 1,
+  '{"errorCode":"PdfpsIsUnhealthy","service":"WATCHDOG","errorId":"95KRRjd7Wtx-5adt30fhIw"}': 1,
+  '{"errorCode":"EPSIsUnhealthy","service":"WATCHDOG","errorId":"uY_N4RvD7VN5okLtjmvmWg"}': 1,
+  '{"errorCode":"Pccis1IsUnhealthy","service":"WATCHDOG","errorId":"RWHxd70Q8xHqp9SMTRcG1A"}': 1,
+  '{"errorCode":"Pccis2IsUnhealthy","service":"WATCHDOG","errorId":"vFe3HmO_QDjGNn3_7fTEFw"}': 1,
+  '{"errorCode":"PlbSepServersPropertiesIsUnhealthy","service":"WATCHDOG","errorId":"koxhjZhymzwW6w-8JZVPdA"}': 1,
+  '{"errorCode":"WatchdogStarted","service":"WATCHDOG","errorId":"unP0m18em0Wd_MfL4UJkcw"}': 1,
+  '{"errorCode":"PdfpsIsUnhealthy","service":"WATCHDOG","errorId":"KYTZAVCtkndIiRLYBIchUA"}': 1,
+  '{"errorCode":"WorkfileIsUnhealthy","service":"WATCHDOG","errorId":"-wAdTyXsupkSf96G5a31Xg"}': 1,
+  '{"errorCode":"OcsIsUnhealthy","service":"WATCHDOG","errorId":"aOVVtyllHtBYLU3-CfdGBg"}': 1,
+  '{"errorCode":"RedactionIsUnhealthy","service":"WATCHDOG","errorId":"0285MO7te6VSjlHZe2okGw"}': 1,
+  '{"errorCode":"EPSIsUnhealthy","service":"WATCHDOG","errorId":"UMWsi2ANIv_AII6cwZPnxg"}': 1,
+  '{"errorCode":"ECSIsUnhealthy","service":"WATCHDOG","errorId":"_iOXPfFrTCnPW1PCrVTPpQ"}': 1,
+  '{"errorCode":"CcsIsUnhealthy","service":"WATCHDOG","errorId":"egVvUYyInkGo6EQjWyI8Ww"}': 1,
+  '{"errorCode":"PlbSepServersPropertiesIsUnhealthy","service":"WATCHDOG","errorId":"1ExV0u3r5s7Z57d-hBTI7w"}': 1,
+  '{"errorCode":"PlbSepHealthDataIsUnhealthy","service":"WATCHDOG","errorId":"UFqd5LnfOVynXBgsKh7DWg"}': 1,
+  '{"errorCode":"OcsIsUnhealthy","service":"WATCHDOG","errorId":"HkHohKTmNIwfLar1L8ZrfQ"}': 1,
+  '{"errorCode":"PlbSepServersPropertiesIsUnhealthy","service":"WATCHDOG","errorId":"iw2zdsTMt4Oe4BfVzEV2Dw"}': 1,
+  '{"errorCode":"PlbSepHealthDataIsUnhealthy","service":"WATCHDOG","errorId":"0WOr3tK-x3mChS_zmpmGmA"}': 1,
+  '{"errorCode":"InvalidInput","service":"LoadBalancer","errorId":"QPr2QkkdiAYeG2Ia8OE-NQ"}': 1,
+  '{"errorCode":"PlbSepServersPropertiesIsUnhealthy","service":"WATCHDOG","errorId":"06d2zu7DrF5PQc1ishIynw"}': 1,
+  '{"errorCode":"PlbSepHealthDataIsUnhealthy","service":"WATCHDOG","errorId":"EhiU94prpJec5tUYXa1bEA"}': 1,
+  '{"errorCode":"OcsIsUnhealthy","service":"WATCHDOG","errorId":"MsjaGM-sWpnQjIGrnIblAw"}': 1,
+  '{"errorCode":"InvalidInput","service":"LoadBalancer","errorId":"FexB_soCRAb5Uocco8R3Ew"}': 1,
+  '{"errorCode":"PlbSepServersPropertiesIsUnhealthy","service":"WATCHDOG","errorId":"TYOq0v1z_zOzJba0geyDrQ"}': 1,
+  '{"errorCode":"PlbSepHealthDataIsUnhealthy","service":"WATCHDOG","errorId":"n726AhK3whmgQeF3R2HGiQ"}': 1,
+  '{"errorCode":"PdfpsIsUnhealthy","service":"WATCHDOG","errorId":"lob4k_eG2FWuOOMxFP36qA"}': 1,
+  '{"errorCode":"WorkfileIsUnhealthy","service":"WATCHDOG","errorId":"N8ehnO43a-E4VzkjCLaT0w"}': 1,
+  '{"errorCode":"RedactionIsUnhealthy","service":"WATCHDOG","errorId":"lW-oFpwcVSDiriWZPDCltQ"}': 1,
+  '{"errorCode":"EPSIsUnhealthy","service":"WATCHDOG","errorId":"P1YlY2yuBC-81801W1Nn9A"}': 1,
+  '{"errorCode":"ECSIsUnhealthy","service":"WATCHDOG","errorId":"zeckz_kovKXyXuHtE7U7VQ"}': 1,
+  '{"errorCode":"CcsIsUnhealthy","service":"WATCHDOG","errorId":"_RfSLUy2RooHQkgp1iGQeA"}': 1,
+  '{"errorCode":"OcsIsUnhealthy","service":"WATCHDOG","errorId":"aHeWtKGyOTl7eUcqPft93A"}': 1,
+  '{"errorCode":"WatchdogStopped","service":"WATCHDOG","errorId":"n3bfydd47aQ8C9tqBZUPdQ"}': 1,
+  '{"errorCode":"WatchdogStarted","service":"WATCHDOG","errorId":"4RUANyU893plv8R5a2wl-g"}': 1,
+  '{"errorCode":"EPSIsUnhealthy","service":"WATCHDOG","errorId":"-HUu0Ojh4JpW3T9kkOCN9g"}': 1,
+  '{"errorCode":"EPSIsUnhealthy","service":"WATCHDOG","errorId":"4BypDjSLsvr_O6SJyMV_8A"}': 1,
+  '{"errorCode":"WatchdogStopped","service":"WATCHDOG","errorId":"lqIIOnVvoU14lrfaXJhW4g"}': 1,
+  '{"errorCode":"WatchdogStarted","service":"WATCHDOG","errorId":"7TRU-YVVdzdGONshIYiUug"}': 1,
+  '{"errorCode":"EPSIsUnhealthy","service":"WATCHDOG","errorId":"AOfPBrOmpjkhblhHrdagaw"}': 1,
+  '{"errorCode":"EPSIsUnhealthy","service":"WATCHDOG","errorId":"8CC-X71NJBEZrcNLuiUPOQ"}': 1,
+  '{"errorCode":"WatchdogStopped","service":"WATCHDOG","errorId":"ckHm8K37Qqt3kv5dRnLWmw"}': 1,
+  '{"errorCode":"WatchdogStarted","service":"WATCHDOG","errorId":"vEzGpoZZVAVIljfIDbLbXg"}': 1,
+  '{"errorCode":"EPSIsUnhealthy","service":"WATCHDOG","errorId":"_hZD_iHR4H8RwntxzQzoCQ"}': 1,
+  '{"errorCode":"EPSIsUnhealthy","service":"WATCHDOG","errorId":"fTGqjsLkb-QpY78ikD41-g"}': 1,
+  '{"service":"ImagingServices"}': 6,
+  '{"errorCode":"PageConvertFailed","service":"ImagingServices","errorId":"sI2u6zuuglyDpsuO8fYVmA"}': 1,
+  '{"errorCode":"TimeoutWaitingForPage","service":"ImagingServices","errorId":"KhsmYy_pkX-19dI65QshwA"}': 1,
+  '{"errorCode":"TimeoutWaitingForPage","service":"ImagingServices","errorId":"k4WnfJNfgcKniIoMgpYomg"}': 1,
+  '{"errorCode":"PageConvertFailed","service":"ImagingServices","errorId":"xBg5AQNQpGS7o8X5kY_LCQ"}': 1,
+  '{"errorCode":"TimeoutWaitingForPage","service":"ImagingServices","errorId":"8KKfcDlkY3DqlHoYEzVWBw"}': 1,
+  '{"errorCode":"TimeoutWaitingForPage","service":"ImagingServices","errorId":"AFGLF5kl5wfcLQkE1oXEoA"}': 1,
+  '{"errorCode":"TimeoutWaitingForPage","service":"ImagingServices","errorId":"1kfHvEGTq3oDHhZlsI2qVQ"}': 1,
+  '{"errorCode":"WatchdogStarted","service":"WATCHDOG","errorId":"dlLVXPkKpSWPsy-KLp6Yog"}': 1,
+  '{"errorCode":"PdfpsIsUnhealthy","service":"WATCHDOG","errorId":"weZ8lIN0oeoHDcfcYBJALw"}': 1,
+  '{"errorCode":"WorkfileIsUnhealthy","service":"WATCHDOG","errorId":"oycbAlOQ8CppXlBiEHdYqg"}': 1,
+  '{"errorCode":"OcsIsUnhealthy","service":"WATCHDOG","errorId":"3rXeT3K9C8XfO5KV2Tw03g"}': 1,
+  '{"errorCode":"RedactionIsUnhealthy","service":"WATCHDOG","errorId":"T_rRAkbNFhnGgjPiMdTfcw"}': 1,
+  '{"errorCode":"EPSIsUnhealthy","service":"WATCHDOG","errorId":"tim14BGuauRG8UYjvpyx6w"}': 1,
+  '{"errorCode":"ECSIsUnhealthy","service":"WATCHDOG","errorId":"AloRoY0ig6Z0dSjC0hpq9g"}': 1,
+  '{"errorCode":"CcsIsUnhealthy","service":"WATCHDOG","errorId":"PyNwv968j2Mn1L1pNwDW7g"}': 1,
+  '{"errorCode":"PlbSepServersPropertiesIsUnhealthy","service":"WATCHDOG","errorId":"abCbtX4z340Kq0zhDVcljQ"}': 1,
+  '{"errorCode":"PlbSepHealthDataIsUnhealthy","service":"WATCHDOG","errorId":"Z2LwgLsFX9oDXrjtQLUNJA"}': 1,
+  '{"errorCode":"PlbSepServersPropertiesIsUnhealthy","service":"WATCHDOG","errorId":"mVWeXGaWtZxctwyJ7uK7nA"}': 1,
+  '{"errorCode":"PlbSepHealthDataIsUnhealthy","service":"WATCHDOG","errorId":"oqI2ZmnIOtTrz6zLvF36gg"}': 1,
+  '{"errorCode":"OcsIsUnhealthy","service":"WATCHDOG","errorId":"PMJHexXgpPXExlP13AMXnQ"}': 1,
+  '{"errorCode":"PlbSepServersPropertiesIsUnhealthy","service":"WATCHDOG","errorId":"QXcReK44yF2Caz30QjbtMw"}': 1,
+  '{"errorCode":"PlbSepHealthDataIsUnhealthy","service":"WATCHDOG","errorId":"1a3Sg9oqD8Kl-AE7Dt5kkw"}': 1,
+  '{"errorCode":"PlbSepServersPropertiesIsUnhealthy","service":"WATCHDOG","errorId":"kSugtIpW3LogawZ5ZWTH9g"}': 1,
+  '{"errorCode":"PlbSepHealthDataIsUnhealthy","service":"WATCHDOG","errorId":"HjPBBFsgBTw6pII-20xr9g"}': 1,
+  '{"errorCode":"OcsIsUnhealthy","service":"WATCHDOG","errorId":"VNwGf9NyM54LAIxZ4xjMug"}': 1,
+  '{"errorCode":"PlbSepServersPropertiesIsUnhealthy","service":"WATCHDOG","errorId":"CUvbqB5dR9zd4F0HzRCaMA"}': 1,
+  '{"errorCode":"PlbSepHealthDataIsUnhealthy","service":"WATCHDOG","errorId":"6oelEWo47mhsl_IxvYIZPw"}': 1,
+  '{"errorCode":"PdfpsIsUnhealthy","service":"WATCHDOG","errorId":"d30l5nzITRAiwDEmvAqLSQ"}': 1,
+  '{"errorCode":"WorkfileIsUnhealthy","service":"WATCHDOG","errorId":"o2u1y7dyHCuhJE2HPHF9dg"}': 1,
+  '{"errorCode":"OcsIsUnhealthy","service":"WATCHDOG","errorId":"5vVyJhGB-Xfcpt5xiuZGaQ"}': 1,
+  '{"errorCode":"RedactionIsUnhealthy","service":"WATCHDOG","errorId":"P5wtoYsZ6WOfS8fVRBwjYg"}': 1,
+  '{"errorCode":"EPSIsUnhealthy","service":"WATCHDOG","errorId":"vEbWGSnMFc7-FTXRnmlohw"}': 1,
+  '{"errorCode":"ECSIsUnhealthy","service":"WATCHDOG","errorId":"wCRulXDDKki11quU4AsHJQ"}': 1,
+  '{"errorCode":"CcsIsUnhealthy","service":"WATCHDOG","errorId":"kWAlg6pPYlCl93zML1YkSg"}': 1,
+  '{"errorCode":"PlbSepServersPropertiesIsUnhealthy","service":"WATCHDOG","errorId":"isaNyHVLribAFFzwuTC_UQ"}': 1,
+  '{"errorCode":"PlbSepHealthDataIsUnhealthy","service":"WATCHDOG","errorId":"PiubghLw1C3xTjx3sLEcmg"}': 1,
+  '{"errorCode":"WatchdogStarted","service":"WATCHDOG","errorId":"ANfMWwOXVSkvmHHvrlvM9w"}': 1,
+  '{"errorCode":"PdfpsIsUnhealthy","service":"WATCHDOG","errorId":"TEga9W3R6KCcojqqC2KPVw"}': 1,
+  '{"errorCode":"WorkfileIsUnhealthy","service":"WATCHDOG","errorId":"o7OZlzkoAm6-7i57D-kwPw"}': 1,
+  '{"errorCode":"OcsIsUnhealthy","service":"WATCHDOG","errorId":"aBz8sqVYGl6lq0NehfuNTw"}': 1,
+  '{"errorCode":"RedactionIsUnhealthy","service":"WATCHDOG","errorId":"SpSHJKehX_V5DL-AVvtw_Q"}': 1,
+  '{"errorCode":"EPSIsUnhealthy","service":"WATCHDOG","errorId":"WPTVhuYMg81cq4jdZnG8Ig"}': 1,
+  '{"errorCode":"ECSIsUnhealthy","service":"WATCHDOG","errorId":"HZ552S1ksj9cmT9xsgPQng"}': 1,
+  '{"errorCode":"CcsIsUnhealthy","service":"WATCHDOG","errorId":"aJoZvvaH_dHl3E-VjtoNrw"}': 1,
+  '{"errorCode":"PlbSepServersPropertiesIsUnhealthy","service":"WATCHDOG","errorId":"64gYWoUtdmpOSJKtvT8X9Q"}': 1,
+  '{"errorCode":"PlbSepHealthDataIsUnhealthy","service":"WATCHDOG","errorId":"xP2ebhlCFpfOc8_iCx9Nkg"}': 1,
+  '{"errorCode":"PlbSepServersPropertiesIsUnhealthy","service":"WATCHDOG","errorId":"lUa50vDQcr67tkfTFctfqQ"}': 1,
+  '{"errorCode":"PlbSepHealthDataIsUnhealthy","service":"WATCHDOG","errorId":"elLwNmRQyH9LfBRvXJIQ9g"}': 1,
+  '{"errorCode":"PdfpsIsUnhealthy","service":"WATCHDOG","errorId":"d4Htsar9Qap9srOHC85SCA"}': 1,
+  '{"errorCode":"WorkfileIsUnhealthy","service":"WATCHDOG","errorId":"kNqXHebLIwabkzOXEjUiXA"}': 1,
+  '{"errorCode":"OcsIsUnhealthy","service":"WATCHDOG","errorId":"Waoo2rr2bAzR0HK-hH6QPw"}': 1,
+  '{"errorCode":"RedactionIsUnhealthy","service":"WATCHDOG","errorId":"1EVR7YuriE--4N055GmPQA"}': 1,
+  '{"errorCode":"EPSIsUnhealthy","service":"WATCHDOG","errorId":"KhFdsEmAzjgN22v9psZMxA"}': 1,
+  '{"errorCode":"ECSIsUnhealthy","service":"WATCHDOG","errorId":"EmC-4Nj3PITIyi0F2K20fA"}': 1,
+  '{"errorCode":"CcsIsUnhealthy","service":"WATCHDOG","errorId":"3C7nBjwzVTQhAaOa9FHTPQ"}': 1,
+  '{"errorCode":"PlbSepServersPropertiesIsUnhealthy","service":"WATCHDOG","errorId":"azIYaBRAXuWeSqsgPNAi3g"}': 1,
+  '{"errorCode":"PlbSepHealthDataIsUnhealthy","service":"WATCHDOG","errorId":"RovcOeNbzMt1CGjjhtGytQ"}': 1,
+  '{"errorCode":"PlbSepServersPropertiesIsUnhealthy","service":"WATCHDOG","errorId":"T-sOP1NdCUGUXlwmSSq6og"}': 1,
+  '{"errorCode":"PlbSepHealthDataIsUnhealthy","service":"WATCHDOG","errorId":"N7TX1o8Muh99fbmbUeACrQ"}': 1,
+  '{"errorCode":"OcsIsUnhealthy","service":"WATCHDOG","errorId":"2tsPi0pstSOv_t9DugaEjw"}': 1,
+  '{"errorCode":"OcsIsUnhealthy","service":"WATCHDOG","errorId":"8T-PzRJ_OBzof1VDPXFeWA"}': 1,
+  '{"errorCode":"PccIsUnhealthyFromOcs","service":"WATCHDOG","errorId":"gRNO3kntd2al74aMMCJdAA"}': 1,
+  '{"errorCode":"OcsIsUnhealthy","service":"WATCHDOG","errorId":"xqzsF_kOGPz9XaGTo81LUg"}': 1,
+  '{"errorCode":"OcsIsUnhealthy","service":"WATCHDOG","errorId":"b9unTSx912Wn1-mwVJeqlw"}': 1,
+  '{"errorCode":"WatchdogStarted","service":"WATCHDOG","errorId":"wfz6O8kvrA2CRdGOCEtTaQ"}': 1,
+  '{"errorCode":"PdfpsIsUnhealthy","service":"WATCHDOG","errorId":"q4H0_rhP9QW-Hud5byPX4g"}': 1,
+  '{"errorCode":"WorkfileIsUnhealthy","service":"WATCHDOG","errorId":"fscqyUpuT-oMXgjcjxlOfQ"}': 1,
+  '{"errorCode":"OcsIsUnhealthy","service":"WATCHDOG","errorId":"_8U_t_j0sIvs0IHgW1kWHQ"}': 1,
+  '{"errorCode":"RedactionIsUnhealthy","service":"WATCHDOG","errorId":"8ufzwYg8GUff9yK1kyhMnw"}': 1,
+  '{"errorCode":"EPSIsUnhealthy","service":"WATCHDOG","errorId":"30UKEsWEDpKqTk3J8tmwfQ"}': 1,
+  '{"errorCode":"ECSIsUnhealthy","service":"WATCHDOG","errorId":"yA25QPh7oUF8zNRqjMk4EQ"}': 1,
+  '{"errorCode":"CcsIsUnhealthy","service":"WATCHDOG","errorId":"ta-mUfbfjQvOwOm8LXkLBw"}': 1,
+  '{"errorCode":"OcsIsUnhealthy","service":"WATCHDOG","errorId":"k1DKLtAFY3zCJRX93u-rVg"}': 1,
+  '{"errorCode":"PlbSepServersPropertiesIsUnhealthy","service":"WATCHDOG","errorId":"sMgOck40HvNRSSekepQlIQ"}': 1,
+  '{"errorCode":"PlbSepHealthDataIsUnhealthy","service":"WATCHDOG","errorId":"qlu9JNJb6jm79zVQqdLzyA"}': 1,
+  '{"errorCode":"OcsIsUnhealthy","service":"WATCHDOG","errorId":"Q7tLxXC3Dyg76lKZ63J-bg"}': 1,
+  '{"errorCode":"PlbSepServersPropertiesIsUnhealthy","service":"WATCHDOG","errorId":"ervK-Q1fWJ4gNfGZx0so5Q"}': 1,
+  '{"errorCode":"PlbSepHealthDataIsUnhealthy","service":"WATCHDOG","errorId":"rs0VvWGrqfuoHyRdi5ZUUQ"}': 1,
+  '{"errorCode":"PdfpsIsUnhealthy","service":"WATCHDOG","errorId":"i0sZ-zJsgrPSpWAKiDurIQ"}': 1,
+  '{"errorCode":"WorkfileIsUnhealthy","service":"WATCHDOG","errorId":"Yq4tihKiyT7OzJS19nSowQ"}': 1,
+  '{"errorCode":"RedactionIsUnhealthy","service":"WATCHDOG","errorId":"-F-n-35V1j-GpqqCkITbCA"}': 1,
+  '{"errorCode":"EPSIsUnhealthy","service":"WATCHDOG","errorId":"objhE21IKEp3nRnnWtKw0g"}': 1,
+  '{"errorCode":"ECSIsUnhealthy","service":"WATCHDOG","errorId":"uzpJA8U1rlkiAJEpSgeDdw"}': 1,
+  '{"errorCode":"CcsIsUnhealthy","service":"WATCHDOG","errorId":"yMBbZY1DlYAdhjurm5YbRw"}': 1,
+  '{"errorCode":"PlbSepServersPropertiesIsUnhealthy","service":"WATCHDOG","errorId":"9zzMQBJEFrC1cQTaML6rQg"}': 1,
+  '{"errorCode":"PlbSepHealthDataIsUnhealthy","service":"WATCHDOG","errorId":"uUe6dPG__jL5hku0yFwy2g"}': 1,
+  '{"errorCode":"PlbSepServersPropertiesIsUnhealthy","service":"WATCHDOG","errorId":"dvdXjjHggJtmCNJbLxg2rQ"}': 1,
+  '{"errorCode":"PlbSepHealthDataIsUnhealthy","service":"WATCHDOG","errorId":"OHrxcv87J-N4LZsP9q5LiQ"}': 1,
+  '{"errorCode":"OcsIsUnhealthy","service":"WATCHDOG","errorId":"wllPEvXyTsK-zpDs4VmgIg"}': 1,
+  '{"errorCode":"OcsIsUnhealthy","service":"WATCHDOG","errorId":"fjw09D746m51Q120B3J9Pw"}': 1,
+  '{"errorCode":"OcsIsUnhealthy","service":"WATCHDOG","errorId":"pPCvW3Oz_dwP9wSQFlx6ow"}': 1,
+  '{"errorCode":"PccIsUnhealthyFromOcs","service":"WATCHDOG","errorId":"Avh0Dy-n4FclfxGG7wocng"}': 1,
+  '{"errorCode":"OcsIsUnhealthy","service":"WATCHDOG","errorId":"j2jD33fUbQM1Snu3rQbPvg"}': 1,
+  '{"errorCode":"OcsIsUnhealthy","service":"WATCHDOG","errorId":"WNAYt41FcfhdmCqiSMboxg"}': 1,
+  '{"errorCode":"WatchdogStarted","service":"WATCHDOG","errorId":"t_iE8bcPSeWp5_VnbvXVrg"}': 1,
+  '{"errorCode":"WorkfileIsUnhealthy","service":"WATCHDOG","errorId":"Mnm5cRYeQq_1Od_CVtb9cQ"}': 1,
+  '{"errorCode":"OcsIsUnhealthy","service":"WATCHDOG","errorId":"9CVii9tst_YY3ygC5r0S5A"}': 1,
+  '{"errorCode":"RedactionIsUnhealthy","service":"WATCHDOG","errorId":"z9-k3PCOaJmeMwbcMQTRMg"}': 1,
+  '{"errorCode":"ECSIsUnhealthy","service":"WATCHDOG","errorId":"M0GzlJHTArb-FCEeD0h-Ng"}': 1,
+  '{"errorCode":"CcsIsUnhealthy","service":"WATCHDOG","errorId":"5Nuz81SeoAfU72T5oEhqMQ"}': 1,
+  '{"errorCode":"PlbSepServersPropertiesIsUnhealthy","service":"WATCHDOG","errorId":"9Td5nV5jhZKKRM1qFOXrTw"}': 1,
+  '{"errorCode":"PlbSepHealthDataIsUnhealthy","service":"WATCHDOG","errorId":"FkDWm3jrGtLlujnXZyhfVw"}': 1,
+  '{"errorCode":"PlbSepServersPropertiesIsUnhealthy","service":"WATCHDOG","errorId":"NFri8WlqIujHzV3giNi5ug"}': 1,
+  '{"errorCode":"PlbSepHealthDataIsUnhealthy","service":"WATCHDOG","errorId":"zXWR93m2wYoVQt8En-PkhQ"}': 1,
+  '{"errorCode":"WorkfileIsUnhealthy","service":"WATCHDOG","errorId":"XlCw0zFYRploGjCmrGixDQ"}': 1,
+  '{"errorCode":"OcsIsUnhealthy","service":"WATCHDOG","errorId":"n2z9MPzvy3OAi7XzobY73g"}': 1,
+  '{"errorCode":"RedactionIsUnhealthy","service":"WATCHDOG","errorId":"07LK5RUzE_j3lCFkMUdVqw"}': 1,
+  '{"errorCode":"ECSIsUnhealthy","service":"WATCHDOG","errorId":"Yj3rEKhzMv8dVwPKQe7y4A"}': 1,
+  '{"errorCode":"CcsIsUnhealthy","service":"WATCHDOG","errorId":"w7AYjEfxmUwivn8uUqgt3Q"}': 1,
+  '{"errorCode":"PlbSepServersPropertiesIsUnhealthy","service":"WATCHDOG","errorId":"4AEURJH1KcwIwH3Hadr3Rg"}': 1,
+  '{"errorCode":"PlbSepHealthDataIsUnhealthy","service":"WATCHDOG","errorId":"JQsAaElnHqmepnE2xDcCzA"}': 1,
+  '{"errorCode":"PlbSepServersPropertiesIsUnhealthy","service":"WATCHDOG","errorId":"YL_xNMUsYpZwzaSXh5Fi2Q"}': 1,
+  '{"errorCode":"PlbSepHealthDataIsUnhealthy","service":"WATCHDOG","errorId":"Gu1koTAAHPZ8SilO4Wl6Fw"}': 1,
+  '{"errorCode":"OcsIsUnhealthy","service":"WATCHDOG","errorId":"4AxdbloZhGE5zP0ZW6JX3w"}': 1,
+  '{"errorCode":"OcsIsUnhealthy","service":"WATCHDOG","errorId":"5mfkBH-xGM8_6rWdwjydJg"}': 1,
+  '{"errorCode":"PccIsUnhealthyFromOcs","service":"WATCHDOG","errorId":"sMXMqEflJgzC8WpSP2N0KQ"}': 1,
+  '{"errorCode":"OcsIsUnhealthy","service":"WATCHDOG","errorId":"Q8-uxVVEYdqJIqN2RV_bCg"}': 1,
+  '{"errorCode":"OcsIsUnhealthy","service":"WATCHDOG","errorId":"K6g8_XtxLk68yLCF2kwdFw"}': 1,
+  '{"errorCode":"UnsupportedContentType","service":"ImagingServices","errorId":"TBQvWQ9OgAtP3EuPWDIVAg"}': 1,
+  '{"errorCode":"WorkfileIsUnhealthy","service":"WATCHDOG","errorId":"IFF-PC73JB7ENvIuUjZ0rg"}': 1,
+  '{"errorCode":"OcsIsUnhealthy","service":"WATCHDOG","errorId":"D1Gvsok1KBuOyVHtY4h4_A"}': 1,
+  '{"errorCode":"RedactionIsUnhealthy","service":"WATCHDOG","errorId":"tx1EqeF9T-kBenNlEwhgpQ"}': 1,
+  '{"errorCode":"EPSIsUnhealthy","service":"WATCHDOG","errorId":"p82yY5ePbQmzI73AkjlANQ"}': 1,
+  '{"errorCode":"ECSIsUnhealthy","service":"WATCHDOG","errorId":"pUSTkPFDZkbKCWv8pIz5Nw"}': 1,
+  '{"errorCode":"CcsIsUnhealthy","service":"WATCHDOG","errorId":"DNdCuUzfoS0qAHD9gzBZ4w"}': 1,
+  '{"errorCode":"PlbSepServersPropertiesIsUnhealthy","service":"WATCHDOG","errorId":"8shx-GlM0uoy8biAgDgk7g"}': 1,
+  '{"errorCode":"PlbSepHealthDataIsUnhealthy","service":"WATCHDOG","errorId":"-r7Y1IafYGFVSRQs7iTS2g"}': 1,
+  '{"errorCode":"PlbSepServersPropertiesIsUnhealthy","service":"WATCHDOG","errorId":"5W_JVFzwInoK10iK9hJJwQ"}': 1,
+  '{"errorCode":"PlbSepHealthDataIsUnhealthy","service":"WATCHDOG","errorId":"76WocG6YpdzNrP5WkFdwEQ"}': 1,
+  '{"errorCode":"ErsIsUnhealthy","service":"WATCHDOG","errorId":"CHKEm-BiBglIOm7z5xkgaA"}': 1,
+  '{"errorCode":"PdfpsIsUnhealthy","service":"WATCHDOG","errorId":"ab_xNZb14LjEModbxctL4g"}': 1,
+  '{"errorCode":"WorkfileIsUnhealthy","service":"WATCHDOG","errorId":"W-uTVK-VKFpRV3_Tbq_Ppg"}': 1,
+  '{"errorCode":"OcsIsUnhealthy","service":"WATCHDOG","errorId":"7eQ9sTDox6fvKHB0EMqa9w"}': 1,
+  '{"errorCode":"RedactionIsUnhealthy","service":"WATCHDOG","errorId":"4Q3ZZN4PquwCR89Nqkx8eg"}': 1,
+  '{"errorCode":"EPSIsUnhealthy","service":"WATCHDOG","errorId":"e1iKLjCHg88wFCMIWkffHg"}': 1,
+  '{"errorCode":"ECSIsUnhealthy","service":"WATCHDOG","errorId":"Wpy5A89t35NfTcbKkxTj7A"}': 1,
+  '{"errorCode":"CcsIsUnhealthy","service":"WATCHDOG","errorId":"Hr2auEQUzcVoL4fZV8wwwg"}': 1,
+  '{"errorCode":"Pccis0IsUnhealthy","service":"WATCHDOG","errorId":"ltgPA8Juchq4mq5tPbosnw"}': 1,
+  '{"errorCode":"Pccis1IsUnhealthy","service":"WATCHDOG","errorId":"kYmr-pi64-VOAOOxWWaA5w"}': 1,
+  '{"errorCode":"Pccis2IsUnhealthy","service":"WATCHDOG","errorId":"SPWqprqmzQgdhKGN8OWrfA"}': 1,
+  '{"errorCode":"InvalidInput","service":"LoadBalancer","errorId":"9iMwIakMugWszVQrOwePvA"}': 1,
+  '{"errorCode":"PlbSepServersPropertiesIsUnhealthy","service":"WATCHDOG","errorId":"61gE3RADQVEAGFuK02wrzg"}': 1,
+  '{"errorCode":"PlbSepHealthDataIsUnhealthy","service":"WATCHDOG","errorId":"aUiY75xgd92bySTrkm2SOw"}': 1,
+  '{"errorCode":"InvalidInput","service":"LoadBalancer","errorId":"jw56zVdNAxxSxRKAix8-Cw"}': 1,
+  '{"errorCode":"PlbSepServersPropertiesIsUnhealthy","service":"WATCHDOG","errorId":"6zI-3h18yKoFAPihf1Nm1Q"}': 1,
+  '{"errorCode":"PlbSepHealthDataIsUnhealthy","service":"WATCHDOG","errorId":"X7NUi_4iSdO472Mdz8msdg"}': 1,
+  '{"errorCode":"InvalidInput","service":"LoadBalancer","errorId":"0E3lGAMT1OZhatULOm7ZDQ"}': 1,
+  '{"errorCode":"PdfpsIsUnhealthy","service":"WATCHDOG","errorId":"i-eQEmUFL0xsyouu3B0kig"}': 1,
+  '{"errorCode":"WorkfileIsUnhealthy","service":"WATCHDOG","errorId":"0NgQICVF6OqtmaUkpdA89A"}': 1,
+  '{"errorCode":"OcsIsUnhealthy","service":"WATCHDOG","errorId":"hpAPKt00AH9-vDQVCDVxGQ"}': 1,
+  '{"errorCode":"RedactionIsUnhealthy","service":"WATCHDOG","errorId":"rxOVgE2S3POxgZSYymLXgw"}': 1,
+  '{"errorCode":"EPSIsUnhealthy","service":"WATCHDOG","errorId":"xbitsz6eqdrFgpT9SgPlhA"}': 1,
+  '{"errorCode":"ECSIsUnhealthy","service":"WATCHDOG","errorId":"_SG4rvh3pKAeyskuPUsdkw"}': 1,
+  '{"errorCode":"CcsIsUnhealthy","service":"WATCHDOG","errorId":"llDQol46LVylPPNciVeuag"}': 1,
+  '{"errorCode":"Pccis0IsUnhealthy","service":"WATCHDOG","errorId":"lWj5WP06N5-JhB0ZdVjQvg"}': 1,
+  '{"errorCode":"Pccis1IsUnhealthy","service":"WATCHDOG","errorId":"zX7diGq0GEsVJjo2W4a0Gw"}': 1,
+  '{"errorCode":"Pccis2IsUnhealthy","service":"WATCHDOG","errorId":"YAN9_vqXsYl4YS9lub6NUw"}': 1,
+  '{"errorCode":"InvalidInput","service":"LoadBalancer","errorId":"gc-oMOUVKLGpwR4yuWu2Uw"}': 1,
+  '{"errorCode":"InvalidInput","service":"LoadBalancer","errorId":"CiFV6CF_1Xhte5fJV9SRGg"}': 1,
+  '{"errorCode":"InvalidInput","service":"LoadBalancer","errorId":"RcPRuAWS2WFvSfJzv6QQ5A"}': 1,
+  '{"errorCode":"PdfpsIsUnhealthy","service":"WATCHDOG","errorId":"y9Jogt0l-GzJVo6CEoo5fA"}': 1,
+  '{"errorCode":"WorkfileIsUnhealthy","service":"WATCHDOG","errorId":"Qjm-5nkJEardlhjyfYvObA"}': 1,
+  '{"errorCode":"OcsIsUnhealthy","service":"WATCHDOG","errorId":"P2oUrHY_JdHiXbIepd-W7A"}': 1,
+  '{"errorCode":"RedactionIsUnhealthy","service":"WATCHDOG","errorId":"smEe6qvkMvo9O-gEjFJAVg"}': 1,
+  '{"errorCode":"EPSIsUnhealthy","service":"WATCHDOG","errorId":"c8qfeIjprU-M37PjLmMj-Q"}': 1,
+  '{"errorCode":"ECSIsUnhealthy","service":"WATCHDOG","errorId":"iuY_njPzraovQK1TuNunDQ"}': 1,
+  '{"errorCode":"CcsIsUnhealthy","service":"WATCHDOG","errorId":"7GdGp_2RlD2u9yYLdPRoiw"}': 1,
+  '{"errorCode":"WatchdogStarted","service":"WATCHDOG","errorId":"693WoV8GMzOy6v08FHqy-w"}': 1,
+  '{"errorCode":"OcsIsUnhealthy","service":"WATCHDOG","errorId":"IVodu43zyIeOhJ_-Sxbl3A"}': 1,
+  '{"errorCode":"RedactionIsUnhealthy","service":"WATCHDOG","errorId":"SZoQeXS57ZnFXuJaLuYzBw"}': 1,
+  '{"errorCode":"ECSIsUnhealthy","service":"WATCHDOG","errorId":"4KMBQOWBxEIfAvViq09wFg"}': 1,
+  '{"errorCode":"CcsIsUnhealthy","service":"WATCHDOG","errorId":"XEhNhuZ0jyUoXkKUW1BTBg"}': 1,
+  '{"errorCode":"PlbSepServersPropertiesIsUnhealthy","service":"WATCHDOG","errorId":"2a-mzfprTHI4yw9RfecUgg"}': 1,
+  '{"errorCode":"PlbSepHealthDataIsUnhealthy","service":"WATCHDOG","errorId":"d1jWFTo96LQPFWi2Pw0zMA"}': 1,
+  '{"errorCode":"PlbSepServersPropertiesIsUnhealthy","service":"WATCHDOG","errorId":"ZjPqL5Fpz6_9PPS_YhJSCw"}': 1,
+  '{"errorCode":"PlbSepHealthDataIsUnhealthy","service":"WATCHDOG","errorId":"rpQiuBPs7hmCUl6hsEjW9A"}': 1,
+  '{"errorCode":"OcsIsUnhealthy","service":"WATCHDOG","errorId":"IMW-7NSzbt1DjI0MAqEqBQ"}': 1,
+  '{"errorCode":"RedactionIsUnhealthy","service":"WATCHDOG","errorId":"NZiHT7uB1uz2q1JoMP6W0Q"}': 1,
+  '{"errorCode":"ECSIsUnhealthy","service":"WATCHDOG","errorId":"2xlNb03avt19Laxt79zOag"}': 1,
+  '{"errorCode":"CcsIsUnhealthy","service":"WATCHDOG","errorId":"uGIq-9r1KT4sG2gPsfKM-w"}': 1,
+  '{"errorCode":"PlbSepServersPropertiesIsUnhealthy","service":"WATCHDOG","errorId":"OM-vqN1A9_pTw8QtaNNfow"}': 1,
+  '{"errorCode":"PlbSepHealthDataIsUnhealthy","service":"WATCHDOG","errorId":"O3JdLBWM9Q5jkah7IR4eiA"}': 1,
+  '{"errorCode":"PlbSepServersPropertiesIsUnhealthy","service":"WATCHDOG","errorId":"X0nOp8v77U-zTa_QmVpDag"}': 1,
+  '{"errorCode":"PlbSepHealthDataIsUnhealthy","service":"WATCHDOG","errorId":"J8DWyH6D_7mwCRuSMGQUlg"}': 1 }
+
+==== \Prizm\logs\PDFProcessingService.2018-05-16.log====
+
+{ '{"level":60}': 1,
+  '{"level":30}': 31,
+  '{"level":30,"name":"PDFPS"}': 120 }
+
+==== \Prizm\logs\public-request-service.log.5====
+
+{ '{"name":"public-request-service","level":30,"msg":""}': 15,
+  '{"name":"public-request-service","level":30,"msg":"public-request-service listening on port 19188"}': 1 }
+
+==== \Prizm\logs\public-request-service.log.6====
+
+{ '{"name":"public-request-service","level":30,"msg":""}': 15,
+  '{"name":"public-request-service","level":30,"msg":"public-request-service listening on port 19186"}': 1 }
+
+==== \Prizm\logs\raster-form-extraction-service.log.5====
+
+{ '{"name":"raster-form-extraction-service","level":30,"msg":""}': 15,
+  '{"name":"raster-form-extraction-service","level":30,"msg":"raster-form-extraction-service listening on port 19187"}': 1 }
+
+==== \Prizm\logs\raster-form-extraction-service.log.6====
+
+{ '{"name":"raster-form-extraction-service","level":30,"msg":""}': 15,
+  '{"name":"raster-form-extraction-service","level":30,"msg":"raster-form-extraction-service listening on port 19188"}': 1 }
+
+==== \Prizm\logs\health-service.log.6====
+
+{ '{"name":"health-service","level":30,"msg":""}': 132,
+  '{"name":"health-service","level":30,"msg":"health-service listening on port 19182"}': 1,
+  '{"name":"health-service","level":30,"error":{},"msg":""}': 39 }
+
+==== \Prizm\logs\document-conversion-service.log.6====
+
+{ '{"name":"document-conversion-service","level":30,"msg":""}': 690,
+  '{"name":"document-conversion-service","level":30,"msg":"document-conversion-service listening on port 19184"}': 1 }
+
+==== \Prizm\logs\form-extraction-service.log====
+
+{ '{"name":"form-extraction-service","level":30,"msg":""}': 456 }
+
+==== \Prizm\logs\form-extraction-service.log.0====
+
+{ '{"name":"form-extraction-service","level":30,"msg":""}': 576 }
+
+==== \Prizm\logs\form-extraction-service.log.1====
+
+{ '{"name":"form-extraction-service","level":30,"msg":""}': 576 }
+
+==== \Prizm\logs\form-extraction-service.log.2====
+
+{ '{"name":"form-extraction-service","level":30,"msg":""}': 576 }
+
+==== \Prizm\logs\form-extraction-service.log.4====
+
+{ '{"name":"form-extraction-service","level":30,"msg":""}': 576 }
+
+==== \Prizm\logs\form-extraction-service.log.3====
+
+{ '{"name":"form-extraction-service","level":30,"msg":""}': 576 }
+
+==== \Prizm\logs\health-service.log.5====
+
+{ '{"name":"health-service","level":30,"msg":""}': 170,
+  '{"name":"health-service","level":30,"msg":"health-service listening on port 19181"}': 1,
+  '{"name":"health-service","level":30,"error":{},"msg":""}': 47 }
+
+==== \Prizm\logs\process-state-service.log====
+
+{ '{"name":"process-state-service","level":30,"msg":""}': 454,
+  '{"name":"process-state-service","level":30,"msg":"Cleanup already in progress"}': 227 }
+
+==== \Prizm\logs\process-state-service.log.1====
+
+{ '{"name":"process-state-service","level":30,"msg":""}': 576,
+  '{"name":"process-state-service","level":30,"msg":"Cleanup already in progress"}': 288 }
+
+==== \Prizm\logs\process-state-service.log.0====
+
+{ '{"name":"process-state-service","level":30,"msg":""}': 576,
+  '{"name":"process-state-service","level":30,"msg":"Cleanup already in progress"}': 288 }
+
+==== \Prizm\logs\process-state-service.log.2====
+
+{ '{"name":"process-state-service","level":30,"msg":""}': 576,
+  '{"name":"process-state-service","level":30,"msg":"Cleanup already in progress"}': 288 }
+
+==== \Prizm\logs\process-state-service.log.3====
+
+{ '{"name":"process-state-service","level":30,"msg":""}': 576,
+  '{"name":"process-state-service","level":30,"msg":"Cleanup already in progress"}': 288 }
+
+==== \Prizm\logs\process-state-service.log.4====
+
+{ '{"name":"process-state-service","level":30,"msg":""}': 576,
+  '{"name":"process-state-service","level":30,"msg":"Cleanup already in progress"}': 288 }
+
+==== \Prizm\logs\process-state-service.log.5====
+
+{ '{"name":"process-state-service","level":30,"msg":""}': 587,
+  '{"name":"process-state-service","level":30,"msg":"Cleanup already in progress"}': 285,
+  '{"name":"process-state-service","level":30,"msg":"process-state-service listening on port 19182"}': 1,
+  '{"name":"process-state-service","level":30,"msg":"Configuration:  { cache: { directory: \'C:\\\\\\\\Prizm\\\\\\\\cache\' },\\n  network: { publicPort: 18681, clustering: { enabled: false } } }"}': 1,
+  '{"name":"process-state-service","level":30,"msg":"Starting periodic maintenance tasks"}': 1 }
+
+==== \Prizm\logs\document-conversion-service.log====
+
+{ '{"name":"document-conversion-service","level":30,"msg":""}': 1218,
+  '{"name":"document-conversion-service","level":30,"error":null,"msg":""}': 1 }
+
+==== \Prizm\logs\process-state-service.log.6====
+
+{ '{"name":"process-state-service","level":30,"msg":""}': 831,
+  '{"name":"process-state-service","level":30,"msg":"Cleanup already in progress"}': 407,
+  '{"name":"process-state-service","level":30,"msg":"process-state-service listening on port 19183"}': 1,
+  '{"name":"process-state-service","level":30,"msg":"Configuration:  { cache: { directory: \'C:\\\\\\\\Prizm\\\\\\\\cache\' },\\n  network: { publicPort: 18681, clustering: { enabled: false } } }"}': 1,
+  '{"name":"process-state-service","level":30,"msg":"Starting periodic maintenance tasks"}': 1 }
+
+==== \Prizm\logs\document-conversion-service.log.0====
+
+{ '{"name":"document-conversion-service","level":30,"msg":""}': 1440 }
+
+==== \Prizm\logs\document-conversion-service.log.1====
+
+{ '{"name":"document-conversion-service","level":30,"msg":""}': 1440 }
+
+==== \Prizm\logs\document-conversion-service.log.2====
+
+{ '{"name":"document-conversion-service","level":30,"msg":""}': 1440 }
+
+==== \Prizm\logs\document-conversion-service.log.3====
+
+{ '{"name":"document-conversion-service","level":30,"msg":""}': 1440 }
+
+==== \Prizm\logs\document-conversion-service.log.5====
+
+{ '{"name":"document-conversion-service","level":30,"msg":""}': 1445,
+  '{"name":"document-conversion-service","level":30,"msg":"document-conversion-service listening on port 19184"}': 1 }
+
+==== \Prizm\logs\document-conversion-service.log.4====
+
+{ '{"name":"document-conversion-service","level":30,"msg":""}': 1440 }
+
+==== \Prizm\logs\form-extraction-service.log.5====
+
+{ '{"name":"form-extraction-service","level":30,"msg":""}': 962,
+  '{"name":"form-extraction-service","level":30,"msg":"form-extraction-service listening on port 19185"}': 3,
+  '{"name":"form-extraction-service","level":40,"msg":""}': 162 }
+
+==== \Prizm\logs\form-extraction-service.log.6====
+
+{ '{"name":"form-extraction-service","level":30,"msg":""}': 1273,
+  '{"name":"form-extraction-service","level":30,"msg":"form-extraction-service listening on port 19185"}': 4,
+  '{"name":"form-extraction-service","level":40,"msg":""}': 186 }
+
+==== \Prizm\logs\watchdog.launcher.log====
+
+{ '{"name":"LAUNCHER","level":30,"msg":""}': 1740,
+  '{"name":"LAUNCHER","level":30,"msg":"Starting watchdog service process"}': 12,
+  '{"name":"LAUNCHER","level":50,"err":{},"msg":"connect ECONNREFUSED"}': 16,
+  '{"name":"LAUNCHER","level":30,"msg":"Killing process"}': 3 }
+
+==== \Prizm\logs\text-service.log====
+
+{ '{"name":"text-service","level":30,"msg":""}': 1388,
+  '{"name":"text-service","level":30,"msg":"cache cleanup starting"}': 228,
+  '{"name":"text-service","level":30,"msg":"cache cleanup complete"}': 228,
+  '{"name":"text-service","level":30,"msg":"search context cleanup starting"}': 228,
+  '{"name":"text-service","level":30,"msg":"search context cleanup complete"}': 228,
+  '{"name":"text-service","level":30,"msg":"search task cleanup starting"}': 228,
+  '{"name":"text-service","level":30,"msg":"search task cleanup complete"}': 228,
+  '{"name":"text-service","level":30,"msg":"creating new document text cache"}': 1 }
+
+==== \Prizm\logs\text-service.log.0====
+
+{ '{"name":"text-service","level":30,"msg":""}': 1728,
+  '{"name":"text-service","level":30,"msg":"cache cleanup starting"}': 288,
+  '{"name":"text-service","level":30,"msg":"cache cleanup complete"}': 288,
+  '{"name":"text-service","level":30,"msg":"search context cleanup starting"}': 288,
+  '{"name":"text-service","level":30,"msg":"search context cleanup complete"}': 288,
+  '{"name":"text-service","level":30,"msg":"search task cleanup starting"}': 288,
+  '{"name":"text-service","level":30,"msg":"search task cleanup complete"}': 288 }
+
+==== \Prizm\logs\text-service.log.1====
+
+{ '{"name":"text-service","level":30,"msg":""}': 1728,
+  '{"name":"text-service","level":30,"msg":"cache cleanup starting"}': 288,
+  '{"name":"text-service","level":30,"msg":"cache cleanup complete"}': 288,
+  '{"name":"text-service","level":30,"msg":"search context cleanup starting"}': 288,
+  '{"name":"text-service","level":30,"msg":"search context cleanup complete"}': 288,
+  '{"name":"text-service","level":30,"msg":"search task cleanup starting"}': 288,
+  '{"name":"text-service","level":30,"msg":"search task cleanup complete"}': 288 }
+
+==== \Prizm\logs\text-service.log.2====
+
+{ '{"name":"text-service","level":30,"msg":""}': 1728,
+  '{"name":"text-service","level":30,"msg":"cache cleanup starting"}': 288,
+  '{"name":"text-service","level":30,"msg":"cache cleanup complete"}': 288,
+  '{"name":"text-service","level":30,"msg":"search context cleanup starting"}': 288,
+  '{"name":"text-service","level":30,"msg":"search context cleanup complete"}': 288,
+  '{"name":"text-service","level":30,"msg":"search task cleanup starting"}': 288,
+  '{"name":"text-service","level":30,"msg":"search task cleanup complete"}': 288 }
+
+==== \Prizm\logs\text-service.log.3====
+
+{ '{"name":"text-service","level":30,"msg":""}': 1728,
+  '{"name":"text-service","level":30,"msg":"cache cleanup starting"}': 288,
+  '{"name":"text-service","level":30,"msg":"cache cleanup complete"}': 288,
+  '{"name":"text-service","level":30,"msg":"search context cleanup starting"}': 288,
+  '{"name":"text-service","level":30,"msg":"search context cleanup complete"}': 288,
+  '{"name":"text-service","level":30,"msg":"search task cleanup starting"}': 288,
+  '{"name":"text-service","level":30,"msg":"search task cleanup complete"}': 288 }
+
+==== \Prizm\logs\text-service.log.4====
+
+{ '{"name":"text-service","level":30,"msg":""}': 1728,
+  '{"name":"text-service","level":30,"msg":"cache cleanup starting"}': 288,
+  '{"name":"text-service","level":30,"msg":"cache cleanup complete"}': 288,
+  '{"name":"text-service","level":30,"msg":"search context cleanup starting"}': 288,
+  '{"name":"text-service","level":30,"msg":"search context cleanup complete"}': 288,
+  '{"name":"text-service","level":30,"msg":"search task cleanup starting"}': 288,
+  '{"name":"text-service","level":30,"msg":"search task cleanup complete"}': 288 }
+
+==== \Prizm\logs\text-service.log.6====
+
+{ '{"name":"text-service","level":30,"msg":""}': 1853,
+  '{"name":"text-service","level":30,"msg":"text-service listening on port 19189"}': 1,
+  '{"name":"mongodb","level":30,"msg":"received database service information"}': 1,
+  '{"name":"text-service","level":30,"msg":"successfully connected to the database"}': 1,
+  '{"name":"text-service","level":30,"msg":"database initialized successfully"}': 1,
+  '{"name":"text-service","level":30,"msg":"checking for healthy service"}': 1,
+  '{"name":"text-service","level":30,"msg":"received healthy service information"}': 1,
+  '{"name":"text-service","level":50,"msg":""}': 330,
+  '{"name":"text-service","level":40,"msg":""}': 330,
+  '{"name":"text-service","level":30,"msg":"initializing background cleanup tasks"}': 1,
+  '{"name":"text-service","level":30,"msg":"cache cleanup starting"}': 133,
+  '{"name":"text-service","level":30,"msg":"cache cleanup complete"}': 133,
+  '{"name":"text-service","level":30,"msg":"search context cleanup starting"}': 133,
+  '{"name":"text-service","level":30,"msg":"search context cleanup complete"}': 133,
+  '{"name":"text-service","level":30,"msg":"search task cleanup starting"}': 133,
+  '{"name":"text-service","level":30,"msg":"search task cleanup complete"}': 133 }
+
+==== \Prizm\logs\EmailProcessingService.2018-06-05.log====
+
+{ '{"level":30}': 918, '{"level":30,"name":"EPS"}': 3672 }
+
+==== \Prizm\logs\PDFProcessingService.2018-06-05.log====
+
+{ '{"level":30}': 918, '{"level":30,"name":"PDFPS"}': 3672 }
+
+==== \Prizm\logs\text-service.log.5====
+
+{ '{"name":"text-service","level":30,"msg":""}': 2663,
+  '{"name":"text-service","level":30,"msg":"cache cleanup starting"}': 285,
+  '{"name":"text-service","level":30,"msg":"cache cleanup complete"}': 285,
+  '{"name":"text-service","level":30,"msg":"search context cleanup starting"}': 285,
+  '{"name":"text-service","level":30,"msg":"search context cleanup complete"}': 285,
+  '{"name":"text-service","level":30,"msg":"search task cleanup starting"}': 285,
+  '{"name":"text-service","level":30,"msg":"search task cleanup complete"}': 285,
+  '{"name":"text-service","level":30,"msg":"text-service listening on port 19189"}': 1,
+  '{"name":"mongodb","level":30,"msg":"received database service information"}': 1,
+  '{"name":"text-service","level":30,"msg":"successfully connected to the database"}': 1,
+  '{"name":"text-service","level":30,"msg":"database initialized successfully"}': 1,
+  '{"name":"text-service","level":30,"msg":"checking for healthy service"}': 1,
+  '{"name":"text-service","level":30,"msg":"received healthy service information"}': 1,
+  '{"name":"text-service","level":50,"msg":""}': 296,
+  '{"name":"text-service","level":40,"msg":""}': 296,
+  '{"name":"text-service","level":30,"msg":"initializing background cleanup tasks"}': 1 }
+
+==== \Prizm\logs\ErrorReportingService.log====
+
+{ '{"name":"ERS","level":30,"msg":""}': 4554 }
+
+==== \Prizm\logs\product-runner.log====
+
+{ '{"name":"product-runner","level":30,"msg":""}': 640,
+  '{"name":"product-runner","level":50,"err":{},"msg":""}': 16,
+  '{"name":"product-runner","level":30,"msg":"Cleared consul cache at .\\\\consulStartup/../../../../../consul/consulData"}': 13,
+  '{"name":"product-runner","level":50,"error":{},"msg":""}': 157,
+  '{"name":"product-runner","level":50,"msg":""}': 183 }
+
+==== \Prizm\logs\EmailConversionService.log.6====
+
+{ '{"name":"ECS","level":30,"msg":""}': 5349,
+  '{"name":"ECS","level":30,"msg":"serviceConfigParams"}': 1 }
+
+==== \Prizm\logs\EmailProcessingService.2018-06-06.log====
+
+{ '{"level":60}': 1,
+  '{"level":30}': 1304,
+  '{"level":30,"name":"EPS"}': 5212 }
+
+==== \Prizm\logs\PDFProcessingService.2018-06-06.log====
+
+{ '{"level":60}': 1,
+  '{"level":30}': 1304,
+  '{"level":30,"name":"PDFPS"}': 5212 }
+
+==== \Prizm\logs\ErrorReportingService.log.0====
+
+{ '{"name":"ERS","level":30,"msg":""}': 5756 }
+
+==== \Prizm\logs\ErrorReportingService.log.1====
+
+{ '{"name":"ERS","level":30,"msg":""}': 5758 }
+
+==== \Prizm\logs\ErrorReportingService.log.2====
+
+{ '{"name":"ERS","level":30,"msg":""}': 5756 }
+
+==== \Prizm\logs\ErrorReportingService.log.3====
+
+{ '{"name":"ERS","level":30,"msg":""}': 5758 }
+
+==== \Prizm\logs\ErrorReportingService.log.4====
+
+{ '{"name":"ERS","level":30,"msg":""}': 5756 }
+
+==== \Prizm\logs\ErrorReportingService.log.5====
+
+{ '{"name":"ERS","level":30,"msg":""}': 5733,
+  '{"name":"ERS","level":30,"msg":"Error Reporting Service listening at http://0.0.0.0:19018"}': 1,
+  '{"name":"ERS","level":30,"msg":"Begin: Error report"}': 17,
+  '{"name":"ERS","level":30,"msg":"Error report output"}': 17 }
+
+==== \Prizm\logs\WorkfileService.log.6====
+
+{ '{"name":"WorkfileService","level":30,"msg":""}': 4419,
+  '{"name":"WorkfileService","level":30,"err":{"name":"Error"},"msg":"Plugins directory read failure."}': 1,
+  '{"name":"WorkfileService","level":30,"msg":"Using stub external store plugin"}': 1,
+  '{"name":"WorkfileService","level":30,"msg":"Starting periodic maintenance tasks"}': 1,
+  '{"name":"WorkfileService","level":30,"msg":"Begin: deleteExpiredWorkfiles"}': 402,
+  '{"name":"WorkfileService","level":30,"msg":"Current configuration"}': 134,
+  '{"name":"WorkfileService","level":30,"msg":"HTTP service listening at http://0.0.0.0:19007"}': 1,
+  '{"name":"WorkfileService","level":30,"msg":"Total workfile count"}': 402 }
+
+==== \Prizm\logs\EmailProcessingService.2018-05-17.log====
+
+{ '{"level":60}': 5,
+  '{"level":30}': 1779,
+  '{"level":30,"name":"EPS"}': 7096 }
+
+==== \Prizm\logs\EmailProcessingService.2018-05-31.log====
+
+{ '{"level":60}': 1,
+  '{"level":30}': 1816,
+  '{"level":30,"name":"EPS"}': 7260 }
+
+==== \Prizm\logs\EmailProcessingService.2018-06-14.log====
+
+{ '{"level":60}': 1,
+  '{"level":30}': 1818,
+  '{"level":30,"name":"EPS"}': 7268 }
+
+==== \Prizm\logs\EmailProcessingService.log====
+
+{ '{"level":30}': 1797, '{"level":30,"name":"EPS"}': 7188 }
+
+==== \Prizm\logs\PDFProcessingService.2018-05-17.log====
+
+{ '{"level":60}': 5,
+  '{"level":30}': 1791,
+  '{"level":30,"name":"PDFPS"}': 7136,
+  '{"level":40,"name":"PDFPS"}': 3 }
+
+==== \Prizm\logs\EmailProcessingService.2018-06-08.log====
+
+{ '{"level":30}': 1853,
+  '{"level":30,"name":"EPS"}': 7404,
+  '{"level":60}': 2 }
+
+==== \Prizm\logs\PDFProcessingService.2018-05-31.log====
+
+{ '{"level":60}': 1,
+  '{"level":30}': 1816,
+  '{"level":30,"name":"PDFPS"}': 7260 }
+
+==== \Prizm\logs\PDFProcessingService.2018-06-08.log====
+
+{ '{"level":30}': 1853,
+  '{"level":30,"name":"PDFPS"}': 7404,
+  '{"level":60}': 2 }
+
+==== \Prizm\logs\PDFProcessingService.2018-06-14.log====
+
+{ '{"level":60}': 1,
+  '{"level":30}': 1818,
+  '{"level":30,"name":"PDFPS"}': 7268 }
+
+==== \Prizm\logs\EmailProcessingService.2018-05-19.log====
+
+{ '{"level":30}': 1906, '{"level":30,"name":"EPS"}': 7624 }
+
+==== \Prizm\logs\PDFProcessingService.2018-05-19.log====
+
+{ '{"level":30}': 1906, '{"level":30,"name":"PDFPS"}': 7624 }
+
+==== \Prizm\logs\PDFProcessingService.log====
+
+{ '{"level":30}': 1804, '{"level":30,"name":"PDFPS"}': 7205 }
+
+==== \Prizm\logs\EmailProcessingService.2018-06-07.log====
+
+{ '{"level":30}': 2030, '{"level":30,"name":"EPS"}': 8120 }
+
+==== \Prizm\logs\ErrorReportingService.log.6====
+
+{ '{"name":"ERS","level":30,"msg":""}': 8227,
+  '{"name":"ERS","level":30,"msg":"Error Reporting Service listening at http://0.0.0.0:19018"}': 1,
+  '{"name":"ERS","level":30,"msg":"Begin: Error report"}': 48,
+  '{"name":"ERS","level":30,"msg":"Error report output"}': 48 }
+
+==== \Prizm\logs\PDFProcessingService.2018-06-07.log====
+
+{ '{"level":30}': 2030, '{"level":30,"name":"PDFPS"}': 8120 }
+
+==== \Prizm\logs\EmailConversionService.log====
+
+{ '{"name":"ECS","level":30,"msg":""}': 9112 }
+
+==== \Prizm\logs\EmailProcessingService.2018-06-13.log====
+
+{ '{"level":30}': 2246, '{"level":30,"name":"EPS"}': 8984 }
+
+==== \Prizm\logs\PDFProcessingService.2018-06-13.log====
+
+{ '{"level":30}': 2246, '{"level":30,"name":"PDFPS"}': 8984 }
+
+==== \Prizm\logs\ContentConversionService.log.6====
+
+{ '{"name":"ContentConversionService","level":30,"msg":""}': 6961,
+  '{"name":"ContentConversionService","level":30,"msg":"Begin: deleteExpiredContentConverters"}': 402,
+  '{"name":"ContentConversionService","level":30,"msg":"Begin: cleanTempDirectory"}': 402,
+  '{"name":"ContentConversionService","level":30,"msg":"Begin: license check"}': 669,
+  '{"name":"ContentConversionService","level":30,"msg":"HTTP service listening at http://[::]:19010"}': 1,
+  '{"name":"ContentConversionService","level":30,"msg":"Count of outstanding temp directories"}': 402,
+  '{"name":"ContentConversionService","level":30,"msg":"Count of ContentConverter resources"}': 402 }
+
+==== \Prizm\logs\FormatDetectionService.log====
+
+{ '{"name":"FDS","level":30}': 13680 }
+
+==== \Prizm\logs\RasterConversionService.log====
+
+{ '{"name":"RCS","level":30}': 13668 }
+
+==== \Prizm\logs\VectorConversionService.log====
+
+{ '{"name":"VCS","level":30}': 13668 }
+
+==== \Prizm\logs\WorkfileService.log====
+
+{ '{"name":"WorkfileService","level":30,"msg":""}': 7534,
+  '{"name":"WorkfileService","level":30,"msg":"Begin: deleteExpiredWorkfiles"}': 683,
+  '{"name":"WorkfileService","level":30,"msg":"Total workfile count"}': 683,
+  '{"name":"WorkfileService","level":30,"msg":"Current configuration"}': 228,
+  '{"name":"WorkfileService","level":30,"msg":"Begin: createWorkfile"}': 2,
+  '{"name":"WorkfileService","level":30,"msg":"Creating content write stream"}': 2,
+  '{"name":"WorkfileService","level":30,"msg":"Workfile content created"}': 2,
+  '{"name":"WorkfileService","level":30,"msg":"Begin: detect"}': 2,
+  '{"name":"WorkfileService","level":30,"msg":"Begin: getWorkfileLocalPath"}': 3,
+  '{"name":"WorkfileService","level":30,"msg":"Begin: extendWorkfileIfNecessary"}': 3,
+  '{"name":"WorkfileService","level":30,"msg":"Workfile retrieved"}': 3,
+  '{"name":"WorkfileService","level":30,"msg":"Extending workfile expiration date"}': 1,
+  '{"name":"WorkfileService","level":30,"msg":"File read"}': 2,
+  '{"name":"WorkfileService","level":30,"msg":"Parsed workfile properties"}': 2,
+  '{"name":"WorkfileService","level":30,"msg":"File written"}': 1,
+  '{"name":"WorkfileService","level":30,"msg":"Workfile extension not necessary"}': 2,
+  '{"name":"WorkfileService","level":30,"msg":"All expired workfiles deleted"}': 163,
+  '{"name":"WorkfileService","level":30,"msg":"Work file does not require update"}': 1 }
+
+==== \Prizm\logs\HTMLConversionService.log====
+
+{ '{"name":"HTMLCS","level":30}': 13668 }
+
+==== \Prizm\logs\PDFConversionService.log====
+
+{ '{"name":"PDFCS","level":30}': 13678,
+  '{"name":"PDFCS","level":30,"msg":"Run child process"}': 4 }
+
+==== \Prizm\logs\EmailConversionService.log.5====
+
+{ '{"name":"ECS","level":30,"msg":""}': 11389,
+  '{"name":"ECS","level":30,"msg":"serviceConfigParams"}': 1 }
+
+==== \Prizm\logs\EmailConversionService.log.1====
+
+{ '{"name":"ECS","level":30,"msg":""}': 11516 }
+
+==== \Prizm\logs\EmailConversionService.log.0====
+
+{ '{"name":"ECS","level":30,"msg":""}': 11512 }
+
+==== \Prizm\logs\EmailConversionService.log.2====
+
+{ '{"name":"ECS","level":30,"msg":""}': 11512 }
+
+==== \Prizm\logs\EmailConversionService.log.3====
+
+{ '{"name":"ECS","level":30,"msg":""}': 11516 }
+
+==== \Prizm\logs\EmailConversionService.log.4====
+
+{ '{"name":"ECS","level":30,"msg":""}': 11512 }
+
+==== \Prizm\logs\EmailProcessingService.2018-05-18.log====
+
+{ '{"level":30}': 2878, '{"level":30,"name":"EPS"}': 11512 }
+
+==== \Prizm\logs\EmailProcessingService.2018-06-01.log====
+
+{ '{"level":30}': 2878, '{"level":30,"name":"EPS"}': 11512 }
+
+==== \Prizm\logs\EmailProcessingService.2018-06-02.log====
+
+{ '{"level":30}': 2878, '{"level":30,"name":"EPS"}': 11512 }
+
+==== \Prizm\logs\EmailProcessingService.2018-06-03.log====
+
+{ '{"level":30}': 2879, '{"level":30,"name":"EPS"}': 11516 }
+
+==== \Prizm\logs\EmailProcessingService.2018-06-16.log====
+
+{ '{"level":30}': 2879, '{"level":30,"name":"EPS"}': 11516 }
+
+==== \Prizm\logs\EmailProcessingService.2018-06-15.log====
+
+{ '{"level":30}': 2848,
+  '{"level":30,"name":"EPS"}': 11388,
+  '{"level":60}': 1 }
+
+==== \Prizm\logs\PDFProcessingService.2018-06-15.log====
+
+{ '{"level":30}': 2848,
+  '{"level":30,"name":"PDFPS"}': 11388,
+  '{"level":60}': 1 }
+
+==== \Prizm\logs\EmailProcessingService.2018-06-04.log====
+
+{ '{"level":30}': 2878, '{"level":30,"name":"EPS"}': 11512 }
+
+==== \Prizm\logs\EmailProcessingService.2018-06-09.log====
+
+{ '{"level":30}': 2879, '{"level":30,"name":"EPS"}': 11516 }
+
+==== \Prizm\logs\EmailProcessingService.2018-06-10.log====
+
+{ '{"level":30}': 2878, '{"level":30,"name":"EPS"}': 11512 }
+
+==== \Prizm\logs\EmailProcessingService.2018-06-11.log====
+
+{ '{"level":30}': 2878, '{"level":30,"name":"EPS"}': 11512 }
+
+==== \Prizm\logs\EmailProcessingService.2018-06-12.log====
+
+{ '{"level":30}': 2879, '{"level":30,"name":"EPS"}': 11516 }
+
+==== \Prizm\logs\EmailProcessingService.2018-06-17.log====
+
+{ '{"level":30}': 2878, '{"level":30,"name":"EPS"}': 11512 }
+
+==== \Prizm\logs\EmailProcessingService.2018-06-18.log====
+
+{ '{"level":30}': 2879, '{"level":30,"name":"EPS"}': 11516 }
+
+==== \Prizm\logs\EmailProcessingService.2018-06-20.log====
+
+{ '{"level":30}': 2879, '{"level":30,"name":"EPS"}': 11516 }
+
+==== \Prizm\logs\EmailProcessingService.2018-06-19.log====
+
+{ '{"level":30}': 2878, '{"level":30,"name":"EPS"}': 11512 }
+
+==== \Prizm\logs\PDFProcessingService.2018-05-18.log====
+
+{ '{"level":30}': 2878, '{"level":30,"name":"PDFPS"}': 11512 }
+
+==== \Prizm\logs\PDFProcessingService.2018-06-01.log====
+
+{ '{"level":30}': 2878, '{"level":30,"name":"PDFPS"}': 11512 }
+
+==== \Prizm\logs\PDFProcessingService.2018-06-02.log====
+
+{ '{"level":30}': 2878, '{"level":30,"name":"PDFPS"}': 11512 }
+
+==== \Prizm\logs\PDFProcessingService.2018-06-04.log====
+
+{ '{"level":30}': 2878, '{"level":30,"name":"PDFPS"}': 11512 }
+
+==== \Prizm\logs\PDFProcessingService.2018-06-03.log====
+
+{ '{"level":30}': 2879, '{"level":30,"name":"PDFPS"}': 11516 }
+
+==== \Prizm\logs\PDFProcessingService.2018-06-09.log====
+
+{ '{"level":30}': 2879, '{"level":30,"name":"PDFPS"}': 11516 }
+
+==== \Prizm\logs\PDFProcessingService.2018-06-10.log====
+
+{ '{"level":30}': 2878, '{"level":30,"name":"PDFPS"}': 11512 }
+
+==== \Prizm\logs\PDFProcessingService.2018-06-11.log====
+
+{ '{"level":30}': 2878, '{"level":30,"name":"PDFPS"}': 11512 }
+
+==== \Prizm\logs\PDFProcessingService.2018-06-12.log====
+
+{ '{"level":30}': 2879, '{"level":30,"name":"PDFPS"}': 11516 }
+
+==== \Prizm\logs\PDFProcessingService.2018-06-16.log====
+
+{ '{"level":30}': 2879, '{"level":30,"name":"PDFPS"}': 11516 }
+
+==== \Prizm\logs\PDFProcessingService.2018-06-18.log====
+
+{ '{"level":30}': 2879, '{"level":30,"name":"PDFPS"}': 11516 }
+
+==== \Prizm\logs\PDFProcessingService.2018-06-17.log====
+
+{ '{"level":30}': 2878, '{"level":30,"name":"PDFPS"}': 11512 }
+
+==== \Prizm\logs\PDFProcessingService.2018-06-19.log====
+
+{ '{"level":30}': 2878, '{"level":30,"name":"PDFPS"}': 11512 }
+
+==== \Prizm\logs\PDFProcessingService.2018-06-20.log====
+
+{ '{"level":30}': 2879, '{"level":30,"name":"PDFPS"}': 11516 }
+
+==== \Prizm\logs\WorkfileService.log.5====
+
+{ '{"name":"WorkfileService","level":30,"msg":""}': 9405,
+  '{"name":"WorkfileService","level":30,"msg":"Current configuration"}': 286,
+  '{"name":"WorkfileService","level":30,"msg":"Begin: deleteExpiredWorkfiles"}': 855,
+  '{"name":"WorkfileService","level":30,"msg":"Total workfile count"}': 855,
+  '{"name":"WorkfileService","level":30,"err":{"name":"Error"},"msg":"Plugins directory read failure."}': 1,
+  '{"name":"WorkfileService","level":30,"msg":"Using stub external store plugin"}': 1,
+  '{"name":"WorkfileService","level":30,"msg":"Starting periodic maintenance tasks"}': 1,
+  '{"name":"WorkfileService","level":30,"msg":"HTTP service listening at http://0.0.0.0:19007"}': 1 }
+
+==== \Prizm\logs\RedactionService.log.6====
+
+{ '{"name":"RedactionService","level":30,"msg":""}': 7502,
+  '{"name":"RedactionService","level":30,"msg":"Starting periodic maintenance tasks"}': 1,
+  '{"name":"RedactionService","level":30,"msg":"Begin: deleteExpiredMarkupBurners"}': 402,
+  '{"name":"RedactionService","level":30,"msg":"Service status is \'running\'"}': 1339,
+  '{"name":"RedactionService","level":30,"msg":"Current configuration"}': 1,
+  '{"name":"RedactionService","level":30,"service":"WorkFileHttpService","msg":"Checking child service health"}': 335,
+  '{"name":"RedactionService","level":30,"service":"AutoRedactionHttpService","msg":"Checking child service health"}': 335,
+  '{"name":"RedactionService","level":30,"msg":"Begin: checkHealth"}': 670,
+  '{"name":"RedactionService","level":30,"msg":"Request: GET localhost:19007/PCCIS/V1/Service/Current/Health"}': 335,
+  '{"name":"RedactionService","level":30,"msg":"HTTP service listening at http://:::19008"}': 1,
+  '{"name":"RedactionService","level":30,"msg":"Total markup burner count"}': 402,
+  '{"name":"RedactionService","level":30,"msg":"Begin: deleteExpiredRedactionCreators"}': 402,
+  '{"name":"RedactionService","level":30,"msg":"Count of RedactionCreator resources"}': 402,
+  '{"name":"RedactionService","level":30,"msg":"Auto-Redaction Service reported healthy"}': 335,
+  '{"name":"RedactionService","level":30,"msg":"WorkFile Service reported healthy"}': 335,
+  '{"name":"RedactionService","level":30,"msg":"Child services overall health"}': 335 }
+
+==== \Prizm\logs\WorkfileService.log.0====
+
+{ '{"name":"WorkfileService","level":30,"msg":""}': 9500,
+  '{"name":"WorkfileService","level":30,"msg":"Begin: deleteExpiredWorkfiles"}': 864,
+  '{"name":"WorkfileService","level":30,"msg":"Total workfile count"}': 864,
+  '{"name":"WorkfileService","level":30,"msg":"Current configuration"}': 288 }
+
+==== \Prizm\logs\WorkfileService.log.2====
+
+{ '{"name":"WorkfileService","level":30,"msg":""}': 9500,
+  '{"name":"WorkfileService","level":30,"msg":"Begin: deleteExpiredWorkfiles"}': 864,
+  '{"name":"WorkfileService","level":30,"msg":"Total workfile count"}': 864,
+  '{"name":"WorkfileService","level":30,"msg":"Current configuration"}': 288 }
+
+==== \Prizm\logs\WorkfileService.log.1====
+
+{ '{"name":"WorkfileService","level":30,"msg":""}': 9502,
+  '{"name":"WorkfileService","level":30,"msg":"Begin: deleteExpiredWorkfiles"}': 864,
+  '{"name":"WorkfileService","level":30,"msg":"Total workfile count"}': 864,
+  '{"name":"WorkfileService","level":30,"msg":"Current configuration"}': 288 }
+
+==== \Prizm\logs\WorkfileService.log.3====
+
+{ '{"name":"WorkfileService","level":30,"msg":""}': 9502,
+  '{"name":"WorkfileService","level":30,"msg":"Begin: deleteExpiredWorkfiles"}': 864,
+  '{"name":"WorkfileService","level":30,"msg":"Total workfile count"}': 864,
+  '{"name":"WorkfileService","level":30,"msg":"Current configuration"}': 288 }
+
+==== \Prizm\logs\WorkfileService.log.4====
+
+{ '{"name":"WorkfileService","level":30,"msg":""}': 9500,
+  '{"name":"WorkfileService","level":30,"msg":"Begin: deleteExpiredWorkfiles"}': 864,
+  '{"name":"WorkfileService","level":30,"msg":"Total workfile count"}': 864,
+  '{"name":"WorkfileService","level":30,"msg":"Current configuration"}': 288 }
+
+==== \Prizm\logs\AutoRedactionService.log====
+
+{ '{"name":"ARS","level":30}': 17088 }
+
+==== \Prizm\logs\FormatDetectionService.log.3====
+
+{ '{"name":"FDS","level":30}': 17268 }
+
+==== \Prizm\logs\FormatDetectionService.log.4====
+
+{ '{"name":"FDS","level":30}': 17274 }
+
+==== \Prizm\logs\FormatDetectionService.log.5====
+
+{ '{"name":"FDS","level":30}': 17268 }
+
+==== \Prizm\logs\FormatDetectionService.log.6====
+
+{ '{"name":"FDS","level":30}': 17091 }
+
+==== \Prizm\logs\RasterConversionService.log.1====
+
+{ '{"name":"RCS","level":30}': 17274 }
+
+==== \Prizm\logs\RasterConversionService.log.2====
+
+{ '{"name":"RCS","level":30}': 17268 }
+
+==== \Prizm\logs\RasterConversionService.log.3====
+
+{ '{"name":"RCS","level":30}': 17268 }
+
+==== \Prizm\logs\RasterConversionService.log.4====
+
+{ '{"name":"RCS","level":30}': 17274 }
+
+==== \Prizm\logs\RasterConversionService.log.5====
+
+{ '{"name":"RCS","level":30}': 17268 }
+
+==== \Prizm\logs\RasterConversionService.log.6====
+
+{ '{"name":"RCS","level":30}': 17093,
+  '{"name":"RCS","level":30,"msg":"initialize image_cache"}': 1,
+  '{"name":"RCS","level":30,"msg":"periodic maintenance timer started"}': 1 }
+
+==== \Prizm\logs\VectorConversionService.log.2====
+
+{ '{"name":"VCS","level":30}': 17268 }
+
+==== \Prizm\logs\VectorConversionService.log.3====
+
+{ '{"name":"VCS","level":30}': 17268 }
+
+==== \Prizm\logs\VectorConversionService.log.4====
+
+{ '{"name":"VCS","level":30}': 17274 }
+
+==== \Prizm\logs\VectorConversionService.log.5====
+
+{ '{"name":"VCS","level":30}': 17268 }
+
+==== \Prizm\logs\VectorConversionService.log.6====
+
+{ '{"name":"VCS","level":30}': 17091,
+  '{"name":"VCS","level":30,"msg":"XrefHandlerInitialized"}': 1,
+  '{"name":"VCS","level":30,"msg":"Teigha thread pool is initialized"}': 1 }
+
+==== \Prizm\logs\FormatDetectionService.log.1====
+
+{ '{"name":"FDS","level":30}': 17274 }
+
+==== \Prizm\logs\FormatDetectionService.log.2====
+
+{ '{"name":"FDS","level":30}': 17268 }
+
+==== \Prizm\logs\HTMLConversionService.log.2====
+
+{ '{"name":"HTMLCS","level":30}': 17268 }
+
+==== \Prizm\logs\HTMLConversionService.log.3====
+
+{ '{"name":"HTMLCS","level":30}': 17268 }
+
+==== \Prizm\logs\HTMLConversionService.log.4====
+
+{ '{"name":"HTMLCS","level":30}': 17274 }
+
+==== \Prizm\logs\HTMLConversionService.log.6====
+
+{ '{"name":"HTMLCS","level":30}': 17093 }
+
+==== \Prizm\logs\HTMLConversionService.log.5====
+
+{ '{"name":"HTMLCS","level":30}': 17268 }
+
+==== \Prizm\logs\PDFConversionService.log.5====
+
+{ '{"name":"PDFCS","level":30}': 17268 }
+
+==== \Prizm\logs\PDFConversionService.log.6====
+
+{ '{"name":"PDFCS","level":30}': 17101 }
+
+==== \Prizm\logs\VectorConversionService.log.1====
+
+{ '{"name":"VCS","level":30}': 17274 }
+
+==== \Prizm\logs\HTMLConversionService.log.1====
+
+{ '{"name":"HTMLCS","level":30}': 17274 }
+
+==== \Prizm\logs\PDFConversionService.log.1====
+
+{ '{"name":"PDFCS","level":30}': 17274 }
+
+==== \Prizm\logs\PDFConversionService.log.2====
+
+{ '{"name":"PDFCS","level":30}': 17268 }
+
+==== \Prizm\logs\PDFConversionService.log.3====
+
+{ '{"name":"PDFCS","level":30}': 17268 }
+
+==== \Prizm\logs\PDFConversionService.log.4====
+
+{ '{"name":"PDFCS","level":30}': 17274 }
+
+==== \Prizm\logs\AutoRedactionService.log.6====
+
+{ '{"name":"ARS","level":30}': 21363 }
+
+==== \Prizm\logs\AutoRedactionService.log.1====
+
+{ '{"name":"ARS","level":30}': 21594 }
+
+==== \Prizm\logs\AutoRedactionService.log.2====
+
+{ '{"name":"ARS","level":30}': 21588 }
+
+==== \Prizm\logs\AutoRedactionService.log.3====
+
+{ '{"name":"ARS","level":30}': 21588 }
+
+==== \Prizm\logs\AutoRedactionService.log.4====
+
+{ '{"name":"ARS","level":30}': 21594 }
+
+==== \Prizm\logs\AutoRedactionService.log.5====
+
+{ '{"name":"ARS","level":30}': 21588 }
+
+==== \Prizm\logs\ContentConversionService.log====
+
+{ '{"name":"ContentConversionService","level":30,"msg":""}': 11848,
+  '{"name":"ContentConversionService","level":30,"msg":"Begin: license check"}': 1140,
+  '{"name":"ContentConversionService","level":30,"msg":"Begin: cleanTempDirectory"}': 683,
+  '{"name":"ContentConversionService","level":30,"msg":"Count of outstanding temp directories"}': 683,
+  '{"name":"ContentConversionService","level":30,"msg":"Begin: deleteExpiredContentConverters"}': 683,
+  '{"name":"ContentConversionService","level":30,"msg":"Count of ContentConverter resources"}': 683 }
+
+==== \Prizm\logs\FormatDetectionService.log.7====
+
+{ '{"name":"FDS","level":30}': 24393 }
+
+==== \Prizm\logs\RasterConversionService.log.7====
+
+{ '{"name":"RCS","level":30}': 24395,
+  '{"name":"RCS","level":30,"msg":"initialize image_cache"}': 1,
+  '{"name":"RCS","level":30,"msg":"periodic maintenance timer started"}': 1 }
+
+==== \Prizm\logs\VectorConversionService.log.7====
+
+{ '{"name":"VCS","level":30}': 24393,
+  '{"name":"VCS","level":30,"msg":"XrefHandlerInitialized"}': 1,
+  '{"name":"VCS","level":30,"msg":"Teigha thread pool is initialized"}': 1 }
+
+==== \Prizm\logs\HTMLConversionService.log.7====
+
+{ '{"name":"HTMLCS","level":30}': 24395 }
+
+==== \Prizm\logs\PDFConversionService.log.7====
+
+{ '{"name":"PDFCS","level":30}': 24403 }
+
+==== \Prizm\logs\ContentConversionService.log.5====
+
+{ '{"name":"ContentConversionService","level":30,"msg":""}': 14817,
+  '{"name":"ContentConversionService","level":30,"msg":"Begin: license check"}': 1425,
+  '{"name":"ContentConversionService","level":30,"msg":"Begin: cleanTempDirectory"}': 855,
+  '{"name":"ContentConversionService","level":30,"msg":"Count of outstanding temp directories"}': 855,
+  '{"name":"ContentConversionService","level":30,"msg":"Begin: deleteExpiredContentConverters"}': 855,
+  '{"name":"ContentConversionService","level":30,"msg":"Count of ContentConverter resources"}': 855,
+  '{"name":"ContentConversionService","level":30,"msg":"HTTP service listening at http://[::]:19010"}': 1 }
+
+==== \Prizm\logs\ContentConversionService.log.0====
+
+{ '{"name":"ContentConversionService","level":30,"msg":""}': 14972,
+  '{"name":"ContentConversionService","level":30,"msg":"Begin: license check"}': 1440,
+  '{"name":"ContentConversionService","level":30,"msg":"Begin: cleanTempDirectory"}': 864,
+  '{"name":"ContentConversionService","level":30,"msg":"Count of outstanding temp directories"}': 864,
+  '{"name":"ContentConversionService","level":30,"msg":"Begin: deleteExpiredContentConverters"}': 864,
+  '{"name":"ContentConversionService","level":30,"msg":"Count of ContentConverter resources"}': 864 }
+
+==== \Prizm\logs\ContentConversionService.log.1====
+
+{ '{"name":"ContentConversionService","level":30,"msg":""}': 14974,
+  '{"name":"ContentConversionService","level":30,"msg":"Begin: license check"}': 1440,
+  '{"name":"ContentConversionService","level":30,"msg":"Begin: cleanTempDirectory"}': 864,
+  '{"name":"ContentConversionService","level":30,"msg":"Count of outstanding temp directories"}': 864,
+  '{"name":"ContentConversionService","level":30,"msg":"Begin: deleteExpiredContentConverters"}': 864,
+  '{"name":"ContentConversionService","level":30,"msg":"Count of ContentConverter resources"}': 864 }
+
+==== \Prizm\logs\ContentConversionService.log.2====
+
+{ '{"name":"ContentConversionService","level":30,"msg":""}': 14972,
+  '{"name":"ContentConversionService","level":30,"msg":"Begin: license check"}': 1440,
+  '{"name":"ContentConversionService","level":30,"msg":"Begin: cleanTempDirectory"}': 864,
+  '{"name":"ContentConversionService","level":30,"msg":"Count of outstanding temp directories"}': 864,
+  '{"name":"ContentConversionService","level":30,"msg":"Begin: deleteExpiredContentConverters"}': 864,
+  '{"name":"ContentConversionService","level":30,"msg":"Count of ContentConverter resources"}': 864 }
+
+==== \Prizm\logs\ContentConversionService.log.3====
+
+{ '{"name":"ContentConversionService","level":30,"msg":""}': 14970,
+  '{"name":"ContentConversionService","level":30,"msg":"Begin: license check"}': 1439,
+  '{"name":"ContentConversionService","level":30,"msg":"Begin: cleanTempDirectory"}': 864,
+  '{"name":"ContentConversionService","level":30,"msg":"Count of outstanding temp directories"}': 864,
+  '{"name":"ContentConversionService","level":30,"msg":"Begin: deleteExpiredContentConverters"}': 864,
+  '{"name":"ContentConversionService","level":30,"msg":"Count of ContentConverter resources"}': 864 }
+
+==== \Prizm\logs\ContentConversionService.log.4====
+
+{ '{"name":"ContentConversionService","level":30,"msg":""}': 14972,
+  '{"name":"ContentConversionService","level":30,"msg":"Begin: license check"}': 1440,
+  '{"name":"ContentConversionService","level":30,"msg":"Begin: cleanTempDirectory"}': 864,
+  '{"name":"ContentConversionService","level":30,"msg":"Count of outstanding temp directories"}': 864,
+  '{"name":"ContentConversionService","level":30,"msg":"Begin: deleteExpiredContentConverters"}': 864,
+  '{"name":"ContentConversionService","level":30,"msg":"Count of ContentConverter resources"}': 864 }
+
+==== \Prizm\logs\RedactionService.log====
+
+{ '{"name":"RedactionService","level":30,"msg":""}': 12764,
+  '{"name":"RedactionService","level":30,"msg":"Service status is \'running\'"}': 2279,
+  '{"name":"RedactionService","level":30,"service":"WorkFileHttpService","msg":"Checking child service health"}': 570,
+  '{"name":"RedactionService","level":30,"service":"AutoRedactionHttpService","msg":"Checking child service health"}': 570,
+  '{"name":"RedactionService","level":30,"msg":"Begin: checkHealth"}': 1140,
+  '{"name":"RedactionService","level":30,"msg":"Request: GET localhost:19007/PCCIS/V1/Service/Current/Health"}': 570,
+  '{"name":"RedactionService","level":30,"msg":"WorkFile Service reported healthy"}': 570,
+  '{"name":"RedactionService","level":30,"msg":"Auto-Redaction Service reported healthy"}': 570,
+  '{"name":"RedactionService","level":30,"msg":"Child services overall health"}': 570,
+  '{"name":"RedactionService","level":30,"msg":"Begin: deleteExpiredMarkupBurners"}': 684,
+  '{"name":"RedactionService","level":30,"msg":"Total markup burner count"}': 684,
+  '{"name":"RedactionService","level":30,"msg":"Begin: deleteExpiredRedactionCreators"}': 684,
+  '{"name":"RedactionService","level":30,"msg":"Count of RedactionCreator resources"}': 684,
+  '{"name":"RedactionService","level":30,"msg":"Current configuration"}': 1 }
+
+==== \Prizm\logs\AutoRedactionService.log.7====
+
+{ '{"name":"ARS","level":30}': 30495 }
+
+==== \Prizm\logs\licensing-service.log====
+
+{ '{"name":"licensing-service","level":30,"msg":""}': 20964 }
+
+==== \Prizm\logs\RedactionService.log.5====
+
+{ '{"name":"RedactionService","level":30,"msg":""}': 15960,
+  '{"name":"RedactionService","level":30,"msg":"Service status is \'running\'"}': 2849,
+  '{"name":"RedactionService","level":30,"service":"WorkFileHttpService","msg":"Checking child service health"}': 712,
+  '{"name":"RedactionService","level":30,"service":"AutoRedactionHttpService","msg":"Checking child service health"}': 712,
+  '{"name":"RedactionService","level":30,"msg":"Begin: checkHealth"}': 1424,
+  '{"name":"RedactionService","level":30,"msg":"Request: GET localhost:19007/PCCIS/V1/Service/Current/Health"}': 712,
+  '{"name":"RedactionService","level":30,"msg":"Begin: deleteExpiredMarkupBurners"}': 855,
+  '{"name":"RedactionService","level":30,"msg":"Total markup burner count"}': 855,
+  '{"name":"RedactionService","level":30,"msg":"Begin: deleteExpiredRedactionCreators"}': 855,
+  '{"name":"RedactionService","level":30,"msg":"WorkFile Service reported healthy"}': 712,
+  '{"name":"RedactionService","level":30,"msg":"Count of RedactionCreator resources"}': 855,
+  '{"name":"RedactionService","level":30,"msg":"Auto-Redaction Service reported healthy"}': 712,
+  '{"name":"RedactionService","level":30,"msg":"Child services overall health"}': 712,
+  '{"name":"RedactionService","level":30,"msg":"Current configuration"}': 3,
+  '{"name":"RedactionService","level":30,"msg":"Starting periodic maintenance tasks"}': 1,
+  '{"name":"RedactionService","level":30,"msg":"HTTP service listening at http://:::19008"}': 1 }
+
+==== \Prizm\logs\RedactionService.log.0====
+
+{ '{"name":"RedactionService","level":30,"msg":""}': 16128,
+  '{"name":"RedactionService","level":30,"msg":"Service status is \'running\'"}': 2880,
+  '{"name":"RedactionService","level":30,"service":"WorkFileHttpService","msg":"Checking child service health"}': 720,
+  '{"name":"RedactionService","level":30,"service":"AutoRedactionHttpService","msg":"Checking child service health"}': 720,
+  '{"name":"RedactionService","level":30,"msg":"Begin: checkHealth"}': 1440,
+  '{"name":"RedactionService","level":30,"msg":"Request: GET localhost:19007/PCCIS/V1/Service/Current/Health"}': 720,
+  '{"name":"RedactionService","level":30,"msg":"WorkFile Service reported healthy"}': 720,
+  '{"name":"RedactionService","level":30,"msg":"Auto-Redaction Service reported healthy"}': 720,
+  '{"name":"RedactionService","level":30,"msg":"Child services overall health"}': 720,
+  '{"name":"RedactionService","level":30,"msg":"Begin: deleteExpiredMarkupBurners"}': 864,
+  '{"name":"RedactionService","level":30,"msg":"Total markup burner count"}': 864,
+  '{"name":"RedactionService","level":30,"msg":"Begin: deleteExpiredRedactionCreators"}': 864,
+  '{"name":"RedactionService","level":30,"msg":"Count of RedactionCreator resources"}': 864,
+  '{"name":"RedactionService","level":30,"msg":"Current configuration"}': 2 }
+
+==== \Prizm\logs\RedactionService.log.1====
+
+{ '{"name":"RedactionService","level":30,"msg":""}': 16130,
+  '{"name":"RedactionService","level":30,"msg":"Service status is \'running\'"}': 2880,
+  '{"name":"RedactionService","level":30,"service":"WorkFileHttpService","msg":"Checking child service health"}': 720,
+  '{"name":"RedactionService","level":30,"service":"AutoRedactionHttpService","msg":"Checking child service health"}': 720,
+  '{"name":"RedactionService","level":30,"msg":"Begin: checkHealth"}': 1440,
+  '{"name":"RedactionService","level":30,"msg":"Request: GET localhost:19007/PCCIS/V1/Service/Current/Health"}': 720,
+  '{"name":"RedactionService","level":30,"msg":"WorkFile Service reported healthy"}': 720,
+  '{"name":"RedactionService","level":30,"msg":"Auto-Redaction Service reported healthy"}': 720,
+  '{"name":"RedactionService","level":30,"msg":"Child services overall health"}': 720,
+  '{"name":"RedactionService","level":30,"msg":"Begin: deleteExpiredMarkupBurners"}': 864,
+  '{"name":"RedactionService","level":30,"msg":"Total markup burner count"}': 864,
+  '{"name":"RedactionService","level":30,"msg":"Begin: deleteExpiredRedactionCreators"}': 864,
+  '{"name":"RedactionService","level":30,"msg":"Count of RedactionCreator resources"}': 864,
+  '{"name":"RedactionService","level":30,"msg":"Current configuration"}': 2 }
+
+==== \Prizm\logs\RedactionService.log.3====
+
+{ '{"name":"RedactionService","level":30,"msg":""}': 16130,
+  '{"name":"RedactionService","level":30,"msg":"Service status is \'running\'"}': 2880,
+  '{"name":"RedactionService","level":30,"service":"WorkFileHttpService","msg":"Checking child service health"}': 720,
+  '{"name":"RedactionService","level":30,"service":"AutoRedactionHttpService","msg":"Checking child service health"}': 720,
+  '{"name":"RedactionService","level":30,"msg":"Begin: checkHealth"}': 1440,
+  '{"name":"RedactionService","level":30,"msg":"Request: GET localhost:19007/PCCIS/V1/Service/Current/Health"}': 720,
+  '{"name":"RedactionService","level":30,"msg":"WorkFile Service reported healthy"}': 720,
+  '{"name":"RedactionService","level":30,"msg":"Auto-Redaction Service reported healthy"}': 720,
+  '{"name":"RedactionService","level":30,"msg":"Child services overall health"}': 720,
+  '{"name":"RedactionService","level":30,"msg":"Begin: deleteExpiredMarkupBurners"}': 864,
+  '{"name":"RedactionService","level":30,"msg":"Total markup burner count"}': 864,
+  '{"name":"RedactionService","level":30,"msg":"Begin: deleteExpiredRedactionCreators"}': 864,
+  '{"name":"RedactionService","level":30,"msg":"Count of RedactionCreator resources"}': 864,
+  '{"name":"RedactionService","level":30,"msg":"Current configuration"}': 2 }
+
+==== \Prizm\logs\RedactionService.log.2====
+
+{ '{"name":"RedactionService","level":30,"msg":""}': 16128,
+  '{"name":"RedactionService","level":30,"msg":"Service status is \'running\'"}': 2880,
+  '{"name":"RedactionService","level":30,"service":"WorkFileHttpService","msg":"Checking child service health"}': 720,
+  '{"name":"RedactionService","level":30,"service":"AutoRedactionHttpService","msg":"Checking child service health"}': 720,
+  '{"name":"RedactionService","level":30,"msg":"Begin: checkHealth"}': 1440,
+  '{"name":"RedactionService","level":30,"msg":"Request: GET localhost:19007/PCCIS/V1/Service/Current/Health"}': 720,
+  '{"name":"RedactionService","level":30,"msg":"WorkFile Service reported healthy"}': 720,
+  '{"name":"RedactionService","level":30,"msg":"Auto-Redaction Service reported healthy"}': 720,
+  '{"name":"RedactionService","level":30,"msg":"Child services overall health"}': 720,
+  '{"name":"RedactionService","level":30,"msg":"Begin: deleteExpiredMarkupBurners"}': 864,
+  '{"name":"RedactionService","level":30,"msg":"Total markup burner count"}': 864,
+  '{"name":"RedactionService","level":30,"msg":"Begin: deleteExpiredRedactionCreators"}': 864,
+  '{"name":"RedactionService","level":30,"msg":"Count of RedactionCreator resources"}': 864,
+  '{"name":"RedactionService","level":30,"msg":"Current configuration"}': 2 }
+
+==== \Prizm\logs\RedactionService.log.4====
+
+{ '{"name":"RedactionService","level":30,"msg":""}': 16126,
+  '{"name":"RedactionService","level":30,"service":"WorkFileHttpService","msg":"Checking child service health"}': 720,
+  '{"name":"RedactionService","level":30,"service":"AutoRedactionHttpService","msg":"Checking child service health"}': 720,
+  '{"name":"RedactionService","level":30,"msg":"Begin: checkHealth"}': 1440,
+  '{"name":"RedactionService","level":30,"msg":"Request: GET localhost:19007/PCCIS/V1/Service/Current/Health"}': 720,
+  '{"name":"RedactionService","level":30,"msg":"Auto-Redaction Service reported healthy"}': 720,
+  '{"name":"RedactionService","level":30,"msg":"WorkFile Service reported healthy"}': 720,
+  '{"name":"RedactionService","level":30,"msg":"Child services overall health"}': 720,
+  '{"name":"RedactionService","level":30,"msg":"Service status is \'running\'"}': 2879,
+  '{"name":"RedactionService","level":30,"msg":"Begin: deleteExpiredMarkupBurners"}': 864,
+  '{"name":"RedactionService","level":30,"msg":"Total markup burner count"}': 864,
+  '{"name":"RedactionService","level":30,"msg":"Begin: deleteExpiredRedactionCreators"}': 864,
+  '{"name":"RedactionService","level":30,"msg":"Count of RedactionCreator resources"}': 864,
+  '{"name":"RedactionService","level":30,"msg":"Current configuration"}': 2 }
+
+==== \Prizm\logs\licensing-service.log.5====
+
+{ '{"name":"licensing-service","level":30,"msg":""}': 26241,
+  '{"name":"licensing-service","level":30,"msg":"licensing-service listening on port 19183"}': 1 }
+
+==== \Prizm\logs\licensing-service.log.1====
+
+{ '{"name":"licensing-service","level":30,"msg":""}': 26488 }
+
+==== \Prizm\logs\licensing-service.log.0====
+
+{ '{"name":"licensing-service","level":30,"msg":""}': 26490 }
+
+==== \Prizm\logs\licensing-service.log.2====
+
+{ '{"name":"licensing-service","level":30,"msg":""}': 26490 }
+
+==== \Prizm\logs\licensing-service.log.3====
+
+{ '{"name":"licensing-service","level":30,"msg":""}': 26486 }
+
+==== \Prizm\logs\licensing-service.log.4====
+
+{ '{"name":"licensing-service","level":30,"msg":""}': 26486 }
+
+==== \Prizm\logs\OfficeConversionService.log====
+
+{ '{"name":"OCS","level":30}': 47890 }
+
+==== \Prizm\logs\licensing-service.log.6====
+
+{ '{"name":"licensing-service","level":30,"msg":""}': 37417,
+  '{"name":"licensing-service","level":30,"msg":"licensing-service listening on port 19181"}': 1 }
+
+==== \Prizm\logs\OfficeConversionService.log.6====
+
+{ '{"name":"OCS","level":30}': 59887,
+  '{"name":"OCS","level":50}': 5 }
+
+==== \Prizm\logs\OfficeConversionService.log.1====
+
+{ '{"name":"OCS","level":30}': 60470 }
+
+==== \Prizm\logs\OfficeConversionService.log.2====
+
+{ '{"name":"OCS","level":30}': 60456 }
+
+==== \Prizm\logs\OfficeConversionService.log.3====
+
+{ '{"name":"OCS","level":30}': 60460 }
+
+==== \Prizm\logs\OfficeConversionService.log.4====
+
+{ '{"name":"OCS","level":30}': 60470 }
+
+==== \Prizm\logs\OfficeConversionService.log.5====
+
+{ '{"name":"OCS","level":30}': 60464 }
+
+==== \Prizm\logs\OfficeConversionService.log.7====
+
+{ '{"name":"OCS","level":30}': 85443,
+  '{"name":"OCS","level":50}': 5 }
+
+==== \Prizm\logs\watchdog.log.6====
+
+{ '{"name":"WATCHDOG","level":30,"msg":""}': 115482,
+  '{"name":"WATCHDOG","level":30,"msg":"Configuration"}': 1,
+  '{"name":"WATCHDOG","level":30,"msg":"Cloud License registered."}': 1,
+  '{"name":"WATCHDOG","level":30,"msg":"Starting WatchProcess"}': 1,
+  '{"name":"WATCHDOG","level":30,"msg":"Processes not found"}': 1,
+  '{"name":"WATCHDOG","level":30,"msg":"Watchdog HTTP server created and listening on port 19006"}': 1,
+  '{"name":"WATCHDOG","level":30,"msg":"Starting process instance"}': 38,
+  '{"name":"WATCHDOG","level":30,"msg":"Started process instance"}': 19,
+  '{"name":"WATCHDOG","level":30,"msg":"HealthChecker, process start health"}': 19,
+  '{"name":"WATCHDOG","level":50,"msg":""}': 35,
+  '{"name":"WATCHDOG","level":50,"msg":"Failed to report to ERS"}': 3,
+  '{"name":"WATCHDOG","level":30,"msg":"Started WatchProcess"}': 1,
+  '{"name":"WATCHDOG","level":30,"msg":"Monitoring Services status"}': 1347,
+  '{"name":"WATCHDOG","level":50,"error":{},"msg":"Health check request error"}': 25,
+  '{"name":"WATCHDOG","level":30,"msg":"HealthChecker, time first unhealthy recorded"}': 13,
+  '{"name":"WATCHDOG","level":30,"msg":"Adjusting health"}': 25452,
+  '{"name":"WATCHDOG","level":30,"errorId":"IFF-PC73JB7ENvIuUjZ0rg","msg":"Reported Error"}': 1,
+  '{"name":"WATCHDOG","level":30,"errorId":"D1Gvsok1KBuOyVHtY4h4_A","msg":"Reported Error"}': 1,
+  '{"name":"WATCHDOG","level":30,"errorId":"tx1EqeF9T-kBenNlEwhgpQ","msg":"Reported Error"}': 1,
+  '{"name":"WATCHDOG","level":30,"errorId":"p82yY5ePbQmzI73AkjlANQ","msg":"Reported Error"}': 1,
+  '{"name":"WATCHDOG","level":30,"errorId":"pUSTkPFDZkbKCWv8pIz5Nw","msg":"Reported Error"}': 1,
+  '{"name":"WATCHDOG","level":30,"errorId":"DNdCuUzfoS0qAHD9gzBZ4w","msg":"Reported Error"}': 1,
+  '{"name":"WATCHDOG","level":30,"msg":"Skip health adjustment, because of active suppression timeout"}': 3,
+  '{"name":"WATCHDOG","level":30,"errorId":"8shx-GlM0uoy8biAgDgk7g","msg":"Reported Error"}': 1,
+  '{"name":"WATCHDOG","level":30,"errorId":"-r7Y1IafYGFVSRQs7iTS2g","msg":"Reported Error"}': 1,
+  '{"name":"WATCHDOG","level":30,"errorId":"5W_JVFzwInoK10iK9hJJwQ","msg":"Reported Error"}': 1,
+  '{"name":"WATCHDOG","level":30,"errorId":"76WocG6YpdzNrP5WkFdwEQ","msg":"Reported Error"}': 1,
+  '{"name":"WATCHDOG","level":30,"msg":"Service Current Info"}': 4,
+  '{"name":"WATCHDOG","level":30,"errorId":"CHKEm-BiBglIOm7z5xkgaA","msg":"Reported Error"}': 1,
+  '{"name":"WATCHDOG","level":30,"errorId":"ab_xNZb14LjEModbxctL4g","msg":"Reported Error"}': 1,
+  '{"name":"WATCHDOG","level":30,"errorId":"W-uTVK-VKFpRV3_Tbq_Ppg","msg":"Reported Error"}': 1,
+  '{"name":"WATCHDOG","level":30,"errorId":"7eQ9sTDox6fvKHB0EMqa9w","msg":"Reported Error"}': 1,
+  '{"name":"WATCHDOG","level":30,"errorId":"4Q3ZZN4PquwCR89Nqkx8eg","msg":"Reported Error"}': 1,
+  '{"name":"WATCHDOG","level":30,"errorId":"e1iKLjCHg88wFCMIWkffHg","msg":"Reported Error"}': 1,
+  '{"name":"WATCHDOG","level":30,"errorId":"Wpy5A89t35NfTcbKkxTj7A","msg":"Reported Error"}': 1,
+  '{"name":"WATCHDOG","level":30,"errorId":"Hr2auEQUzcVoL4fZV8wwwg","msg":"Reported Error"}': 1,
+  '{"name":"WATCHDOG","level":30,"errorId":"ltgPA8Juchq4mq5tPbosnw","msg":"Reported Error"}': 1,
+  '{"name":"WATCHDOG","level":30,"errorId":"kYmr-pi64-VOAOOxWWaA5w","msg":"Reported Error"}': 1,
+  '{"name":"WATCHDOG","level":30,"errorId":"SPWqprqmzQgdhKGN8OWrfA","msg":"Reported Error"}': 1,
+  '{"name":"WATCHDOG","level":30,"errorId":"61gE3RADQVEAGFuK02wrzg","msg":"Reported Error"}': 1,
+  '{"name":"WATCHDOG","level":30,"errorId":"aUiY75xgd92bySTrkm2SOw","msg":"Reported Error"}': 1,
+  '{"name":"WATCHDOG","level":30,"errorId":"6zI-3h18yKoFAPihf1Nm1Q","msg":"Reported Error"}': 1,
+  '{"name":"WATCHDOG","level":30,"errorId":"X7NUi_4iSdO472Mdz8msdg","msg":"Reported Error"}': 1,
+  '{"name":"WATCHDOG","level":30,"msg":"HealthChecker, recovered to full health"}': 13,
+  '{"name":"WATCHDOG","level":30,"errorId":"i-eQEmUFL0xsyouu3B0kig","msg":"Reported Error"}': 1,
+  '{"name":"WATCHDOG","level":30,"errorId":"0NgQICVF6OqtmaUkpdA89A","msg":"Reported Error"}': 1,
+  '{"name":"WATCHDOG","level":30,"errorId":"hpAPKt00AH9-vDQVCDVxGQ","msg":"Reported Error"}': 1,
+  '{"name":"WATCHDOG","level":30,"errorId":"rxOVgE2S3POxgZSYymLXgw","msg":"Reported Error"}': 1,
+  '{"name":"WATCHDOG","level":30,"errorId":"xbitsz6eqdrFgpT9SgPlhA","msg":"Reported Error"}': 1,
+  '{"name":"WATCHDOG","level":30,"errorId":"_SG4rvh3pKAeyskuPUsdkw","msg":"Reported Error"}': 1,
+  '{"name":"WATCHDOG","level":30,"errorId":"llDQol46LVylPPNciVeuag","msg":"Reported Error"}': 1,
+  '{"name":"WATCHDOG","level":30,"msg":"Pccis0"}': 1337,
+  '{"name":"WATCHDOG","level":30,"errorId":"lWj5WP06N5-JhB0ZdVjQvg","msg":"Reported Error"}': 1,
+  '{"name":"WATCHDOG","level":30,"msg":"Pccis1"}': 1337,
+  '{"name":"WATCHDOG","level":30,"errorId":"zX7diGq0GEsVJjo2W4a0Gw","msg":"Reported Error"}': 1,
+  '{"name":"WATCHDOG","level":30,"msg":"Pccis2"}': 1337,
+  '{"name":"WATCHDOG","level":30,"errorId":"YAN9_vqXsYl4YS9lub6NUw","msg":"Reported Error"}': 1,
+  '{"name":"WATCHDOG","level":30,"errorId":"y9Jogt0l-GzJVo6CEoo5fA","msg":"Reported Error"}': 1,
+  '{"name":"WATCHDOG","level":30,"errorId":"Qjm-5nkJEardlhjyfYvObA","msg":"Reported Error"}': 1,
+  '{"name":"WATCHDOG","level":30,"errorId":"P2oUrHY_JdHiXbIepd-W7A","msg":"Reported Error"}': 1,
+  '{"name":"WATCHDOG","level":30,"errorId":"smEe6qvkMvo9O-gEjFJAVg","msg":"Reported Error"}': 1,
+  '{"name":"WATCHDOG","level":30,"errorId":"c8qfeIjprU-M37PjLmMj-Q","msg":"Reported Error"}': 1,
+  '{"name":"WATCHDOG","level":30,"errorId":"iuY_njPzraovQK1TuNunDQ","msg":"Reported Error"}': 1,
+  '{"name":"WATCHDOG","level":30,"errorId":"7GdGp_2RlD2u9yYLdPRoiw","msg":"Reported Error"}': 1 }
+
+==== \Prizm\logs\watchdog.log====
+
+{ '{"name":"WATCHDOG","level":30,"msg":""}': 195918,
+  '{"name":"WATCHDOG","level":30,"msg":"Adjusting health"}': 43301,
+  '{"name":"WATCHDOG","level":30,"msg":"Pccis0"}': 2279,
+  '{"name":"WATCHDOG","level":30,"msg":"Pccis1"}': 2279,
+  '{"name":"WATCHDOG","level":30,"msg":"Pccis2"}': 2279,
+  '{"name":"WATCHDOG","level":30,"msg":"Monitoring Services status"}': 2279 }
+
+==== \Prizm\logs\watchdog.log.5====
+
+{ '{"name":"WATCHDOG","level":30,"msg":""}': 245147,
+  '{"name":"WATCHDOG","level":30,"msg":"Adjusting health"}': 54115,
+  '{"name":"WATCHDOG","level":30,"msg":"Monitoring Services status"}': 2853,
+  '{"name":"WATCHDOG","level":30,"msg":"Pccis0"}': 2847,
+  '{"name":"WATCHDOG","level":30,"msg":"Pccis1"}': 2847,
+  '{"name":"WATCHDOG","level":30,"msg":"Pccis2"}': 2847,
+  '{"name":"WATCHDOG","level":30,"msg":"Configuration"}': 1,
+  '{"name":"WATCHDOG","level":30,"msg":"Cloud License registered."}': 1,
+  '{"name":"WATCHDOG","level":30,"msg":"Starting WatchProcess"}': 1,
+  '{"name":"WATCHDOG","level":30,"msg":"Processes not found"}': 1,
+  '{"name":"WATCHDOG","level":30,"msg":"Watchdog HTTP server created and listening on port 19006"}': 1,
+  '{"name":"WATCHDOG","level":30,"msg":"Starting process instance"}': 38,
+  '{"name":"WATCHDOG","level":30,"msg":"Started process instance"}': 19,
+  '{"name":"WATCHDOG","level":30,"msg":"HealthChecker, process start health"}': 19,
+  '{"name":"WATCHDOG","level":30,"errorId":"693WoV8GMzOy6v08FHqy-w","msg":"Reported Error"}': 1,
+  '{"name":"WATCHDOG","level":30,"msg":"Started WatchProcess"}': 1,
+  '{"name":"WATCHDOG","level":30,"msg":"Service Current Info"}': 4,
+  '{"name":"WATCHDOG","level":50,"msg":""}': 14,
+  '{"name":"WATCHDOG","level":50,"error":{},"msg":"Health check request error"}': 11,
+  '{"name":"WATCHDOG","level":30,"msg":"HealthChecker, time first unhealthy recorded"}': 6,
+  '{"name":"WATCHDOG","level":30,"errorId":"IVodu43zyIeOhJ_-Sxbl3A","msg":"Reported Error"}': 1,
+  '{"name":"WATCHDOG","level":30,"errorId":"SZoQeXS57ZnFXuJaLuYzBw","msg":"Reported Error"}': 1,
+  '{"name":"WATCHDOG","level":30,"errorId":"4KMBQOWBxEIfAvViq09wFg","msg":"Reported Error"}': 1,
+  '{"name":"WATCHDOG","level":30,"errorId":"XEhNhuZ0jyUoXkKUW1BTBg","msg":"Reported Error"}': 1,
+  '{"name":"WATCHDOG","level":30,"msg":"Skip health adjustment, because of active suppression timeout"}': 3,
+  '{"name":"WATCHDOG","level":30,"errorId":"2a-mzfprTHI4yw9RfecUgg","msg":"Reported Error"}': 1,
+  '{"name":"WATCHDOG","level":30,"errorId":"d1jWFTo96LQPFWi2Pw0zMA","msg":"Reported Error"}': 1,
+  '{"name":"WATCHDOG","level":30,"errorId":"ZjPqL5Fpz6_9PPS_YhJSCw","msg":"Reported Error"}': 1,
+  '{"name":"WATCHDOG","level":30,"errorId":"rpQiuBPs7hmCUl6hsEjW9A","msg":"Reported Error"}': 1,
+  '{"name":"WATCHDOG","level":30,"errorId":"IMW-7NSzbt1DjI0MAqEqBQ","msg":"Reported Error"}': 1,
+  '{"name":"WATCHDOG","level":30,"errorId":"NZiHT7uB1uz2q1JoMP6W0Q","msg":"Reported Error"}': 1,
+  '{"name":"WATCHDOG","level":30,"errorId":"2xlNb03avt19Laxt79zOag","msg":"Reported Error"}': 1,
+  '{"name":"WATCHDOG","level":30,"errorId":"uGIq-9r1KT4sG2gPsfKM-w","msg":"Reported Error"}': 1,
+  '{"name":"WATCHDOG","level":30,"errorId":"OM-vqN1A9_pTw8QtaNNfow","msg":"Reported Error"}': 1,
+  '{"name":"WATCHDOG","level":30,"errorId":"O3JdLBWM9Q5jkah7IR4eiA","msg":"Reported Error"}': 1,
+  '{"name":"WATCHDOG","level":30,"errorId":"X0nOp8v77U-zTa_QmVpDag","msg":"Reported Error"}': 1,
+  '{"name":"WATCHDOG","level":30,"errorId":"J8DWyH6D_7mwCRuSMGQUlg","msg":"Reported Error"}': 1,
+  '{"name":"WATCHDOG","level":30,"msg":"HealthChecker, recovered to full health"}': 6 }
+
+==== \Prizm\logs\watchdog.log.4====
+
+{ '{"name":"WATCHDOG","level":30,"msg":""}': 247434,
+  '{"name":"WATCHDOG","level":30,"msg":"Adjusting health"}': 54682,
+  '{"name":"WATCHDOG","level":30,"msg":"Pccis0"}': 2878,
+  '{"name":"WATCHDOG","level":30,"msg":"Pccis1"}': 2878,
+  '{"name":"WATCHDOG","level":30,"msg":"Monitoring Services status"}': 2878,
+  '{"name":"WATCHDOG","level":30,"msg":"Pccis2"}': 2878 }
+
+==== \Prizm\logs\watchdog.log.3====
+
+{ '{"name":"WATCHDOG","level":30,"msg":""}': 247508,
+  '{"name":"WATCHDOG","level":30,"msg":"Adjusting health"}': 54701,
+  '{"name":"WATCHDOG","level":30,"msg":"Monitoring Services status"}': 2879,
+  '{"name":"WATCHDOG","level":30,"msg":"Pccis0"}': 2879,
+  '{"name":"WATCHDOG","level":30,"msg":"Pccis1"}': 2879,
+  '{"name":"WATCHDOG","level":30,"msg":"Pccis2"}': 2879 }
+
+==== \Prizm\logs\watchdog.log.0====
+
+{ '{"name":"WATCHDOG","level":30,"msg":""}': 247416,
+  '{"name":"WATCHDOG","level":30,"msg":"Adjusting health"}': 54682,
+  '{"name":"WATCHDOG","level":30,"msg":"Pccis0"}': 2878,
+  '{"name":"WATCHDOG","level":30,"msg":"Pccis1"}': 2878,
+  '{"name":"WATCHDOG","level":30,"msg":"Pccis2"}': 2878,
+  '{"name":"WATCHDOG","level":30,"msg":"Monitoring Services status"}': 2878 }
+
+==== \Prizm\logs\watchdog.log.1====
+
+{ '{"name":"WATCHDOG","level":30,"msg":""}': 247496,
+  '{"name":"WATCHDOG","level":30,"msg":"Adjusting health"}': 54701,
+  '{"name":"WATCHDOG","level":30,"msg":"Monitoring Services status"}': 2879,
+  '{"name":"WATCHDOG","level":30,"msg":"Pccis0"}': 2879,
+  '{"name":"WATCHDOG","level":30,"msg":"Pccis1"}': 2879,
+  '{"name":"WATCHDOG","level":30,"msg":"Pccis2"}': 2879 }
+
+==== \Prizm\logs\watchdog.log.2====
+
+{ '{"name":"WATCHDOG","level":30,"msg":""}': 247424,
+  '{"name":"WATCHDOG","level":30,"msg":"Adjusting health"}': 54682,
+  '{"name":"WATCHDOG","level":30,"msg":"Pccis0"}': 2878,
+  '{"name":"WATCHDOG","level":30,"msg":"Pccis1"}': 2878,
+  '{"name":"WATCHDOG","level":30,"msg":"Pccis2"}': 2878,
+  '{"name":"WATCHDOG","level":30,"msg":"Monitoring Services status"}': 2878 }
+
+==== \Prizm\logs\plb.sep_single.log.6====
+
+{ '{"name":"LoadBalancer","level":30,"msg":""}': 16123,
+  '{"name":"LoadBalancer","level":30,"msg":"Prizm Load Balancer process options"}': 1,
+  '{"name":"LoadBalancer","level":30,"msg":"Prizm Load Balancer service options"}': 1,
+  '{"name":"LoadBalancer","level":30,"msg":"Prizm Load Balancer configuration"}': 1,
+  '{"name":"LoadBalancer","level":30,"msg":"PCC Load Balancer listener has been started"}': 1,
+  '{"name":"LoadBalancer","level":30,"msg":"Setting instances"}': 1344,
+  '{"name":"LoadBalancer","level":30,"errorId":"9iMwIakMugWszVQrOwePvA","msg":"Reported Error"}': 1,
+  '{"name":"LoadBalancer","level":50,"err":{"name":"Error"},"msg":"Failed to set PCCIS server list"}': 6,
+  '{"name":"LoadBalancer","level":30,"msg":"Logger fraction: 127.0.0.1/19007 = 1"}': 1344,
+  '{"name":"LoadBalancer","level":30,"msg":"Logger fraction: 127.0.0.1/19008 = 1"}': 1344,
+  '{"name":"LoadBalancer","level":30,"msg":"Logger fraction: 127.0.0.1/19010 = 1"}': 1344,
+  '{"name":"LoadBalancer","level":30,"msg":"Logger fraction: 127.0.0.1/19009 = 1"}': 1344,
+  '{"name":"LoadBalancer","level":30,"msg":"Instances set"}': 1344,
+  '{"name":"LoadBalancer","level":30,"errorId":"jw56zVdNAxxSxRKAix8-Cw","msg":"Reported Error"}': 1,
+  '{"name":"LoadBalancer","level":30,"errorId":"0E3lGAMT1OZhatULOm7ZDQ","msg":"Reported Error"}': 1,
+  '{"name":"LoadBalancer","level":30,"errorId":"gc-oMOUVKLGpwR4yuWu2Uw","msg":"Reported Error"}': 1,
+  '{"name":"LoadBalancer","level":30,"errorId":"CiFV6CF_1Xhte5fJV9SRGg","msg":"Reported Error"}': 1,
+  '{"name":"LoadBalancer","level":30,"errorId":"RcPRuAWS2WFvSfJzv6QQ5A","msg":"Reported Error"}': 1,
+  '{"name":"LoadBalancer","level":30,"msg":"Logger fraction: 127.0.0.1/19000 = 0.3386679773510366 | 127.0.0.1/19001 = 0.3475469453521818 | 127.0.0.1/19002 = 0.3137850772967816"}': 1338,
+  '{"name":"LoadBalancer","level":30,"msg":"Logger fraction: 127.0.0.1/19189 = 1"}': 668,
+  '{"name":"LoadBalancer","level":30,"msg":"Logger fraction: 127.0.0.1/19185 = 1"}': 668,
+  '{"name":"LoadBalancer","level":30,"msg":"Logger fraction: 127.0.0.1/19183 = 1"}': 668,
+  '{"name":"LoadBalancer","level":30,"msg":"Logger fraction: 127.0.0.1/38501 = 1"}': 668 }
+
+==== \Prizm\logs\plb.sep_single.log====
+
+{ '{"name":"LoadBalancer","level":30,"msg":""}': 27556,
+  '{"name":"LoadBalancer","level":30,"msg":"Setting instances"}': 2280,
+  '{"name":"LoadBalancer","level":30,"msg":"Logger fraction: 127.0.0.1/19000 = 0.3386679773510366 | 127.0.0.1/19001 = 0.3475469453521818 | 127.0.0.1/19002 = 0.3137850772967816"}': 2280,
+  '{"name":"LoadBalancer","level":30,"msg":"Logger fraction: 127.0.0.1/19007 = 1"}': 2280,
+  '{"name":"LoadBalancer","level":30,"msg":"Logger fraction: 127.0.0.1/19008 = 1"}': 2280,
+  '{"name":"LoadBalancer","level":30,"msg":"Logger fraction: 127.0.0.1/19010 = 1"}': 2280,
+  '{"name":"LoadBalancer","level":30,"msg":"Logger fraction: 127.0.0.1/19009 = 1"}': 2280,
+  '{"name":"LoadBalancer","level":30,"msg":"Instances set"}': 2280,
+  '{"name":"LoadBalancer","level":30,"msg":"Logger fraction: 127.0.0.1/19189 = 1"}': 1140,
+  '{"name":"LoadBalancer","level":30,"msg":"Logger fraction: 127.0.0.1/38501 = 1"}': 1140,
+  '{"name":"LoadBalancer","level":30,"msg":"Logger fraction: 127.0.0.1/19182 = 1"}': 1140,
+  '{"name":"LoadBalancer","level":30,"msg":"Logger fraction: 127.0.0.1/19185 = 1"}': 1140,
+  '{"name":"LoadBalancer","level":30,"msg":"Request parameters"}': 10,
+  '{"name":"LoadBalancer","level":30,"msg":"Server response headers"}': 10,
+  '{"name":"LoadBalancer","level":50,"msg":"URL was not recognized"}': 3,
+  '{"name":"LoadBalancer","level":30,"msg":"Session"}': 8 }
+
+==== \Prizm\logs\plb.sep_single.log.5====
+
+{ '{"name":"LoadBalancer","level":30,"msg":"Logger fraction: 127.0.0.1/19189 = 1"}': 1424,
+  '{"name":"LoadBalancer","level":30,"msg":"Logger fraction: 127.0.0.1/19183 = 1"}': 1227,
+  '{"name":"LoadBalancer","level":30,"msg":"Logger fraction: 127.0.0.1/19185 = 1"}': 1424,
+  '{"name":"LoadBalancer","level":30,"msg":"Logger fraction: 127.0.0.1/38501 = 1"}': 1424,
+  '{"name":"LoadBalancer","level":30,"msg":""}': 34208,
+  '{"name":"LoadBalancer","level":30,"msg":"Setting instances"}': 2849,
+  '{"name":"LoadBalancer","level":30,"msg":"Logger fraction: 127.0.0.1/19000 = 0.3386679773510366 | 127.0.0.1/19001 = 0.3475469453521818 | 127.0.0.1/19002 = 0.3137850772967816"}': 2849,
+  '{"name":"LoadBalancer","level":30,"msg":"Logger fraction: 127.0.0.1/19007 = 1"}': 2849,
+  '{"name":"LoadBalancer","level":30,"msg":"Logger fraction: 127.0.0.1/19008 = 1"}': 2849,
+  '{"name":"LoadBalancer","level":30,"msg":"Logger fraction: 127.0.0.1/19010 = 1"}': 2849,
+  '{"name":"LoadBalancer","level":30,"msg":"Logger fraction: 127.0.0.1/19009 = 1"}': 2849,
+  '{"name":"LoadBalancer","level":30,"msg":"Instances set"}': 2849,
+  '{"name":"LoadBalancer","level":30,"msg":"Prizm Load Balancer process options"}': 1,
+  '{"name":"LoadBalancer","level":30,"msg":"Prizm Load Balancer service options"}': 1,
+  '{"name":"LoadBalancer","level":30,"msg":"Prizm Load Balancer configuration"}': 1,
+  '{"name":"LoadBalancer","level":30,"msg":"PCC Load Balancer listener has been started"}': 1,
+  '{"name":"LoadBalancer","level":30,"msg":"Logger fraction: 127.0.0.1/19182 = 1"}': 197 }
+
+==== \Prizm\logs\plb.sep_single.log.4====
+
+{ '{"name":"LoadBalancer","level":30,"msg":""}': 34524,
+  '{"name":"LoadBalancer","level":30,"msg":"Setting instances"}': 2878,
+  '{"name":"LoadBalancer","level":30,"msg":"Logger fraction: 127.0.0.1/19000 = 0.3386679773510366 | 127.0.0.1/19001 = 0.3475469453521818 | 127.0.0.1/19002 = 0.3137850772967816"}': 2878,
+  '{"name":"LoadBalancer","level":30,"msg":"Logger fraction: 127.0.0.1/19007 = 1"}': 2878,
+  '{"name":"LoadBalancer","level":30,"msg":"Logger fraction: 127.0.0.1/19008 = 1"}': 2878,
+  '{"name":"LoadBalancer","level":30,"msg":"Logger fraction: 127.0.0.1/19010 = 1"}': 2878,
+  '{"name":"LoadBalancer","level":30,"msg":"Logger fraction: 127.0.0.1/19009 = 1"}': 2878,
+  '{"name":"LoadBalancer","level":30,"msg":"Instances set"}': 2878,
+  '{"name":"LoadBalancer","level":30,"msg":"Logger fraction: 127.0.0.1/19189 = 1"}': 1440,
+  '{"name":"LoadBalancer","level":30,"msg":"Logger fraction: 127.0.0.1/19182 = 1"}': 1440,
+  '{"name":"LoadBalancer","level":30,"msg":"Logger fraction: 127.0.0.1/19185 = 1"}': 1440,
+  '{"name":"LoadBalancer","level":30,"msg":"Logger fraction: 127.0.0.1/38501 = 1"}': 1440 }
+
+==== \Prizm\logs\plb.sep_single.log.0====
+
+{ '{"name":"LoadBalancer","level":30,"msg":""}': 34526,
+  '{"name":"LoadBalancer","level":30,"msg":"Logger fraction: 127.0.0.1/19189 = 1"}': 1440,
+  '{"name":"LoadBalancer","level":30,"msg":"Logger fraction: 127.0.0.1/19185 = 1"}': 1440,
+  '{"name":"LoadBalancer","level":30,"msg":"Logger fraction: 127.0.0.1/19182 = 1"}': 1440,
+  '{"name":"LoadBalancer","level":30,"msg":"Logger fraction: 127.0.0.1/38501 = 1"}': 1440,
+  '{"name":"LoadBalancer","level":30,"msg":"Setting instances"}': 2878,
+  '{"name":"LoadBalancer","level":30,"msg":"Logger fraction: 127.0.0.1/19000 = 0.3386679773510366 | 127.0.0.1/19001 = 0.3475469453521818 | 127.0.0.1/19002 = 0.3137850772967816"}': 2878,
+  '{"name":"LoadBalancer","level":30,"msg":"Logger fraction: 127.0.0.1/19007 = 1"}': 2878,
+  '{"name":"LoadBalancer","level":30,"msg":"Logger fraction: 127.0.0.1/19008 = 1"}': 2878,
+  '{"name":"LoadBalancer","level":30,"msg":"Logger fraction: 127.0.0.1/19010 = 1"}': 2878,
+  '{"name":"LoadBalancer","level":30,"msg":"Logger fraction: 127.0.0.1/19009 = 1"}': 2878,
+  '{"name":"LoadBalancer","level":30,"msg":"Instances set"}': 2878 }
+
+==== \Prizm\logs\plb.sep_single.log.2====
+
+{ '{"name":"LoadBalancer","level":30,"msg":""}': 34526,
+  '{"name":"LoadBalancer","level":30,"msg":"Logger fraction: 127.0.0.1/19189 = 1"}': 1440,
+  '{"name":"LoadBalancer","level":30,"msg":"Logger fraction: 127.0.0.1/19182 = 1"}': 1440,
+  '{"name":"LoadBalancer","level":30,"msg":"Logger fraction: 127.0.0.1/38501 = 1"}': 1440,
+  '{"name":"LoadBalancer","level":30,"msg":"Logger fraction: 127.0.0.1/19185 = 1"}': 1440,
+  '{"name":"LoadBalancer","level":30,"msg":"Setting instances"}': 2878,
+  '{"name":"LoadBalancer","level":30,"msg":"Logger fraction: 127.0.0.1/19000 = 0.3386679773510366 | 127.0.0.1/19001 = 0.3475469453521818 | 127.0.0.1/19002 = 0.3137850772967816"}': 2878,
+  '{"name":"LoadBalancer","level":30,"msg":"Logger fraction: 127.0.0.1/19007 = 1"}': 2878,
+  '{"name":"LoadBalancer","level":30,"msg":"Logger fraction: 127.0.0.1/19008 = 1"}': 2878,
+  '{"name":"LoadBalancer","level":30,"msg":"Logger fraction: 127.0.0.1/19010 = 1"}': 2878,
+  '{"name":"LoadBalancer","level":30,"msg":"Logger fraction: 127.0.0.1/19009 = 1"}': 2878,
+  '{"name":"LoadBalancer","level":30,"msg":"Instances set"}': 2878 }
+
+==== \Prizm\logs\plb.sep_single.log.1====
+
+{ '{"name":"LoadBalancer","level":30,"msg":""}': 34530,
+  '{"name":"LoadBalancer","level":30,"msg":"Logger fraction: 127.0.0.1/19189 = 1"}': 1440,
+  '{"name":"LoadBalancer","level":30,"msg":"Logger fraction: 127.0.0.1/19185 = 1"}': 1440,
+  '{"name":"LoadBalancer","level":30,"msg":"Logger fraction: 127.0.0.1/19182 = 1"}': 1440,
+  '{"name":"LoadBalancer","level":30,"msg":"Logger fraction: 127.0.0.1/38501 = 1"}': 1440,
+  '{"name":"LoadBalancer","level":30,"msg":"Setting instances"}': 2879,
+  '{"name":"LoadBalancer","level":30,"msg":"Logger fraction: 127.0.0.1/19000 = 0.3386679773510366 | 127.0.0.1/19001 = 0.3475469453521818 | 127.0.0.1/19002 = 0.3137850772967816"}': 2879,
+  '{"name":"LoadBalancer","level":30,"msg":"Logger fraction: 127.0.0.1/19007 = 1"}': 2879,
+  '{"name":"LoadBalancer","level":30,"msg":"Logger fraction: 127.0.0.1/19008 = 1"}': 2879,
+  '{"name":"LoadBalancer","level":30,"msg":"Logger fraction: 127.0.0.1/19010 = 1"}': 2879,
+  '{"name":"LoadBalancer","level":30,"msg":"Logger fraction: 127.0.0.1/19009 = 1"}': 2879,
+  '{"name":"LoadBalancer","level":30,"msg":"Instances set"}': 2879 }
+
+==== \Prizm\logs\plb.sep_single.log.3====
+
+{ '{"name":"LoadBalancer","level":30,"msg":""}': 34530,
+  '{"name":"LoadBalancer","level":30,"msg":"Setting instances"}': 2879,
+  '{"name":"LoadBalancer","level":30,"msg":"Logger fraction: 127.0.0.1/19000 = 0.3386679773510366 | 127.0.0.1/19001 = 0.3475469453521818 | 127.0.0.1/19002 = 0.3137850772967816"}': 2879,
+  '{"name":"LoadBalancer","level":30,"msg":"Logger fraction: 127.0.0.1/19007 = 1"}': 2879,
+  '{"name":"LoadBalancer","level":30,"msg":"Logger fraction: 127.0.0.1/19008 = 1"}': 2879,
+  '{"name":"LoadBalancer","level":30,"msg":"Logger fraction: 127.0.0.1/19010 = 1"}': 2879,
+  '{"name":"LoadBalancer","level":30,"msg":"Logger fraction: 127.0.0.1/19009 = 1"}': 2879,
+  '{"name":"LoadBalancer","level":30,"msg":"Instances set"}': 2879,
+  '{"name":"LoadBalancer","level":30,"msg":"Logger fraction: 127.0.0.1/19189 = 1"}': 1439,
+  '{"name":"LoadBalancer","level":30,"msg":"Logger fraction: 127.0.0.1/19182 = 1"}': 1439,
+  '{"name":"LoadBalancer","level":30,"msg":"Logger fraction: 127.0.0.1/19185 = 1"}': 1439,
+  '{"name":"LoadBalancer","level":30,"msg":"Logger fraction: 127.0.0.1/38501 = 1"}': 1439 }

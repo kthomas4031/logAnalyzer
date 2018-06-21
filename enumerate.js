@@ -1,7 +1,7 @@
 let fs = require(`fs`);
 let path = require(`path`);
 
-let config = require("./config.js");
+let config = require(`./config.js`);
 
 function enumerateFiles() {
   let files = [];

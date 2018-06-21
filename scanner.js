@@ -38,7 +38,7 @@ function scanLines(sanitizedFiles) {
     readline.on(`line`, function(line) {
       lineNumber += 1;
 
-      if (line !== ``) {
+      if (line[0] === `{`) {
         let jsonObject = JSON.parse(line);
 
         if (jsonObject !== undefined) {
