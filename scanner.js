@@ -1,14 +1,30 @@
 const whitelistJSON = [
   `name`,
   `errorCode`,
-  `errorId`,
   `service`,
   `level`,
   `error`,
   `err`,
   `resErr`,
-  `msg`
+  `msg`,
+  'eventName',
+  'taskType',
+  'httpStatusCode',
+  'httpStatusMessage',
+  'registrationData',
+  'message',
+  'command',
+  'resStatusCode',
+  'initializingModule',
+  'relation',
+  'type',
+  'maintenanceType',
+  'processName',
+  'reason',
+  'pm2Command',
+  'resSentPart',
 ];
+ // removed errorId for now, might need to add back
 
 function removeProps(obj) {
   for (var p in obj) {
@@ -60,9 +76,8 @@ function scanLines(sanitizedFiles) {
     });
 
     readline.on(`close`, function() {
-      console.log();
-      console.log(`==== ` + sanitizedFiles[x] + `====`);
-      console.log();
+
+      console.log(`\n ==== ` + sanitizedFiles[x] + `==== \n`);
       console.log(count);
     });
   }
