@@ -28,14 +28,13 @@ const whitelistJSON = [
   'description',
   'serviceStatus',
   'msoLicenseStatus',
-
 ];
  // removed errorId for now, might need to add back
 
 function removeProps(obj) {
   for (var p in obj) {
     if (obj.hasOwnProperty(p)) {
-      if (!whitelistJSON.includes(p)) {
+      if (!whitelistJSON.includes(p) || obj[p] == "") {
         delete obj[p];
       } else if (typeof obj[p] == `object`) {
         removeProps(obj[p]);
@@ -46,6 +45,17 @@ function removeProps(obj) {
 }
 
 function scanLines(sanitizedFiles) {
+
+  const fs = require('fs');
+
+  fs.writeFile('LogsOutput.txt', "", (err) => {  
+    // throws an error, you could also catch it here
+    if (err) throw err;
+
+    // success case, the file was saved
+    console.log('New Output File Created');
+});
+
   for (let x = 0; x < sanitizedFiles.length; x++) {
     let readline = require(`readline`).createInterface({
       input: require(`fs`).createReadStream(sanitizedFiles[x])
@@ -82,11 +92,14 @@ function scanLines(sanitizedFiles) {
     });
 
     readline.on(`close`, function() {
-
-      console.log(`\n ==== ` + sanitizedFiles[x] + `==== \n`);
-      console.log(count);
+      count = JSON.stringify(count, null, 4);
+      //count = count.replace('\\', '');
+    fs.appendFile('LogsOutput.txt',`\n ==== ` + sanitizedFiles[x] + ` ==== \n` + count, (err) => {  
+      if (err) throw err;
+  });
     });
   }
+  
 }
 
 module.exports = scanLines;
