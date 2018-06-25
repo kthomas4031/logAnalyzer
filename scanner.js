@@ -23,6 +23,12 @@ const whitelistJSON = [
   'reason',
   'pm2Command',
   'resSentPart',
+  'processName',
+  'instanceName',
+  'description',
+  'serviceStatus',
+  'msoLicenseStatus',
+
 ];
  // removed errorId for now, might need to add back
 
