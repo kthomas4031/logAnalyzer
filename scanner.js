@@ -45,16 +45,8 @@ function removeProps(obj) {
 }
 
 function scanLines(sanitizedFiles) {
-
   const fs = require('fs');
-
-  fs.writeFile('LogsOutput.txt', "", (err) => {  
-    // throws an error, you could also catch it here
-    if (err) throw err;
-
-    // success case, the file was saved
-    console.log('New Output File Created');
-});
+  let writeStream = fs.createWriteStream('LogsOutput.txt');
 
   for (let x = 0; x < sanitizedFiles.length; x++) {
     let readline = require(`readline`).createInterface({
@@ -93,13 +85,9 @@ function scanLines(sanitizedFiles) {
 
     readline.on(`close`, function() {
       count = JSON.stringify(count, null, 4);
-      //count = count.replace('\\', '');
-    fs.appendFile('LogsOutput.txt',`\n ==== ` + sanitizedFiles[x] + ` ==== \n` + count, (err) => {  
-      if (err) throw err;
-  });
+      writeStream.write(`\n ==== ` + sanitizedFiles[x] + ` ==== \n` + count);
     });
   }
-  
 }
 
 module.exports = scanLines;
