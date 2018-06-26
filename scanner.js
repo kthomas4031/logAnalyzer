@@ -28,6 +28,9 @@ const whitelistJSON = [
   'description',
   'serviceStatus',
   'msoLicenseStatus',
+  'taskOutput',
+  'data',
+
 ];
  // removed errorId for now, might need to add back
 
@@ -61,13 +64,10 @@ function scanLines(sanitizedFiles) {
 
     readline.on(`line`, function(line) {
       lineNumber += 1;
-
       if (line[0] === `{`) {
         let jsonObject = JSON.parse(line);
-
         if (jsonObject !== undefined) {
           removeProps(jsonObject);
-
           if (count[JSON.stringify(jsonObject)] === undefined) {
             count[JSON.stringify(jsonObject)] = 1;
           } else {
@@ -85,7 +85,12 @@ function scanLines(sanitizedFiles) {
 
     readline.on(`close`, function() {
       count = JSON.stringify(count, null, 4);
+      count = count.replace(/\\"/g, '"');
+
       writeStream.write(`\n ==== ` + sanitizedFiles[x] + ` ==== \n` + count);
+      if(x+1 < sanitizedFiles.length)
+        console.log('Starting work on file: ' + sanitizedFiles[x+1]);
+      
     });
   }
 }
