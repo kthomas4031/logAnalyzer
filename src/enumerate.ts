@@ -13,8 +13,8 @@ export function enumerateFiles() {
 			let folder = file;
 
 			// NOTE: This only goes two folder levels deep
-			fs.readdirSync(path.join(config.get("basePath"), file)).forEach(function(file) {
-				files.push(path.join(config.get("basePath"), folder, file));
+			fs.readdirSync(path.join(config.get("basePath"), file)).forEach(function(subFile) {
+				files.push(path.join(config.get("basePath"), folder, subFile));
 			});
 		}
 	});

@@ -3,7 +3,7 @@ const blacklist = [
 	"pm2.log",
 	"MsOfficeConverter.log",
 	"ms-office-conversion-service.log",
-	"mongod.log"
+	"mongod.log",
 ];
 
 export function sanitize(files) {

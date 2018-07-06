@@ -4,7 +4,7 @@
   "description": "",
   "main": "main.js",
   "scripts": {
-    "start": "ts-node app.ts",
+    "start": "node --max_old_space_size=8192 -r ts-node/register app.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
