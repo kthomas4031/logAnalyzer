@@ -28,8 +28,10 @@ export function getSchema(sanitizedFiles) {
 
 		readline.on("close", function() {
 			let outputSchema = JSON.stringify(uniqueJSONObject);
-			outputSchema = outputSchema.replace(/\\"/g, '\'');
-			schemaWriteStream.write(outputSchema + '\n');
+			if (outputSchema !== "{}") {
+				outputSchema = outputSchema.replace(/\\"/g, '\'');
+				schemaWriteStream.write(outputSchema + '\n');
+			}
 		});
 	}
 }
