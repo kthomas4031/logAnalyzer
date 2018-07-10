@@ -62,7 +62,7 @@ function updateSchema(jsonSchema, filePath) {
 
 	// Check if the schema is known
 	for (let schema in knownSchemas[fileName]) {
-		if (knownSchemas[fileName][schema] === jsonSchema) {
+		if (knownSchemas[fileName][schema].toString() === jsonSchema.toString()) {
 			isKnownSchema = true;
 		}
 	}

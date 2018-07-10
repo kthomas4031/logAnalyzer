@@ -1,635 +1,2135 @@
 {
 	"AutoRedactionService": [
 		[
+			"gid",
 			"name",
+			"time",
+			"pid",
 			"level",
+			"tid",
+			"taskid",
+			"taskBegin",
+			"taskName",
 			"parent",
+			"reqAccepted",
 			"req"
 		],
 		[
+			"gid",
 			"name",
-			"level"
+			"time",
+			"pid",
+			"level",
+			"tid",
+			"taskid",
+			"reqInput"
 		],
 		[
+			"gid",
 			"name",
+			"time",
+			"pid",
 			"level",
+			"tid",
+			"taskid",
+			"resOutput"
+		],
+		[
+			"gid",
+			"name",
+			"time",
+			"pid",
+			"level",
+			"tid",
+			"taskid",
 			"resSentPart"
+		],
+		[
+			"gid",
+			"name",
+			"time",
+			"pid",
+			"level",
+			"tid",
+			"taskid",
+			"resSent"
+		],
+		[
+			"gid",
+			"name",
+			"time",
+			"pid",
+			"level",
+			"tid",
+			"taskid",
+			"taskEnd"
 		]
 	],
 	"config-normalizer": [
 		[
 			"name",
+			"hostname",
+			"pid",
+			"taskid",
+			"gid",
 			"level",
-			"taskType"
+			"taskBegin",
+			"taskType",
+			"taskIsPermanent",
+			"msg",
+			"time",
+			"v"
 		],
 		[
 			"name",
+			"hostname",
+			"pid",
+			"taskid",
+			"gid",
 			"level",
-			"eventName"
+			"eventName",
+			"baseDirectory",
+			"outputFilePath",
+			"msg",
+			"time",
+			"v"
 		],
 		[
 			"name",
-			"level"
+			"hostname",
+			"pid",
+			"taskid",
+			"gid",
+			"level",
+			"eventName",
+			"legacyMode",
+			"msg",
+			"time",
+			"v"
+		],
+		[
+			"name",
+			"hostname",
+			"pid",
+			"taskid",
+			"gid",
+			"level",
+			"eventName",
+			"centralConfigPath",
+			"msg",
+			"time",
+			"v"
+		],
+		[
+			"name",
+			"hostname",
+			"pid",
+			"taskid",
+			"gid",
+			"level",
+			"eventName",
+			"msg",
+			"time",
+			"v"
+		],
+		[
+			"name",
+			"hostname",
+			"pid",
+			"taskid",
+			"gid",
+			"level",
+			"taskEnd",
+			"duration",
+			"msg",
+			"time",
+			"v"
 		]
 	],
 	"ContentConversionService": [
 		[
 			"name",
+			"hostname",
+			"pid",
+			"taskid",
+			"gid",
 			"level",
-			"parent",
-			"req"
+			"taskBegin",
+			"taskType",
+			"msg",
+			"time",
+			"v"
 		],
 		[
 			"name",
-			"level",
-			"httpStatusCode",
-			"httpStatusMessage"
-		],
-		[
-			"name",
-			"level",
-			"taskType"
-		],
-		[
-			"name",
+			"hostname",
+			"pid",
+			"taskid",
+			"gid",
 			"level",
 			"type",
-			"msg"
+			"cutoffDateTime",
+			"msg",
+			"time",
+			"v"
 		],
 		[
 			"name",
+			"hostname",
+			"pid",
+			"taskid",
+			"gid",
 			"level",
 			"type",
 			"err",
-			"msg"
+			"msg",
+			"time",
+			"v"
 		],
 		[
 			"name",
-			"level"
-		],
-		[
-			"name",
+			"hostname",
+			"pid",
+			"taskid",
+			"gid",
 			"level",
-			"req"
+			"taskEnd",
+			"duration",
+			"msg",
+			"time",
+			"v"
 		],
 		[
 			"name",
+			"hostname",
+			"pid",
+			"taskid",
+			"gid",
 			"level",
-			"resStatusCode"
+			"type",
+			"count",
+			"msg",
+			"time",
+			"v"
+		],
+		[
+			"name",
+			"hostname",
+			"pid",
+			"taskid",
+			"gid",
+			"level",
+			"type",
+			"msg",
+			"time",
+			"v"
+		],
+		[
+			"name",
+			"hostname",
+			"pid",
+			"taskid",
+			"gid",
+			"level",
+			"reqBegin",
+			"req",
+			"msg",
+			"time",
+			"v"
+		],
+		[
+			"name",
+			"hostname",
+			"pid",
+			"taskid",
+			"gid",
+			"level",
+			"reqEnd",
+			"resStatusCode",
+			"resOutput",
+			"msg",
+			"time",
+			"v"
+		],
+		[
+			"name",
+			"hostname",
+			"pid",
+			"taskid",
+			"gid",
+			"level",
+			"taskBegin",
+			"parent",
+			"reqAccepted",
+			"req",
+			"msg",
+			"time",
+			"v"
+		],
+		[
+			"name",
+			"hostname",
+			"pid",
+			"taskid",
+			"gid",
+			"level",
+			"taskEnd",
+			"duration",
+			"resSent",
+			"httpStatusCode",
+			"httpStatusMessage",
+			"msg",
+			"time",
+			"v"
 		]
 	],
 	"document-conversion-service": [
 		[
 			"name",
+			"hostname",
+			"pid",
+			"taskid",
+			"gid",
 			"level",
-			"eventName"
+			"eventName",
+			"expirationTime",
+			"activeContexts",
+			"expiredContexts",
+			"msg",
+			"time",
+			"v"
 		]
 	],
 	"EmailConversionService": [
 		[
 			"name",
+			"hostname",
+			"pid",
+			"taskid",
+			"gid",
 			"level",
+			"taskBegin",
 			"parent",
-			"req"
+			"reqAccepted",
+			"req",
+			"msg",
+			"time",
+			"v"
 		],
 		[
 			"name",
-			"level"
-		],
-		[
-			"name",
+			"hostname",
+			"pid",
+			"taskid",
+			"gid",
 			"level",
+			"reqInput",
+			"msg",
+			"time",
+			"v"
+		],
+		[
+			"name",
+			"hostname",
+			"pid",
+			"taskid",
+			"gid",
+			"level",
+			"resOutput",
+			"msg",
+			"time",
+			"v"
+		],
+		[
+			"name",
+			"hostname",
+			"pid",
+			"taskid",
+			"gid",
+			"level",
+			"taskEnd",
+			"duration",
+			"resSent",
 			"httpStatusCode",
-			"httpStatusMessage"
+			"httpStatusMessage",
+			"msg",
+			"time",
+			"v"
 		]
 	],
 	"EmailProcessingService": [
 		[
 			"level",
-			"message"
+			"time",
+			"message",
+			"version",
+			"tid",
+			"taskid"
+		],
+		[
+			"jvm",
+			"os",
+			"level",
+			"parsed config",
+			"message",
+			"version",
+			"tid",
+			"number of cores",
+			"config path",
+			"memory, MB",
+			"time",
+			"taskid"
 		],
 		[
 			"level",
+			"reqAccepted",
+			"time",
+			"tid",
+			"taskid",
 			"req"
 		],
 		[
 			"parent",
+			"gid",
 			"level",
-			"name"
-		],
-		[
-			"level"
+			"name",
+			"reqInput",
+			"time",
+			"tid",
+			"taskid"
 		],
 		[
 			"parent",
+			"gid",
 			"level",
 			"name",
-			"message",
-			"error"
+			"time",
+			"taskBegin",
+			"tid",
+			"taskid"
 		],
 		[
 			"parent",
+			"resSent",
+			"gid",
 			"level",
 			"name",
-			"error"
+			"time",
+			"tid",
+			"taskid"
+		],
+		[
+			"parent",
+			"gid",
+			"level",
+			"name",
+			"taskEnd",
+			"time",
+			"tid",
+			"taskid"
 		]
 	],
 	"ErrorReportingService": [
 		[
 			"name",
+			"hostname",
+			"pid",
+			"taskid",
+			"gid",
 			"level",
+			"taskBegin",
 			"parent",
-			"req"
+			"reqAccepted",
+			"req",
+			"msg",
+			"time",
+			"v"
 		],
 		[
 			"name",
-			"level"
+			"hostname",
+			"pid",
+			"taskid",
+			"gid",
+			"level",
+			"taskEnd",
+			"duration",
+			"resSent",
+			"msg",
+			"time",
+			"v"
 		]
 	],
 	"form-extraction-service": [
 		[
 			"name",
+			"hostname",
+			"pid",
+			"taskid",
+			"gid",
 			"level",
-			"req"
+			"reqEnd",
+			"resStatusCode",
+			"resOutput",
+			"msg",
+			"time",
+			"v"
 		],
 		[
 			"name",
+			"hostname",
+			"pid",
+			"taskid",
+			"gid",
 			"level",
-			"resStatusCode"
+			"reqBegin",
+			"req",
+			"msg",
+			"time",
+			"v"
 		]
 	],
 	"FormatDetectionService": [
 		[
+			"gid",
 			"name",
+			"time",
+			"pid",
 			"level",
+			"tid",
+			"taskid",
+			"taskBegin",
+			"taskName",
 			"parent",
+			"reqAccepted",
 			"req"
 		],
 		[
+			"gid",
 			"name",
-			"level"
+			"time",
+			"pid",
+			"level",
+			"tid",
+			"taskid",
+			"reqInput"
+		],
+		[
+			"gid",
+			"name",
+			"time",
+			"pid",
+			"level",
+			"tid",
+			"taskid",
+			"resOutput"
+		],
+		[
+			"gid",
+			"name",
+			"time",
+			"pid",
+			"level",
+			"tid",
+			"taskid",
+			"resSentPart"
+		],
+		[
+			"gid",
+			"name",
+			"time",
+			"pid",
+			"level",
+			"tid",
+			"taskid",
+			"resSent"
+		],
+		[
+			"gid",
+			"name",
+			"time",
+			"pid",
+			"level",
+			"tid",
+			"taskid",
+			"taskEnd"
+		]
+	],
+	"health-service": [
+		[
+			"name",
+			"hostname",
+			"pid",
+			"taskid",
+			"gid",
+			"level",
+			"eventName",
+			"serviceReports",
+			"msg",
+			"time",
+			"v"
 		],
 		[
 			"name",
+			"hostname",
+			"pid",
+			"taskid",
+			"gid",
 			"level",
-			"resSentPart"
+			"eventName",
+			"serviceName",
+			"msg",
+			"time",
+			"v"
 		]
 	],
 	"HTMLConversionService": [
 		[
+			"gid",
 			"name",
+			"time",
+			"pid",
 			"level",
+			"tid",
+			"taskid",
+			"taskBegin",
+			"taskName",
 			"parent",
+			"reqAccepted",
 			"req"
 		],
 		[
+			"gid",
 			"name",
-			"level"
+			"time",
+			"pid",
+			"level",
+			"tid",
+			"taskid",
+			"reqInput"
 		],
 		[
+			"gid",
 			"name",
+			"time",
+			"pid",
 			"level",
+			"tid",
+			"taskid",
+			"resOutput"
+		],
+		[
+			"gid",
+			"name",
+			"time",
+			"pid",
+			"level",
+			"tid",
+			"taskid",
 			"resSentPart"
+		],
+		[
+			"gid",
+			"name",
+			"time",
+			"pid",
+			"level",
+			"tid",
+			"taskid",
+			"resSent"
+		],
+		[
+			"gid",
+			"name",
+			"time",
+			"pid",
+			"level",
+			"tid",
+			"taskid",
+			"taskEnd"
 		]
 	],
 	"licensing-service": [
 		[
 			"name",
+			"hostname",
+			"pid",
+			"taskid",
+			"gid",
 			"level",
+			"taskBegin",
 			"parent",
-			"req"
+			"reqAccepted",
+			"req",
+			"msg",
+			"time",
+			"v"
 		],
 		[
 			"name",
+			"hostname",
+			"pid",
+			"taskid",
+			"gid",
 			"level",
+			"taskEnd",
+			"duration",
+			"resSent",
 			"httpStatusCode",
-			"httpStatusMessage"
+			"httpStatusMessage",
+			"msg",
+			"time",
+			"v"
 		]
 	],
 	"OfficeConversionService": [
 		[
+			"gid",
 			"name",
+			"time",
+			"pid",
 			"level",
+			"tid",
+			"taskid",
+			"taskBegin",
+			"taskName",
 			"parent",
+			"reqAccepted",
 			"req"
 		],
 		[
+			"gid",
 			"name",
+			"time",
+			"pid",
 			"level",
+			"tid",
+			"taskid",
 			"resSentPart"
 		],
 		[
+			"gid",
 			"name",
-			"level"
+			"time",
+			"pid",
+			"level",
+			"tid",
+			"taskid",
+			"resSent"
 		],
 		[
+			"gid",
 			"name",
+			"time",
+			"pid",
 			"level",
+			"tid",
+			"taskid",
+			"taskEnd"
+		],
+		[
+			"gid",
+			"name",
+			"time",
+			"pid",
+			"level",
+			"tid",
+			"taskid",
 			"taskInput"
 		],
 		[
+			"gid",
 			"name",
+			"time",
+			"pid",
 			"level",
+			"tid",
+			"taskid",
 			"taskOutput"
 		],
 		[
+			"gid",
 			"name",
+			"time",
+			"pid",
 			"level",
+			"tid",
+			"taskid",
+			"taskBegin",
+			"taskName",
 			"parent"
 		],
 		[
+			"gid",
 			"name",
+			"time",
+			"pid",
 			"level",
+			"tid",
+			"taskid",
+			"reqBegin",
 			"req"
 		],
 		[
+			"gid",
 			"name",
+			"time",
+			"pid",
 			"level",
+			"tid",
+			"taskid",
+			"reqEnd",
 			"resStatusCode"
 		],
 		[
+			"gid",
 			"name",
+			"time",
+			"pid",
 			"level",
-			"msoLicenseStatus"
+			"tid",
+			"taskid",
+			"healthStatusSuccessful"
+		],
+		[
+			"gid",
+			"name",
+			"time",
+			"pid",
+			"level",
+			"tid",
+			"taskid",
+			"msoLicenseStatus",
+			"cause"
 		]
 	],
 	"PccErrors": [
 		[
+			"gid",
+			"time",
+			"resourceType",
+			"resourceId",
+			"relevance",
 			"errorCode",
-			"service"
+			"service",
+			"errorId"
 		],
 		[
+			"gid",
+			"time",
+			"resourceType",
+			"resourceId",
 			"relation",
-			"service"
+			"relationResourceId",
+			"service",
+			"relationId"
 		]
 	],
 	"ImagingServices": [
 		[
+			"time",
+			"gid",
 			"name",
 			"level",
+			"taskid",
+			"pid",
+			"tid",
 			"msg",
+			"taskBegin",
 			"parent",
+			"reqAccepted",
 			"req"
 		],
 		[
+			"time",
+			"gid",
 			"name",
 			"level",
+			"taskid",
+			"pid",
+			"tid",
 			"msg"
 		],
 		[
-			"name",
-			"level"
-		],
-		[
+			"time",
+			"gid",
 			"name",
 			"level",
+			"taskid",
+			"pid",
+			"tid",
 			"msg",
+			"taskBegin"
+		],
+		[
+			"time",
+			"gid",
+			"name",
+			"level",
+			"taskid",
+			"pid",
+			"tid",
+			"taskEnd",
+			"duration"
+		],
+		[
+			"time",
+			"gid",
+			"name",
+			"level",
+			"taskid",
+			"pid",
+			"tid",
+			"msg",
+			"taskBegin",
 			"parent"
+		],
+		[
+			"time",
+			"gid",
+			"name",
+			"level",
+			"taskid",
+			"pid",
+			"tid",
+			"reqEnd",
+			"resOutput"
+		],
+		[
+			"time",
+			"gid",
+			"name",
+			"level",
+			"taskid",
+			"pid",
+			"tid",
+			"msg",
+			"exception"
 		]
 	],
 	"PDFConversionService": [
 		[
+			"gid",
 			"name",
+			"time",
+			"pid",
 			"level",
+			"tid",
+			"taskid",
+			"taskBegin",
+			"taskName",
 			"parent",
+			"reqAccepted",
 			"req"
 		],
 		[
+			"gid",
 			"name",
+			"time",
+			"pid",
 			"level",
+			"tid",
+			"taskid",
 			"taskInput"
 		],
 		[
+			"gid",
 			"name",
+			"time",
+			"pid",
 			"level",
+			"tid",
+			"taskid",
 			"taskOutput"
 		],
 		[
+			"gid",
 			"name",
+			"time",
+			"pid",
 			"level",
+			"tid",
+			"taskid",
 			"resSentPart"
 		],
 		[
+			"gid",
 			"name",
-			"level"
+			"time",
+			"pid",
+			"level",
+			"tid",
+			"taskid",
+			"resSent"
+		],
+		[
+			"gid",
+			"name",
+			"time",
+			"pid",
+			"level",
+			"tid",
+			"taskid",
+			"taskEnd"
 		]
 	],
 	"PDFProcessingService": [
 		[
 			"level",
-			"message"
-		],
-		[
-			"level",
+			"reqAccepted",
+			"time",
+			"tid",
+			"taskid",
 			"req"
 		],
 		[
 			"parent",
+			"gid",
 			"level",
-			"name"
+			"name",
+			"reqInput",
+			"time",
+			"tid",
+			"taskid"
 		],
 		[
 			"parent",
+			"gid",
 			"level",
 			"name",
-			"message"
+			"time",
+			"taskBegin",
+			"tid",
+			"taskid"
 		],
 		[
-			"level"
+			"parent",
+			"resSent",
+			"gid",
+			"level",
+			"name",
+			"time",
+			"tid",
+			"taskid"
+		],
+		[
+			"parent",
+			"gid",
+			"level",
+			"name",
+			"taskEnd",
+			"time",
+			"tid",
+			"taskid"
+		],
+		[
+			"level",
+			"time",
+			"message",
+			"version",
+			"tid",
+			"taskid"
+		],
+		[
+			"jvm",
+			"os",
+			"level",
+			"parsed config",
+			"message",
+			"version",
+			"tid",
+			"number of cores",
+			"config path",
+			"memory, MB",
+			"time",
+			"taskid"
+		],
+		[
+			"parent",
+			"gid",
+			"level",
+			"interval, ms",
+			"name",
+			"source",
+			"time",
+			"message",
+			"tid",
+			"taskid"
+		],
+		[
+			"parent",
+			"gid",
+			"level",
+			"name",
+			"source",
+			"page",
+			"time",
+			"message",
+			"tid",
+			"taskid"
+		],
+		[
+			"parent",
+			"gid",
+			"level",
+			"name",
+			"time",
+			"message",
+			"tid",
+			"taskid"
+		],
+		[
+			"inverval, ms",
+			"parent",
+			"gid",
+			"level",
+			"name",
+			"source",
+			"page",
+			"time",
+			"message",
+			"tid",
+			"taskid"
+		],
+		[
+			"resSent",
+			"level",
+			"time",
+			"tid",
+			"taskid"
+		],
+		[
+			"level",
+			"taskEnd",
+			"time",
+			"tid",
+			"taskid"
 		]
 	],
 	"plb": [
 		[
 			"name",
+			"hostname",
+			"pid",
+			"taskid",
+			"gid",
 			"level",
-			"req"
+			"taskBegin",
+			"parent",
+			"reqAccepted",
+			"req",
+			"msg",
+			"time",
+			"v"
 		],
 		[
 			"name",
+			"hostname",
+			"pid",
+			"taskid",
+			"gid",
 			"level",
-			"httpStatusCode"
+			"instances",
+			"msg",
+			"time",
+			"v"
 		],
 		[
 			"name",
+			"hostname",
+			"pid",
+			"taskid",
+			"gid",
 			"level",
-			"resStatusCode"
+			"reqEnd",
+			"resStatusCode",
+			"resOutput",
+			"msg",
+			"time",
+			"v"
 		],
 		[
 			"name",
+			"hostname",
+			"pid",
+			"taskid",
+			"gid",
 			"level",
-			"msg"
+			"msg",
+			"time",
+			"v"
+		],
+		[
+			"name",
+			"hostname",
+			"pid",
+			"taskid",
+			"gid",
+			"level",
+			"serverConfigurations",
+			"msg",
+			"time",
+			"v"
+		],
+		[
+			"name",
+			"hostname",
+			"pid",
+			"taskid",
+			"gid",
+			"level",
+			"taskEnd",
+			"duration",
+			"resSent",
+			"httpStatusCode",
+			"msg",
+			"time",
+			"v"
+		],
+		[
+			"name",
+			"hostname",
+			"pid",
+			"taskid",
+			"gid",
+			"level",
+			"reqBegin",
+			"req",
+			"msg",
+			"time",
+			"v"
+		],
+		[
+			"name",
+			"hostname",
+			"pid",
+			"taskid",
+			"gid",
+			"level",
+			"taskBegin",
+			"reqAccepted",
+			"req",
+			"msg",
+			"time",
+			"v"
 		]
 	],
 	"process-state-service": [
 		[
 			"name",
+			"hostname",
+			"pid",
+			"taskid",
+			"gid",
 			"level",
-			"taskType"
+			"taskBegin",
+			"taskType",
+			"msg",
+			"time",
+			"v"
 		],
 		[
 			"name",
+			"hostname",
+			"pid",
+			"taskid",
+			"gid",
 			"level",
 			"type",
-			"msg"
+			"cutoffDateTime",
+			"msg",
+			"time",
+			"v"
 		],
 		[
 			"name",
-			"level"
+			"hostname",
+			"pid",
+			"taskid",
+			"gid",
+			"level",
+			"taskEnd",
+			"duration",
+			"msg",
+			"time",
+			"v"
 		]
 	],
 	"product-runner": [
 		[
 			"name",
+			"hostname",
+			"pid",
+			"taskid",
+			"gid",
 			"level",
+			"taskBegin",
 			"taskType",
-			"command"
+			"command",
+			"msg",
+			"time",
+			"v"
 		],
 		[
 			"name",
-			"level",
-			"eventName"
-		],
-		[
-			"name",
-			"level",
-			"pm2Command"
-		],
-		[
-			"name",
+			"hostname",
+			"pid",
+			"taskid",
+			"gid",
 			"level",
 			"eventName",
-			"err"
+			"configs",
+			"msg",
+			"time",
+			"v"
 		],
 		[
 			"name",
+			"hostname",
+			"pid",
+			"taskid",
+			"gid",
 			"level",
-			"msg"
+			"eventName",
+			"managedProcesses",
+			"msg",
+			"time",
+			"v"
 		],
 		[
 			"name",
+			"hostname",
+			"pid",
+			"taskid",
+			"gid",
 			"level",
-			"error"
+			"pm2Command",
+			"pm2Options",
+			"execArgs",
+			"workingDir",
+			"env",
+			"msg",
+			"time",
+			"v"
 		],
 		[
 			"name",
+			"hostname",
+			"pid",
+			"taskid",
+			"gid",
+			"level",
+			"eventName",
+			"err",
+			"msg",
+			"time",
+			"v"
+		],
+		[
+			"name",
+			"hostname",
+			"pid",
+			"taskid",
+			"gid",
+			"level",
+			"eventName",
+			"ownProcesses",
+			"runningProcesses",
+			"msg",
+			"time",
+			"v"
+		],
+		[
+			"name",
+			"hostname",
+			"pid",
+			"taskid",
+			"gid",
+			"level",
+			"msg",
+			"time",
+			"v"
+		],
+		[
+			"name",
+			"hostname",
+			"pid",
+			"taskid",
+			"gid",
+			"level",
+			"couldNotReachServiceRegistry",
+			"error",
+			"msg",
+			"time",
+			"v"
+		],
+		[
+			"name",
+			"hostname",
+			"pid",
+			"taskid",
+			"gid",
 			"level",
 			"message",
-			"pm2Command"
+			"pm2Command",
+			"pm2Options",
+			"execArgs",
+			"workingDir",
+			"env",
+			"execOutput",
+			"msg",
+			"time",
+			"v"
 		],
 		[
 			"name",
-			"level"
+			"hostname",
+			"pid",
+			"taskid",
+			"gid",
+			"level",
+			"pm2Command",
+			"pm2Options",
+			"execArgs",
+			"workingDir",
+			"msg",
+			"time",
+			"v"
+		],
+		[
+			"name",
+			"hostname",
+			"pid",
+			"taskid",
+			"gid",
+			"level",
+			"taskEnd",
+			"duration",
+			"msg",
+			"time",
+			"v"
 		]
 	],
 	"RasterConversionService": [
 		[
+			"gid",
 			"name",
+			"time",
+			"pid",
 			"level",
+			"tid",
+			"taskid",
+			"taskBegin",
+			"taskName",
 			"parent",
+			"reqAccepted",
 			"req"
 		],
 		[
+			"gid",
 			"name",
-			"level"
+			"time",
+			"pid",
+			"level",
+			"tid",
+			"taskid",
+			"reqInput"
 		],
 		[
+			"gid",
 			"name",
+			"time",
+			"pid",
 			"level",
+			"tid",
+			"taskid",
+			"resOutput"
+		],
+		[
+			"gid",
+			"name",
+			"time",
+			"pid",
+			"level",
+			"tid",
+			"taskid",
 			"resSentPart"
+		],
+		[
+			"gid",
+			"name",
+			"time",
+			"pid",
+			"level",
+			"tid",
+			"taskid",
+			"resSent"
+		],
+		[
+			"gid",
+			"name",
+			"time",
+			"pid",
+			"level",
+			"tid",
+			"taskid",
+			"taskEnd"
 		]
 	],
 	"RedactionService": [
 		[
 			"name",
-			"level",
-			"taskType"
-		],
-		[
-			"name",
+			"hostname",
+			"pid",
+			"taskid",
+			"gid",
 			"level",
 			"type",
-			"msg"
+			"health",
+			"err",
+			"msg",
+			"time",
+			"v"
 		],
 		[
 			"name",
-			"level"
-		],
-		[
-			"name",
+			"hostname",
+			"pid",
+			"taskid",
+			"gid",
 			"level",
+			"type",
+			"areHealthy",
+			"msg",
+			"time",
+			"v"
+		],
+		[
+			"name",
+			"hostname",
+			"pid",
+			"taskid",
+			"gid",
+			"level",
+			"taskEnd",
+			"duration",
+			"msg",
+			"time",
+			"v"
+		],
+		[
+			"name",
+			"hostname",
+			"pid",
+			"taskid",
+			"gid",
+			"level",
+			"reqEnd",
+			"error",
+			"msg",
+			"time",
+			"v"
+		],
+		[
+			"name",
+			"hostname",
+			"pid",
+			"taskid",
+			"gid",
+			"level",
+			"type",
+			"err",
+			"msg",
+			"time",
+			"v"
+		],
+		[
+			"name",
+			"hostname",
+			"pid",
+			"taskid",
+			"gid",
+			"level",
+			"type",
+			"health",
+			"error",
+			"msg",
+			"time",
+			"v"
+		],
+		[
+			"name",
+			"hostname",
+			"pid",
+			"taskid",
+			"gid",
+			"level",
+			"type",
+			"totalMarkupBurners",
+			"msg",
+			"time",
+			"v"
+		],
+		[
+			"name",
+			"hostname",
+			"pid",
+			"taskid",
+			"gid",
+			"level",
+			"type",
+			"cutoffDateTime",
+			"msg",
+			"time",
+			"v"
+		],
+		[
+			"name",
+			"hostname",
+			"pid",
+			"taskid",
+			"gid",
+			"level",
+			"type",
+			"count",
+			"msg",
+			"time",
+			"v"
+		],
+		[
+			"name",
+			"hostname",
+			"pid",
+			"taskid",
+			"gid",
+			"level",
+			"taskBegin",
 			"parent",
-			"req"
+			"reqAccepted",
+			"req",
+			"msg",
+			"time",
+			"v"
 		],
 		[
 			"name",
+			"hostname",
+			"pid",
+			"taskid",
+			"gid",
 			"level",
+			"taskEnd",
+			"duration",
+			"resSent",
 			"httpStatusCode",
-			"httpStatusMessage"
+			"httpStatusMessage",
+			"msg",
+			"time",
+			"v"
 		],
 		[
 			"name",
+			"hostname",
+			"pid",
+			"taskid",
+			"gid",
 			"level",
-			"msg"
+			"taskBegin",
+			"taskType",
+			"msg",
+			"time",
+			"v"
 		],
 		[
 			"name",
+			"hostname",
+			"pid",
+			"taskid",
+			"gid",
+			"level",
+			"msg",
+			"time",
+			"v"
+		],
+		[
+			"name",
+			"hostname",
+			"pid",
+			"taskid",
+			"gid",
 			"level",
 			"type",
 			"service",
-			"msg"
+			"msg",
+			"time",
+			"v"
 		],
 		[
 			"name",
+			"hostname",
+			"pid",
+			"taskid",
+			"gid",
 			"level",
-			"req"
+			"type",
+			"msg",
+			"time",
+			"v"
 		],
 		[
 			"name",
+			"hostname",
+			"pid",
+			"taskid",
+			"gid",
 			"level",
-			"resStatusCode"
+			"reqBegin",
+			"req",
+			"msg",
+			"time",
+			"v"
+		],
+		[
+			"name",
+			"hostname",
+			"pid",
+			"taskid",
+			"gid",
+			"level",
+			"type",
+			"health",
+			"msg",
+			"time",
+			"v"
+		],
+		[
+			"name",
+			"hostname",
+			"pid",
+			"taskid",
+			"gid",
+			"level",
+			"reqEnd",
+			"resStatusCode",
+			"resOutput",
+			"msg",
+			"time",
+			"v"
+		],
+		[
+			"name",
+			"hostname",
+			"pid",
+			"taskid",
+			"gid",
+			"level",
+			"type",
+			"health",
+			"output",
+			"msg",
+			"time",
+			"v"
+		],
+		[
+			"name",
+			"hostname",
+			"pid",
+			"taskid",
+			"gid",
+			"level",
+			"logging",
+			"httpService",
+			"cache",
+			"childServices",
+			"featureFlags",
+			"msg",
+			"time",
+			"v"
 		]
 	],
 	"text-service": [
 		[
 			"name",
+			"hostname",
+			"pid",
+			"taskid",
+			"gid",
 			"level",
-			"parent"
+			"taskBegin",
+			"parent",
+			"msg",
+			"time",
+			"v"
 		],
 		[
 			"name",
+			"hostname",
+			"pid",
+			"taskid",
+			"gid",
 			"level",
-			"msg"
+			"msg",
+			"time",
+			"v"
 		],
 		[
 			"name",
-			"level"
+			"hostname",
+			"pid",
+			"taskid",
+			"gid",
+			"level",
+			"taskEnd",
+			"duration",
+			"msg",
+			"time",
+			"v"
 		]
 	],
 	"VectorConversionService": [
 		[
+			"gid",
 			"name",
+			"time",
+			"pid",
 			"level",
+			"tid",
+			"taskid",
+			"taskBegin",
+			"taskName",
 			"parent",
+			"reqAccepted",
 			"req"
 		],
 		[
+			"gid",
 			"name",
-			"level"
+			"time",
+			"pid",
+			"level",
+			"tid",
+			"taskid",
+			"reqInput"
 		],
 		[
+			"gid",
 			"name",
+			"time",
+			"pid",
 			"level",
+			"tid",
+			"taskid",
+			"resOutput"
+		],
+		[
+			"gid",
+			"name",
+			"time",
+			"pid",
+			"level",
+			"tid",
+			"taskid",
 			"resSentPart"
+		],
+		[
+			"gid",
+			"name",
+			"time",
+			"pid",
+			"level",
+			"tid",
+			"taskid",
+			"resSent"
+		],
+		[
+			"gid",
+			"name",
+			"time",
+			"pid",
+			"level",
+			"tid",
+			"taskid",
+			"taskEnd"
 		]
 	],
 	"watchdog": [
 		[
 			"name",
+			"hostname",
+			"pid",
+			"taskid",
+			"gid",
 			"level",
-			"taskType"
+			"taskBegin",
+			"taskType",
+			"msg",
+			"time",
+			"v"
 		],
 		[
 			"name",
+			"hostname",
+			"pid",
+			"taskid",
+			"gid",
 			"level",
 			"command",
-			"msg"
+			"args",
+			"msg",
+			"time",
+			"v"
 		],
 		[
 			"name",
+			"hostname",
+			"pid",
+			"taskid",
+			"gid",
 			"level",
-			"req"
+			"reqBegin",
+			"req",
+			"msg",
+			"time",
+			"v"
 		],
 		[
 			"name",
-			"level"
-		],
-		[
-			"name",
+			"hostname",
+			"pid",
+			"taskid",
+			"gid",
 			"level",
-			"err",
-			"msg"
+			"taskEnd",
+			"duration",
+			"msg",
+			"time",
+			"v"
 		],
 		[
 			"name",
+			"hostname",
+			"pid",
+			"taskid",
+			"gid",
 			"level",
-			"msg"
+			"reqEnd",
+			"response",
+			"msg",
+			"time",
+			"v"
 		],
 		[
 			"name",
+			"hostname",
+			"pid",
+			"taskid",
+			"gid",
 			"level",
-			"serviceStatus",
-			"msg"
+			"reqEnd",
+			"resStatusCode",
+			"msg",
+			"time",
+			"v"
 		],
 		[
 			"name",
-			"level",
-			"taskType",
-			"type"
-		],
-		[
-			"name",
-			"level",
-			"parent",
-			"taskType",
-			"instanceName"
-		],
-		[
-			"name",
-			"level",
-			"parent",
-			"taskType",
-			"type"
-		],
-		[
-			"name",
-			"level",
-			"resStatusCode"
-		],
-		[
-			"name",
+			"hostname",
+			"pid",
+			"taskid",
+			"gid",
 			"level",
 			"instanceName",
+			"healthPercentDelta",
+			"healthPercent",
 			"reason",
-			"msg"
+			"msg",
+			"time",
+			"v"
 		],
 		[
 			"name",
+			"hostname",
+			"pid",
+			"taskid",
+			"gid",
 			"level",
-			"processName",
-			"msg"
+			"serviceStatus",
+			"licenseStatus",
+			"instances",
+			"msg",
+			"time",
+			"v"
+		],
+		[
+			"name",
+			"hostname",
+			"pid",
+			"taskid",
+			"gid",
+			"level",
+			"taskBegin",
+			"parent",
+			"taskType",
+			"instanceName",
+			"msg",
+			"time",
+			"v"
+		],
+		[
+			"name",
+			"hostname",
+			"pid",
+			"taskid",
+			"gid",
+			"level",
+			"serviceStatus",
+			"instances",
+			"msg",
+			"time",
+			"v"
+		],
+		[
+			"name",
+			"hostname",
+			"pid",
+			"taskid",
+			"gid",
+			"level",
+			"taskBegin",
+			"taskType",
+			"type",
+			"msg",
+			"time",
+			"v"
+		],
+		[
+			"name",
+			"hostname",
+			"pid",
+			"taskid",
+			"gid",
+			"level",
+			"taskBegin",
+			"parent",
+			"taskType",
+			"type",
+			"msg",
+			"time",
+			"v"
+		],
+		[
+			"name",
+			"hostname",
+			"pid",
+			"taskid",
+			"gid",
+			"level",
+			"reqEnd",
+			"err",
+			"msg",
+			"time",
+			"v"
 		]
 	],
 	"WorkfileService": [
 		[
 			"name",
+			"hostname",
+			"pid",
+			"taskid",
+			"gid",
 			"level",
-			"taskType"
-		],
-		[
-			"name",
-			"level",
-			"msg"
-		],
-		[
-			"name",
-			"level"
-		],
-		[
-			"name",
-			"level",
+			"taskBegin",
 			"parent",
-			"req"
+			"reqAccepted",
+			"req",
+			"msg",
+			"time",
+			"v"
 		],
 		[
 			"name",
+			"hostname",
+			"pid",
+			"taskid",
+			"gid",
 			"level",
-			"httpStatusCode"
+			"taskEnd",
+			"duration",
+			"resSent",
+			"httpStatusCode",
+			"msg",
+			"time",
+			"v"
 		],
 		[
 			"name",
+			"hostname",
+			"pid",
+			"taskid",
+			"gid",
+			"level",
+			"taskBegin",
+			"taskType",
+			"msg",
+			"time",
+			"v"
+		],
+		[
+			"name",
+			"hostname",
+			"pid",
+			"taskid",
+			"gid",
 			"level",
 			"type",
-			"msg"
+			"cutoffDateTime",
+			"msg",
+			"time",
+			"v"
+		],
+		[
+			"name",
+			"hostname",
+			"pid",
+			"taskid",
+			"gid",
+			"level",
+			"type",
+			"totalWorkfiles",
+			"msg",
+			"time",
+			"v"
+		],
+		[
+			"name",
+			"hostname",
+			"pid",
+			"taskid",
+			"gid",
+			"level",
+			"taskEnd",
+			"duration",
+			"msg",
+			"time",
+			"v"
+		],
+		[
+			"name",
+			"hostname",
+			"pid",
+			"taskid",
+			"gid",
+			"level",
+			"logging",
+			"httpService",
+			"formatDetection",
+			"workfileCache",
+			"childServices",
+			"workfileExternalStore",
+			"msg",
+			"time",
+			"v"
 		]
 	]
 }
