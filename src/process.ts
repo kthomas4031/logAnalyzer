@@ -113,11 +113,11 @@ export function process(sanitizedFileList, schema) {
 		readline.on("close", function() {
 			let outputJSON = JSON.stringify(count, undefined, 4);
 
-			outputJSON = outputJSON.replace(/\\"/g, '"');
+			outputJSON = outputJSON.replace(/\\"/g, "\"");
 
-			writeStream.write("\n===> " + sanitizedFileList[x] + " <===\n" + outputJSON);
+			writeStream.write("==> " + sanitizedFileList[x] + " <==" + "\n" + outputJSON + "\n");
 
-			console.log("Starting work on file: " + sanitizedFileList[x + 1]);
+			console.log("Starting work on file: " + sanitizedFileList[x]);
 		});
 	}
 }
