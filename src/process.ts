@@ -68,6 +68,13 @@ export function process(sanitizedFileList, schema) {
 
 		let count = {};
 
+		// <schemaUpdater>
+		// Check if schema contains file[x]
+		if (schema[sanitizedFileList[x]] === undefined) {
+			schema[sanitizedFileList[x]] = [];
+		}
+		// </schemaUpdater>
+
 		readline.on("line", function(line) {
 			lineNumber += 1;
 
@@ -76,6 +83,21 @@ export function process(sanitizedFileList, schema) {
 
 				if (jsonObject !== undefined) {
 					removeNonWhitelistedProperties(jsonObject);
+
+					// <schemaUpdater>
+					let isNewScheme = true;
+
+					// Check if schema contains jsonObject
+					for (let y = 0; y < schema[sanitizedFileList[x]].length; y++) {
+						if (schema[sanitizedFileList[x]] === schema[sanitizedFileList[x]][y]) {
+							isNewScheme = false;
+						}
+					}
+
+					if (isNewScheme) {
+						schema[sanitizedFileList[x]].push(Object.keys(jsonObject));
+					}
+					// </schemaUpdater>
 
 					if (count[JSON.stringify(jsonObject)] === undefined) {
 						count[JSON.stringify(jsonObject)] = 1;

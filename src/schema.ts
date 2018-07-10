@@ -20,4 +20,12 @@ export async function readSchema() {
 
 export function writeSchema(schema) {
 	console.log("Updated Schema: " + JSON.stringify(schema));
+
+	let writeStream = fs.createWriteStream("LogFileSchema.json");
+
+	writeStream.write(JSON.stringify(schema));
+
+	writeStream.on("finish", function() {
+		console.log("Done!");
+	});
 }

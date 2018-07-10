@@ -1,7 +1,7 @@
 
-===> \Prizm\logs\mongo-manager-service.log.1 <===
-{}
 ===> \Prizm\logs\mongo-manager-service.log.2 <===
+{}
+===> \Prizm\logs\mongo-manager-service.log.1 <===
 {}
 ===> \Prizm\logs\mongo-manager-service.log.3 <===
 {}
@@ -9,15 +9,15 @@
 {}
 ===> \Prizm\logs\pas\pas-0.log.2 <===
 {}
-===> \Prizm\logs\pas\pas-0.log.3 <===
-{}
 ===> \Prizm\logs\pas\pas-0.log.4 <===
+{}
+===> \Prizm\logs\pas\pas-0.log.3 <===
 {}
 ===> \Prizm\logs\pas\pas-0.log.5 <===
 {}
-===> \Prizm\logs\pas\pas-1.log.2 <===
-{}
 ===> \Prizm\logs\pas\pas-1.log.3 <===
+{}
+===> \Prizm\logs\pas\pas-1.log.2 <===
 {}
 ===> \Prizm\logs\pas\pas-1.log.4 <===
 {}
@@ -35,17 +35,17 @@
 {}
 ===> \Prizm\logs\pas\pas-3.log.3 <===
 {}
-===> \Prizm\logs\pas\pas-3.log.4 <===
-{}
 ===> \Prizm\logs\pas\pas-3.log.5 <===
 {}
+===> \Prizm\logs\pas\pas-3.log.4 <===
+{}
 ===> \Prizm\logs\pas\pas-4.log.2 <===
+{}
+===> \Prizm\logs\pas\pas-4.log.4 <===
 {}
 ===> \Prizm\logs\pas\pas-4.log.3 <===
 {}
 ===> \Prizm\logs\pas\pas-4.log.5 <===
-{}
-===> \Prizm\logs\pas\pas-4.log.4 <===
 {}
 ===> \Prizm\logs\pas\pas-5.log.2 <===
 {}
@@ -59,9 +59,9 @@
 {}
 ===> \Prizm\logs\pas\pas-6.log.3 <===
 {}
-===> \Prizm\logs\pas\pas-6.log.4 <===
-{}
 ===> \Prizm\logs\pas\pas-6.log.5 <===
+{}
+===> \Prizm\logs\pas\pas-6.log.4 <===
 {}
 ===> \Prizm\logs\pas\pas-7.log.3 <===
 {}
@@ -69,13 +69,13 @@
 {}
 ===> \Prizm\logs\pas\pas-7.log.5 <===
 {}
-===> \Prizm\logs\public-request-service.log.2 <===
-{}
 ===> \Prizm\logs\public-request-service.log.1 <===
 {}
-===> \Prizm\logs\public-request-service.log.4 <===
+===> \Prizm\logs\public-request-service.log.2 <===
 {}
 ===> \Prizm\logs\public-request-service.log.3 <===
+{}
+===> \Prizm\logs\public-request-service.log.4 <===
 {}
 ===> \Prizm\logs\raster-form-extraction-service.log.0 <===
 {}
@@ -218,15 +218,6 @@
     "{"name":"PAS","level":30,"taskType":{"taskType":"ApplicationStart"}}": 8,
     "{"name":"PAS","level":30,"msg":"HTTP service listening on port 3000"}": 8
 }
-===> \Prizm\logs\pas\pas-2.log.6 <===
-{
-    "{"name":"PAS","level":30,"taskType":"Config:validateStorageProviders"}": 24,
-    "{"name":"PAS","level":30,"msg":"Successfully validated PAS config."}": 24,
-    "{"name":"PAS","level":30,"msg":"Configuration"}": 24,
-    "{"name":"PAS","level":30}": 48,
-    "{"name":"PAS","level":30,"taskType":{"taskType":"ApplicationStart"}}": 24,
-    "{"name":"PAS","level":30,"msg":"HTTP service listening on port 3000"}": 24
-}
 ===> \Prizm\logs\pas\pas-3.log <===
 {
     "{"name":"PAS","level":30,"taskType":"Config:validateStorageProviders"}": 2,
@@ -235,6 +226,15 @@
     "{"name":"PAS","level":30}": 4,
     "{"name":"PAS","level":30,"taskType":{"taskType":"ApplicationStart"}}": 2,
     "{"name":"PAS","level":30,"msg":"HTTP service listening on port 3000"}": 2
+}
+===> \Prizm\logs\pas\pas-2.log.6 <===
+{
+    "{"name":"PAS","level":30,"taskType":"Config:validateStorageProviders"}": 24,
+    "{"name":"PAS","level":30,"msg":"Successfully validated PAS config."}": 24,
+    "{"name":"PAS","level":30,"msg":"Configuration"}": 24,
+    "{"name":"PAS","level":30}": 48,
+    "{"name":"PAS","level":30,"taskType":{"taskType":"ApplicationStart"}}": 24,
+    "{"name":"PAS","level":30,"msg":"HTTP service listening on port 3000"}": 24
 }
 ===> \Prizm\logs\pas\pas-3.log.0 <===
 {
@@ -254,15 +254,6 @@
     "{"name":"PAS","level":30,"taskType":{"taskType":"ApplicationStart"}}": 8,
     "{"name":"PAS","level":30,"msg":"HTTP service listening on port 3000"}": 8
 }
-===> \Prizm\logs\pas\pas-3.log.6 <===
-{
-    "{"name":"PAS","level":30,"taskType":"Config:validateStorageProviders"}": 24,
-    "{"name":"PAS","level":30,"msg":"Successfully validated PAS config."}": 24,
-    "{"name":"PAS","level":30,"msg":"Configuration"}": 24,
-    "{"name":"PAS","level":30}": 48,
-    "{"name":"PAS","level":30,"taskType":{"taskType":"ApplicationStart"}}": 24,
-    "{"name":"PAS","level":30,"msg":"HTTP service listening on port 3000"}": 24
-}
 ===> \Prizm\logs\pas\pas-4.log <===
 {
     "{"name":"PAS","level":30,"taskType":"Config:validateStorageProviders"}": 2,
@@ -271,6 +262,15 @@
     "{"name":"PAS","level":30}": 4,
     "{"name":"PAS","level":30,"taskType":{"taskType":"ApplicationStart"}}": 2,
     "{"name":"PAS","level":30,"msg":"HTTP service listening on port 3000"}": 2
+}
+===> \Prizm\logs\pas\pas-3.log.6 <===
+{
+    "{"name":"PAS","level":30,"taskType":"Config:validateStorageProviders"}": 24,
+    "{"name":"PAS","level":30,"msg":"Successfully validated PAS config."}": 24,
+    "{"name":"PAS","level":30,"msg":"Configuration"}": 24,
+    "{"name":"PAS","level":30}": 48,
+    "{"name":"PAS","level":30,"taskType":{"taskType":"ApplicationStart"}}": 24,
+    "{"name":"PAS","level":30,"msg":"HTTP service listening on port 3000"}": 24
 }
 ===> \Prizm\logs\pas\pas-4.log.0 <===
 {
@@ -308,15 +308,6 @@
     "{"name":"PAS","level":30,"taskType":{"taskType":"ApplicationStart"}}": 2,
     "{"name":"PAS","level":30,"msg":"HTTP service listening on port 3000"}": 2
 }
-===> \Prizm\logs\pas\pas-5.log.0 <===
-{
-    "{"name":"PAS","level":30,"taskType":"Config:validateStorageProviders"}": 1,
-    "{"name":"PAS","level":30,"msg":"Successfully validated PAS config."}": 1,
-    "{"name":"PAS","level":30,"msg":"Configuration"}": 1,
-    "{"name":"PAS","level":30}": 2,
-    "{"name":"PAS","level":30,"taskType":{"taskType":"ApplicationStart"}}": 1,
-    "{"name":"PAS","level":30,"msg":"HTTP service listening on port 3000"}": 1
-}
 ===> \Prizm\logs\pas\pas-5.log.1 <===
 {
     "{"name":"PAS","level":30,"taskType":"Config:validateStorageProviders"}": 7,
@@ -326,14 +317,14 @@
     "{"name":"PAS","level":30,"taskType":{"taskType":"ApplicationStart"}}": 7,
     "{"name":"PAS","level":30,"msg":"HTTP service listening on port 3000"}": 7
 }
-===> \Prizm\logs\pas\pas-6.log <===
+===> \Prizm\logs\pas\pas-5.log.0 <===
 {
-    "{"name":"PAS","level":30,"taskType":"Config:validateStorageProviders"}": 2,
-    "{"name":"PAS","level":30,"msg":"Successfully validated PAS config."}": 2,
-    "{"name":"PAS","level":30,"msg":"Configuration"}": 2,
-    "{"name":"PAS","level":30}": 4,
-    "{"name":"PAS","level":30,"taskType":{"taskType":"ApplicationStart"}}": 2,
-    "{"name":"PAS","level":30,"msg":"HTTP service listening on port 3000"}": 2
+    "{"name":"PAS","level":30,"taskType":"Config:validateStorageProviders"}": 1,
+    "{"name":"PAS","level":30,"msg":"Successfully validated PAS config."}": 1,
+    "{"name":"PAS","level":30,"msg":"Configuration"}": 1,
+    "{"name":"PAS","level":30}": 2,
+    "{"name":"PAS","level":30,"taskType":{"taskType":"ApplicationStart"}}": 1,
+    "{"name":"PAS","level":30,"msg":"HTTP service listening on port 3000"}": 1
 }
 ===> \Prizm\logs\pas\pas-5.log.6 <===
 {
@@ -353,6 +344,15 @@
     "{"name":"PAS","level":30,"taskType":{"taskType":"ApplicationStart"}}": 1,
     "{"name":"PAS","level":30,"msg":"HTTP service listening on port 3000"}": 1
 }
+===> \Prizm\logs\pas\pas-6.log <===
+{
+    "{"name":"PAS","level":30,"taskType":"Config:validateStorageProviders"}": 2,
+    "{"name":"PAS","level":30,"msg":"Successfully validated PAS config."}": 2,
+    "{"name":"PAS","level":30,"msg":"Configuration"}": 2,
+    "{"name":"PAS","level":30}": 4,
+    "{"name":"PAS","level":30,"taskType":{"taskType":"ApplicationStart"}}": 2,
+    "{"name":"PAS","level":30,"msg":"HTTP service listening on port 3000"}": 2
+}
 ===> \Prizm\logs\pas\pas-6.log.1 <===
 {
     "{"name":"PAS","level":30,"taskType":"Config:validateStorageProviders"}": 7,
@@ -361,6 +361,15 @@
     "{"name":"PAS","level":30}": 14,
     "{"name":"PAS","level":30,"taskType":{"taskType":"ApplicationStart"}}": 7,
     "{"name":"PAS","level":30,"msg":"HTTP service listening on port 3000"}": 7
+}
+===> \Prizm\logs\pas\pas-7.log.0 <===
+{
+    "{"name":"PAS","level":30,"taskType":"Config:validateStorageProviders"}": 1,
+    "{"name":"PAS","level":30,"msg":"Successfully validated PAS config."}": 1,
+    "{"name":"PAS","level":30,"msg":"Configuration"}": 1,
+    "{"name":"PAS","level":30}": 2,
+    "{"name":"PAS","level":30,"taskType":{"taskType":"ApplicationStart"}}": 1,
+    "{"name":"PAS","level":30,"msg":"HTTP service listening on port 3000"}": 1
 }
 ===> \Prizm\logs\pas\pas-6.log.6 <===
 {
@@ -379,15 +388,6 @@
     "{"name":"PAS","level":30}": 4,
     "{"name":"PAS","level":30,"taskType":{"taskType":"ApplicationStart"}}": 2,
     "{"name":"PAS","level":30,"msg":"HTTP service listening on port 3000"}": 2
-}
-===> \Prizm\logs\pas\pas-7.log.0 <===
-{
-    "{"name":"PAS","level":30,"taskType":"Config:validateStorageProviders"}": 1,
-    "{"name":"PAS","level":30,"msg":"Successfully validated PAS config."}": 1,
-    "{"name":"PAS","level":30,"msg":"Configuration"}": 1,
-    "{"name":"PAS","level":30}": 2,
-    "{"name":"PAS","level":30,"taskType":{"taskType":"ApplicationStart"}}": 1,
-    "{"name":"PAS","level":30,"msg":"HTTP service listening on port 3000"}": 1
 }
 ===> \Prizm\logs\pas\pas-7.log.1 <===
 {
@@ -517,7 +517,7 @@
     "{"name":"document-conversion-service","level":30,"initializingModule":"prv-common-service-registration"}": 1,
     "{"name":"document-conversion-service","level":30,"parent":{"name":"document-conversion-service"},"taskType":"ServiceInitialization"}": 1,
     "{"name":"document-conversion-service","level":30,"taskType":"periodicMaintenance","maintenanceType":"deleteExpiredConversionContexts"}": 1,
-    "{"name":"document-conversion-service","level":30,"eventName":"delete"}": 295
+    "{"name":"document-conversion-service","level":30,"eventName":"delete"}": 341
 }
 ===> \Prizm\logs\document-conversion-service.log.0 <===
 {
@@ -535,6 +535,22 @@
     "{"name":"document-conversion-service","level":30,"taskType":"periodicMaintenance","maintenanceType":"deleteExpiredConversionContexts"}": 1,
     "{"name":"document-conversion-service","level":30,"eventName":"delete"}": 432
 }
+===> \Prizm\logs\document-conversion-service.log.1 <===
+{
+    "{"name":"document-conversion-service","level":30,"taskType":"initialization"}": 1,
+    "{"name":"document-conversion-service","level":30,"parent":{"name":"document-conversion-service"},"taskType":"ConfigurationAcquisition"}": 1,
+    "{"name":"document-conversion-service","level":30,"req":{"method":"POST","data":{"callingService":{"name":"document-conversion-service"}}}}": 2,
+    "{"name":"document-conversion-service","level":30,"resStatusCode":200}": 2,
+    "{"name":"document-conversion-service","level":30}": 7,
+    "{"name":"document-conversion-service","level":30,"initializingModule":"prv-common-http-server"}": 1,
+    "{"name":"document-conversion-service","level":30,"msg":"document-conversion-service listening on port 19188"}": 1,
+    "{"name":"document-conversion-service","level":30,"parent":{"name":"document-conversion-service"},"taskType":"FeatureToggleAcquisition"}": 1,
+    "{"name":"document-conversion-service","level":30,"taskType":"HealthTrackers"}": 1,
+    "{"name":"document-conversion-service","level":30,"initializingModule":"prv-common-service-registration"}": 1,
+    "{"name":"document-conversion-service","level":30,"parent":{"name":"document-conversion-service"},"taskType":"ServiceInitialization"}": 1,
+    "{"name":"document-conversion-service","level":30,"taskType":"periodicMaintenance","maintenanceType":"deleteExpiredConversionContexts"}": 1,
+    "{"name":"document-conversion-service","level":30,"eventName":"delete"}": 454
+}
 ===> \Prizm\logs\document-conversion-service.log.2 <===
 {
     "{"name":"document-conversion-service","level":30,"taskType":"initialization"}": 2,
@@ -551,22 +567,6 @@
     "{"name":"document-conversion-service","level":30,"taskType":"periodicMaintenance","maintenanceType":"deleteExpiredConversionContexts"}": 2,
     "{"name":"document-conversion-service","level":30,"eventName":"delete"}": 316,
     "{"name":"document-conversion-service","level":30,"msg":"document-conversion-service listening on port 19189"}": 1
-}
-===> \Prizm\logs\document-conversion-service.log.1 <===
-{
-    "{"name":"document-conversion-service","level":30,"taskType":"initialization"}": 1,
-    "{"name":"document-conversion-service","level":30,"parent":{"name":"document-conversion-service"},"taskType":"ConfigurationAcquisition"}": 1,
-    "{"name":"document-conversion-service","level":30,"req":{"method":"POST","data":{"callingService":{"name":"document-conversion-service"}}}}": 2,
-    "{"name":"document-conversion-service","level":30,"resStatusCode":200}": 2,
-    "{"name":"document-conversion-service","level":30}": 7,
-    "{"name":"document-conversion-service","level":30,"initializingModule":"prv-common-http-server"}": 1,
-    "{"name":"document-conversion-service","level":30,"msg":"document-conversion-service listening on port 19188"}": 1,
-    "{"name":"document-conversion-service","level":30,"parent":{"name":"document-conversion-service"},"taskType":"FeatureToggleAcquisition"}": 1,
-    "{"name":"document-conversion-service","level":30,"taskType":"HealthTrackers"}": 1,
-    "{"name":"document-conversion-service","level":30,"initializingModule":"prv-common-service-registration"}": 1,
-    "{"name":"document-conversion-service","level":30,"parent":{"name":"document-conversion-service"},"taskType":"ServiceInitialization"}": 1,
-    "{"name":"document-conversion-service","level":30,"taskType":"periodicMaintenance","maintenanceType":"deleteExpiredConversionContexts"}": 1,
-    "{"name":"document-conversion-service","level":30,"eventName":"delete"}": 454
 }
 ===> \Prizm\logs\mongo-manager-service.log.0 <===
 {
@@ -668,9 +668,9 @@
 }
 ===> \Prizm\logs\process-state-service.log <===
 {
-    "{"name":"process-state-service","level":30,"taskType":"periodicMaintenance: process state expiration"}": 245,
-    "{"name":"process-state-service","level":30,"type":"ProcessStateRepository","msg":"Cleanup already in progress"}": 242,
-    "{"name":"process-state-service","level":30}": 263,
+    "{"name":"process-state-service","level":30,"taskType":"periodicMaintenance: process state expiration"}": 254,
+    "{"name":"process-state-service","level":30,"type":"ProcessStateRepository","msg":"Cleanup already in progress"}": 251,
+    "{"name":"process-state-service","level":30}": 272,
     "{"name":"process-state-service","level":30,"taskType":"initialization"}": 3,
     "{"name":"process-state-service","level":30,"parent":{"name":"process-state-service"},"taskType":"ConfigurationAcquisition"}": 3,
     "{"name":"process-state-service","level":30,"req":{"method":"POST","data":{"callingService":{"name":"process-state-service"}}}}": 3,
@@ -719,13 +719,13 @@
     "{"name":"process-state-service","level":30,"type":"ProcessStateRepository","msg":"Cleanup already in progress"}": 288,
     "{"name":"process-state-service","level":30}": 288
 }
-===> \Prizm\logs\process-state-service.log.4 <===
+===> \Prizm\logs\process-state-service.log.3 <===
 {
     "{"name":"process-state-service","level":30,"taskType":"periodicMaintenance: process state expiration"}": 288,
     "{"name":"process-state-service","level":30,"type":"ProcessStateRepository","msg":"Cleanup already in progress"}": 288,
     "{"name":"process-state-service","level":30}": 288
 }
-===> \Prizm\logs\process-state-service.log.3 <===
+===> \Prizm\logs\process-state-service.log.4 <===
 {
     "{"name":"process-state-service","level":30,"taskType":"periodicMaintenance: process state expiration"}": 288,
     "{"name":"process-state-service","level":30,"type":"ProcessStateRepository","msg":"Cleanup already in progress"}": 288,
@@ -814,4 +814,283 @@
     "{"name":"process-state-service","level":30,"msg":"process-state-service listening on port 19188"}": 1,
     "{"name":"process-state-service","level":30,"msg":"process-state-service listening on port 19181"}": 1,
     "{"name":"process-state-service","level":30,"msg":"process-state-service listening on port 19185"}": 3
+}
+===> \Prizm\logs\watchdog.launcher.log <===
+{
+    "{"name":"LAUNCHER","level":30,"taskType":"startService"}": 34,
+    "{"name":"LAUNCHER","level":30,"taskType":"win32Backend"}": 68,
+    "{"name":"LAUNCHER","level":30,"command":"C:\\\\Prizm\\\\modules\\\\node.js\\\\bin\\\\node.exe","msg":"Starting watchdog service process"}": 34,
+    "{"name":"LAUNCHER","level":30,"req":{"method":"POST"}}": 2108,
+    "{"name":"LAUNCHER","level":30}": 34,
+    "{"name":"LAUNCHER","level":50,"err":{},"msg":"connect ECONNREFUSED"}": 2108,
+    "{"name":"LAUNCHER","level":30,"processName":"prizm","msg":"Processes not found"}": 34
+}
+===> \Prizm\logs\process-state-service.log.5 <===
+{
+    "{"name":"process-state-service","level":30,"taskType":"periodicMaintenance: process state expiration"}": 1504,
+    "{"name":"process-state-service","level":30,"type":"ProcessStateRepository","msg":"Cleanup already in progress"}": 1484,
+    "{"name":"process-state-service","level":30}": 1624,
+    "{"name":"process-state-service","level":30,"taskType":"initialization"}": 20,
+    "{"name":"process-state-service","level":30,"parent":{"name":"process-state-service"},"taskType":"ConfigurationAcquisition"}": 20,
+    "{"name":"process-state-service","level":30,"req":{"method":"POST","data":{"callingService":{"name":"process-state-service"}}}}": 20,
+    "{"name":"process-state-service","level":30,"resStatusCode":200}": 20,
+    "{"name":"process-state-service","level":30,"initializingModule":"prv-common-http-server"}": 20,
+    "{"name":"process-state-service","level":30,"msg":"process-state-service listening on port 19183"}": 1,
+    "{"name":"process-state-service","level":30,"parent":{"name":"process-state-service"},"taskType":"FeatureToggleAcquisition"}": 20,
+    "{"name":"process-state-service","level":30,"taskType":"HealthTrackers"}": 20,
+    "{"name":"process-state-service","level":30,"initializingModule":"prv-common-service-registration"}": 20,
+    "{"name":"process-state-service","level":30,"parent":{"name":"process-state-service"},"taskType":"ServiceInitialization"}": 20,
+    "{"name":"process-state-service","level":30,"msg":"Configuration:  { cache: { directory: 'C:\\\\\\\\Prizm\\\\\\\\cache' },\\n  network: { publicPort: 18681, clustering: { enabled: false } } }"}": 20,
+    "{"name":"process-state-service","level":30,"msg":"Starting periodic maintenance tasks"}": 20,
+    "{"name":"process-state-service","level":30,"msg":"process-state-service listening on port 19188"}": 2,
+    "{"name":"process-state-service","level":30,"msg":"process-state-service listening on port 19185"}": 3,
+    "{"name":"process-state-service","level":30,"msg":"process-state-service listening on port 19187"}": 5,
+    "{"name":"process-state-service","level":30,"msg":"process-state-service listening on port 19181"}": 3,
+    "{"name":"process-state-service","level":30,"msg":"process-state-service listening on port 19182"}": 1,
+    "{"name":"process-state-service","level":30,"msg":"process-state-service listening on port 19186"}": 3,
+    "{"name":"process-state-service","level":30,"msg":"process-state-service listening on port 19184"}": 2
+}
+===> \Prizm\logs\licensing-service.log <===
+{
+    "{"name":"licensing-service","level":30,"parent":{"name":"formextractionservice"},"req":{"method":"POST"}}": 1796,
+    "{"name":"licensing-service","level":30,"httpStatusCode":200,"httpStatusMessage":"OK"}": 3102,
+    "{"name":"licensing-service","level":30,"parent":{"name":"MSOCS"},"req":{"method":"POST"}}": 1306,
+    "{"name":"licensing-service","level":30,"taskType":"initialization"}": 3,
+    "{"name":"licensing-service","level":30,"parent":{"name":"licensing-service"},"taskType":"ConfigurationAcquisition"}": 3,
+    "{"name":"licensing-service","level":30,"req":{"method":"POST","data":{"callingService":{"name":"licensing-service"}}}}": 3,
+    "{"name":"licensing-service","level":30,"resStatusCode":200}": 3,
+    "{"name":"licensing-service","level":30}": 18,
+    "{"name":"licensing-service","level":30,"initializingModule":"prv-common-http-server"}": 3,
+    "{"name":"licensing-service","level":30,"msg":"licensing-service listening on port 19184"}": 1,
+    "{"name":"licensing-service","level":30,"parent":{"name":"licensing-service"},"taskType":"FeatureToggleAcquisition"}": 3,
+    "{"name":"licensing-service","level":30,"taskType":"HealthTrackers"}": 3,
+    "{"name":"licensing-service","level":30,"initializingModule":"prv-common-service-registration"}": 3,
+    "{"name":"licensing-service","level":30,"initializingModule":"licensing-service"}": 3,
+    "{"name":"licensing-service","level":30,"msg":"licensing-service listening on port 19188"}": 1,
+    "{"name":"licensing-service","level":30,"msg":"licensing-service listening on port 19187"}": 1
+}
+===> \Prizm\logs\licensing-service.log.0 <===
+{
+    "{"name":"licensing-service","level":30,"parent":{"name":"MSOCS"},"req":{"method":"POST"}}": 1374,
+    "{"name":"licensing-service","level":30,"httpStatusCode":200,"httpStatusMessage":"OK"}": 3273,
+    "{"name":"licensing-service","level":30,"parent":{"name":"formextractionservice"},"req":{"method":"POST"}}": 1901,
+    "{"name":"licensing-service","level":30,"taskType":"initialization"}": 6,
+    "{"name":"licensing-service","level":30,"parent":{"name":"licensing-service"},"taskType":"ConfigurationAcquisition"}": 6,
+    "{"name":"licensing-service","level":30,"req":{"method":"POST","data":{"callingService":{"name":"licensing-service"}}}}": 6,
+    "{"name":"licensing-service","level":30,"resStatusCode":200}": 6,
+    "{"name":"licensing-service","level":30}": 36,
+    "{"name":"licensing-service","level":30,"initializingModule":"prv-common-http-server"}": 6,
+    "{"name":"licensing-service","level":30,"msg":"licensing-service listening on port 19185"}": 1,
+    "{"name":"licensing-service","level":30,"parent":{"name":"licensing-service"},"taskType":"FeatureToggleAcquisition"}": 6,
+    "{"name":"licensing-service","level":30,"taskType":"HealthTrackers"}": 6,
+    "{"name":"licensing-service","level":30,"initializingModule":"prv-common-service-registration"}": 6,
+    "{"name":"licensing-service","level":30,"httpStatusCode":404,"httpStatusMessage":"Not Found"}": 2,
+    "{"name":"licensing-service","level":30,"initializingModule":"licensing-service"}": 6,
+    "{"name":"licensing-service","level":30,"msg":"licensing-service listening on port 19182"}": 1,
+    "{"name":"licensing-service","level":30,"msg":"licensing-service listening on port 19186"}": 2,
+    "{"name":"licensing-service","level":30,"msg":"licensing-service listening on port 19187"}": 2
+}
+===> \Prizm\logs\licensing-service.log.2 <===
+{
+    "{"name":"licensing-service","level":30,"parent":{"name":"MSOCS"},"req":{"method":"POST"}}": 1496,
+    "{"name":"licensing-service","level":30,"httpStatusCode":200,"httpStatusMessage":"OK"}": 3560,
+    "{"name":"licensing-service","level":30,"parent":{"name":"formextractionservice"},"req":{"method":"POST"}}": 2064
+}
+===> \Prizm\logs\licensing-service.log.1 <===
+{
+    "{"name":"licensing-service","level":30,"parent":{"name":"formextractionservice"},"req":{"method":"POST"}}": 2050,
+    "{"name":"licensing-service","level":30,"httpStatusCode":200,"httpStatusMessage":"OK"}": 3543,
+    "{"name":"licensing-service","level":30,"parent":{"name":"MSOCS"},"req":{"method":"POST"}}": 1493
+}
+===> \Prizm\logs\licensing-service.log.3 <===
+{
+    "{"name":"licensing-service","level":30,"parent":{"name":"formextractionservice"},"req":{"method":"POST"}}": 2064,
+    "{"name":"licensing-service","level":30,"httpStatusCode":200,"httpStatusMessage":"OK"}": 3555,
+    "{"name":"licensing-service","level":30,"parent":{"name":"MSOCS"},"req":{"method":"POST"}}": 1491
+}
+===> \Prizm\logs\licensing-service.log.4 <===
+{
+    "{"name":"licensing-service","level":30,"parent":{"name":"MSOCS"},"req":{"method":"POST"}}": 1494,
+    "{"name":"licensing-service","level":30,"httpStatusCode":200,"httpStatusMessage":"OK"}": 3549,
+    "{"name":"licensing-service","level":30,"parent":{"name":"formextractionservice"},"req":{"method":"POST"}}": 2055
+}
+===> \Prizm\logs\product-runner.log <===
+{
+    "{"name":"product-runner","level":30,"taskType":"Application Start","command":"start"}": 34,
+    "{"name":"product-runner","level":30,"eventName":"resolvedServiceStartupConfiguration"}": 340,
+    "{"name":"product-runner","level":30,"eventName":"cleanupOrphanedProcesses"}": 34,
+    "{"name":"product-runner","level":30,"pm2Command":"kill"}": 34,
+    "{"name":"product-runner","level":50,"eventName":"killPm2","err":{"message":"error running PM2","pm2Command":"kill"}}": 34,
+    "{"name":"product-runner","level":30,"eventName":"killingProcesses"}": 34,
+    "{"name":"product-runner","level":30,"msg":"Cleared consul cache at .\\\\consulStartup/../../../../../consul/consulData"}": 34,
+    "{"name":"product-runner","level":50,"error":{}}": 34,
+    "{"name":"product-runner","level":30,"pm2Command":"delete"}": 408,
+    "{"name":"product-runner","level":50,"message":"error running PM2","pm2Command":"delete"}": 408,
+    "{"name":"product-runner","level":30,"pm2Command":"start"}": 408,
+    "{"name":"product-runner","level":30,"pm2Command":"install"}": 34,
+    "{"name":"product-runner","level":50,"error":{"message":"No cluster leader"}}": 374,
+    "{"name":"product-runner","level":30}": 34,
+    "{"name":"product-runner","level":30,"eventName":"killingProcess"}": 1
+}
+===> \Prizm\logs\configuration-service.log <===
+{
+    "{"name":"configuration-service","level":30,"parent":{"name":"formextractionservice"},"req":{"method":"POST"}}": 1797,
+    "{"name":"configuration-service","level":30,"taskInput":{"callingService":{"name":"form-extraction-service"}}}": 1797,
+    "{"name":"configuration-service","level":30,"httpStatusCode":200,"httpStatusMessage":"OK"}": 2496,
+    "{"name":"configuration-service","level":30,"parent":{"name":"textservice"},"req":{"method":"POST"}}": 632,
+    "{"name":"configuration-service","level":30,"taskInput":{"callingService":{"name":"text-service"}}}": 632,
+    "{"name":"configuration-service","level":30,"parent":{"name":"MSOCS"},"req":{"method":"POST"}}": 32,
+    "{"name":"configuration-service","level":30,"taskInput":{"callingService":{"name":"ms-office-conversion-service"}}}": 32,
+    "{"name":"configuration-service","level":30,"parent":{"name":"mongomanagerservice"},"req":{"method":"POST"}}": 14,
+    "{"name":"configuration-service","level":30,"taskInput":{"callingService":{"name":"mongo-manager-service"}}}": 14,
+    "{"name":"configuration-service","level":30}": 6,
+    "{"name":"configuration-service","level":30,"registrationData":{"name":"configuration-service"}}": 3,
+    "{"name":"configuration-service","level":30,"parent":{"name":"healthservice"},"req":{"method":"POST"}}": 3,
+    "{"name":"configuration-service","level":30,"taskInput":{"callingService":{"name":"health-service"}}}": 3,
+    "{"name":"configuration-service","level":30,"parent":{"name":"licensingservice"},"req":{"method":"POST"}}": 3,
+    "{"name":"configuration-service","level":30,"taskInput":{"callingService":{"name":"licensing-service"}}}": 3,
+    "{"name":"configuration-service","level":30,"parent":{"name":"publicrequestservice"},"req":{"method":"POST"}}": 3,
+    "{"name":"configuration-service","level":30,"taskInput":{"callingService":{"name":"public-request-service"}}}": 3,
+    "{"name":"configuration-service","level":30,"parent":{"name":"processstateservice"},"req":{"method":"POST"}}": 3,
+    "{"name":"configuration-service","level":30,"taskInput":{"callingService":{"name":"process-state-service"}}}": 3,
+    "{"name":"configuration-service","level":30,"parent":{"name":"rasterformextractionservice"},"req":{"method":"POST"}}": 3,
+    "{"name":"configuration-service","level":30,"taskInput":{"callingService":{"name":"raster-form-extraction-service"}}}": 3,
+    "{"name":"configuration-service","level":30,"parent":{"name":"documentconversionservice"},"req":{"method":"POST"}}": 6,
+    "{"name":"configuration-service","level":30,"taskInput":{"callingService":{"name":"document-conversion-service"}}}": 6
+}
+===> \Prizm\logs\licensing-service.log.6 <===
+{
+    "{"name":"licensing-service","level":30,"taskType":"initialization"}": 7,
+    "{"name":"licensing-service","level":30,"parent":{"name":"licensing-service"},"taskType":"ConfigurationAcquisition"}": 7,
+    "{"name":"licensing-service","level":30,"req":{"method":"POST","data":{"callingService":{"name":"licensing-service"}}}}": 7,
+    "{"name":"licensing-service","level":30,"resStatusCode":200}": 7,
+    "{"name":"licensing-service","level":30}": 42,
+    "{"name":"licensing-service","level":30,"initializingModule":"prv-common-http-server"}": 7,
+    "{"name":"licensing-service","level":30,"msg":"licensing-service listening on port 19185"}": 1,
+    "{"name":"licensing-service","level":30,"parent":{"name":"licensing-service"},"taskType":"FeatureToggleAcquisition"}": 7,
+    "{"name":"licensing-service","level":30,"taskType":"HealthTrackers"}": 7,
+    "{"name":"licensing-service","level":30,"initializingModule":"prv-common-service-registration"}": 7,
+    "{"name":"licensing-service","level":30,"initializingModule":"licensing-service"}": 7,
+    "{"name":"licensing-service","level":30,"parent":{"name":"formextractionservice"},"req":{"method":"POST"}}": 2956,
+    "{"name":"licensing-service","level":30,"httpStatusCode":200,"httpStatusMessage":"OK"}": 5108,
+    "{"name":"licensing-service","level":30,"parent":{"name":"MSOCS"},"req":{"method":"POST"}}": 2152,
+    "{"name":"licensing-service","level":30,"msg":"licensing-service listening on port 19181"}": 1,
+    "{"name":"licensing-service","level":30,"msg":"licensing-service listening on port 19186"}": 1,
+    "{"name":"licensing-service","level":30,"msg":"licensing-service listening on port 19182"}": 2,
+    "{"name":"licensing-service","level":30,"msg":"licensing-service listening on port 19183"}": 2
+}
+===> \Prizm\logs\configuration-service.log.0 <===
+{
+    "{"name":"configuration-service","level":30,"parent":{"name":"formextractionservice"},"req":{"method":"POST"}}": 1901,
+    "{"name":"configuration-service","level":30,"taskInput":{"callingService":{"name":"form-extraction-service"}}}": 1901,
+    "{"name":"configuration-service","level":30,"httpStatusCode":200,"httpStatusMessage":"OK"}": 2691,
+    "{"name":"configuration-service","level":30,"parent":{"name":"textservice"},"req":{"method":"POST"}}": 682,
+    "{"name":"configuration-service","level":30,"taskInput":{"callingService":{"name":"text-service"}}}": 682,
+    "{"name":"configuration-service","level":30,"parent":{"name":"MSOCS"},"req":{"method":"POST"}}": 36,
+    "{"name":"configuration-service","level":30,"taskInput":{"callingService":{"name":"ms-office-conversion-service"}}}": 36,
+    "{"name":"configuration-service","level":30,"parent":{"name":"mongomanagerservice"},"req":{"method":"POST"}}": 30,
+    "{"name":"configuration-service","level":30,"taskInput":{"callingService":{"name":"mongo-manager-service"}}}": 30,
+    "{"name":"configuration-service","level":30}": 12,
+    "{"name":"configuration-service","level":30,"registrationData":{"name":"configuration-service"}}": 6,
+    "{"name":"configuration-service","level":30,"parent":{"name":"healthservice"},"req":{"method":"POST"}}": 6,
+    "{"name":"configuration-service","level":30,"taskInput":{"callingService":{"name":"health-service"}}}": 6,
+    "{"name":"configuration-service","level":30,"parent":{"name":"licensingservice"},"req":{"method":"POST"}}": 6,
+    "{"name":"configuration-service","level":30,"taskInput":{"callingService":{"name":"licensing-service"}}}": 6,
+    "{"name":"configuration-service","level":30,"parent":{"name":"documentconversionservice"},"req":{"method":"POST"}}": 12,
+    "{"name":"configuration-service","level":30,"taskInput":{"callingService":{"name":"document-conversion-service"}}}": 12,
+    "{"name":"configuration-service","level":30,"parent":{"name":"publicrequestservice"},"req":{"method":"POST"}}": 6,
+    "{"name":"configuration-service","level":30,"taskInput":{"callingService":{"name":"public-request-service"}}}": 6,
+    "{"name":"configuration-service","level":30,"parent":{"name":"processstateservice"},"req":{"method":"POST"}}": 6,
+    "{"name":"configuration-service","level":30,"taskInput":{"callingService":{"name":"process-state-service"}}}": 6,
+    "{"name":"configuration-service","level":30,"parent":{"name":"rasterformextractionservice"},"req":{"method":"POST"}}": 6,
+    "{"name":"configuration-service","level":30,"taskInput":{"callingService":{"name":"raster-form-extraction-service"}}}": 6
+}
+===> \Prizm\logs\configuration-service.log.2 <===
+{
+    "{"name":"configuration-service","level":30,"parent":{"name":"formextractionservice"},"req":{"method":"POST"}}": 2064,
+    "{"name":"configuration-service","level":30,"taskInput":{"callingService":{"name":"form-extraction-service"}}}": 2064,
+    "{"name":"configuration-service","level":30,"httpStatusCode":200,"httpStatusMessage":"OK"}": 2815,
+    "{"name":"configuration-service","level":30,"parent":{"name":"textservice"},"req":{"method":"POST"}}": 716,
+    "{"name":"configuration-service","level":30,"taskInput":{"callingService":{"name":"text-service"}}}": 716,
+    "{"name":"configuration-service","level":30,"parent":{"name":"MSOCS"},"req":{"method":"POST"}}": 35,
+    "{"name":"configuration-service","level":30,"taskInput":{"callingService":{"name":"ms-office-conversion-service"}}}": 35
+}
+===> \Prizm\logs\configuration-service.log.1 <===
+{
+    "{"name":"configuration-service","level":30,"parent":{"name":"formextractionservice"},"req":{"method":"POST"}}": 2050,
+    "{"name":"configuration-service","level":30,"taskInput":{"callingService":{"name":"form-extraction-service"}}}": 2050,
+    "{"name":"configuration-service","level":30,"httpStatusCode":200,"httpStatusMessage":"OK"}": 2801,
+    "{"name":"configuration-service","level":30,"parent":{"name":"textservice"},"req":{"method":"POST"}}": 716,
+    "{"name":"configuration-service","level":30,"taskInput":{"callingService":{"name":"text-service"}}}": 716,
+    "{"name":"configuration-service","level":30,"parent":{"name":"MSOCS"},"req":{"method":"POST"}}": 35,
+    "{"name":"configuration-service","level":30,"taskInput":{"callingService":{"name":"ms-office-conversion-service"}}}": 35
+}
+===> \Prizm\logs\configuration-service.log.3 <===
+{
+    "{"name":"configuration-service","level":30,"parent":{"name":"formextractionservice"},"req":{"method":"POST"}}": 2064,
+    "{"name":"configuration-service","level":30,"taskInput":{"callingService":{"name":"form-extraction-service"}}}": 2064,
+    "{"name":"configuration-service","level":30,"httpStatusCode":200,"httpStatusMessage":"OK"}": 2816,
+    "{"name":"configuration-service","level":30,"parent":{"name":"textservice"},"req":{"method":"POST"}}": 718,
+    "{"name":"configuration-service","level":30,"taskInput":{"callingService":{"name":"text-service"}}}": 718,
+    "{"name":"configuration-service","level":30,"parent":{"name":"MSOCS"},"req":{"method":"POST"}}": 34,
+    "{"name":"configuration-service","level":30,"taskInput":{"callingService":{"name":"ms-office-conversion-service"}}}": 34
+}
+===> \Prizm\logs\configuration-service.log.4 <===
+{
+    "{"name":"configuration-service","level":30,"parent":{"name":"textservice"},"req":{"method":"POST"}}": 716,
+    "{"name":"configuration-service","level":30,"taskInput":{"callingService":{"name":"text-service"}}}": 716,
+    "{"name":"configuration-service","level":30,"httpStatusCode":200,"httpStatusMessage":"OK"}": 2806,
+    "{"name":"configuration-service","level":30,"parent":{"name":"formextractionservice"},"req":{"method":"POST"}}": 2055,
+    "{"name":"configuration-service","level":30,"taskInput":{"callingService":{"name":"form-extraction-service"}}}": 2055,
+    "{"name":"configuration-service","level":30,"parent":{"name":"MSOCS"},"req":{"method":"POST"}}": 35,
+    "{"name":"configuration-service","level":30,"taskInput":{"callingService":{"name":"ms-office-conversion-service"}}}": 35
+}
+===> \Prizm\logs\configuration-service.log.6 <===
+{
+    "{"name":"configuration-service","level":30}": 14,
+    "{"name":"configuration-service","level":30,"registrationData":{"name":"configuration-service"}}": 7,
+    "{"name":"configuration-service","level":30,"parent":{"name":"documentconversionservice"},"req":{"method":"POST"}}": 14,
+    "{"name":"configuration-service","level":30,"taskInput":{"callingService":{"name":"document-conversion-service"}}}": 14,
+    "{"name":"configuration-service","level":30,"httpStatusCode":200,"httpStatusMessage":"OK"}": 4130,
+    "{"name":"configuration-service","level":30,"parent":{"name":"rasterformextractionservice"},"req":{"method":"POST"}}": 6,
+    "{"name":"configuration-service","level":30,"taskInput":{"callingService":{"name":"raster-form-extraction-service"}}}": 6,
+    "{"name":"configuration-service","level":30,"parent":{"name":"publicrequestservice"},"req":{"method":"POST"}}": 6,
+    "{"name":"configuration-service","level":30,"taskInput":{"callingService":{"name":"public-request-service"}}}": 6,
+    "{"name":"configuration-service","level":30,"parent":{"name":"formextractionservice"},"req":{"method":"POST"}}": 2956,
+    "{"name":"configuration-service","level":30,"taskInput":{"callingService":{"name":"form-extraction-service"}}}": 2956,
+    "{"name":"configuration-service","level":30,"parent":{"name":"MSOCS"},"req":{"method":"POST"}}": 53,
+    "{"name":"configuration-service","level":30,"taskInput":{"callingService":{"name":"ms-office-conversion-service"}}}": 53,
+    "{"name":"configuration-service","level":30,"parent":{"name":"licensingservice"},"req":{"method":"POST"}}": 7,
+    "{"name":"configuration-service","level":30,"taskInput":{"callingService":{"name":"licensing-service"}}}": 7,
+    "{"name":"configuration-service","level":30,"parent":{"name":"healthservice"},"req":{"method":"POST"}}": 7,
+    "{"name":"configuration-service","level":30,"taskInput":{"callingService":{"name":"health-service"}}}": 7,
+    "{"name":"configuration-service","level":30,"parent":{"name":"textservice"},"req":{"method":"POST"}}": 1054,
+    "{"name":"configuration-service","level":30,"taskInput":{"callingService":{"name":"text-service"}}}": 1054,
+    "{"name":"configuration-service","level":30,"parent":{"name":"mongomanagerservice"},"req":{"method":"POST"}}": 20,
+    "{"name":"configuration-service","level":30,"taskInput":{"callingService":{"name":"mongo-manager-service"}}}": 20,
+    "{"name":"configuration-service","level":30,"parent":{"name":"processstateservice"},"req":{"method":"POST"}}": 7,
+    "{"name":"configuration-service","level":30,"taskInput":{"callingService":{"name":"process-state-service"}}}": 7
+}
+===> \Prizm\logs\licensing-service.log.5 <===
+{
+    "{"name":"licensing-service","level":30,"parent":{"name":"MSOCS"},"req":{"method":"POST"}}": 7775,
+    "{"name":"licensing-service","level":30,"httpStatusCode":200,"httpStatusMessage":"OK"}": 18486,
+    "{"name":"licensing-service","level":30,"parent":{"name":"formextractionservice"},"req":{"method":"POST"}}": 10711,
+    "{"name":"licensing-service","level":30,"taskType":"initialization"}": 20,
+    "{"name":"licensing-service","level":30,"parent":{"name":"licensing-service"},"taskType":"ConfigurationAcquisition"}": 20,
+    "{"name":"licensing-service","level":30,"req":{"method":"POST","data":{"callingService":{"name":"licensing-service"}}}}": 20,
+    "{"name":"licensing-service","level":30,"resStatusCode":200}": 20,
+    "{"name":"licensing-service","level":30}": 120,
+    "{"name":"licensing-service","level":30,"initializingModule":"prv-common-http-server"}": 20,
+    "{"name":"licensing-service","level":30,"msg":"licensing-service listening on port 19182"}": 3,
+    "{"name":"licensing-service","level":30,"parent":{"name":"licensing-service"},"taskType":"FeatureToggleAcquisition"}": 20,
+    "{"name":"licensing-service","level":30,"taskType":"HealthTrackers"}": 20,
+    "{"name":"licensing-service","level":30,"initializingModule":"prv-common-service-registration"}": 20,
+    "{"name":"licensing-service","level":30,"initializingModule":"licensing-service"}": 20,
+    "{"name":"licensing-service","level":30,"msg":"licensing-service listening on port 19187"}": 5,
+    "{"name":"licensing-service","level":30,"msg":"licensing-service listening on port 19184"}": 4,
+    "{"name":"licensing-service","level":30,"msg":"licensing-service listening on port 19185"}": 1,
+    "{"name":"licensing-service","level":30,"msg":"licensing-service listening on port 19183"}": 4,
+    "{"name":"licensing-service","level":30,"msg":"licensing-service listening on port 19188"}": 1,
+    "{"name":"licensing-service","level":30,"msg":"licensing-service listening on port 19181"}": 2
 }
