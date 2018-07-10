@@ -12,7 +12,7 @@ export const config = convict({
 	"basePath": {
 		"doc": "The PrizmDoc log file path.",
 		"format": "*",
-		"default": path.join("/", "Prizm", "logs"),
+		"default": process.platform === "win32" ? path.join("/", "Prizm", "logs") : path.join("/", "usr", "share", "prizm", "logs"),
 		"env": "BASE_PATH",
 		"arg": "basePath"
 	},

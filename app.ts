@@ -1,7 +1,7 @@
 "use strict";
 
 import { enumerateFiles } from "./src/enumerate";
-import { readSchema, writeSchema } from "./src/schema";
+import { readSchema } from "./src/schema";
 import { sanitize } from "./src/sanitize";
 import { process } from "./src/process";
 
@@ -12,7 +12,5 @@ import { process } from "./src/process";
 
 	let sanitizedFileList = sanitize(files);
 
-	let updatedSchema = process(sanitizedFileList, schema);
-
-	writeSchema(updatedSchema);
+	process(sanitizedFileList, schema);
 })();
