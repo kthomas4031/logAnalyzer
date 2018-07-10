@@ -41,6 +41,8 @@ const whitelistJSON = [
 	"type"
 ];
 
+let knownSchemas;
+
 function removeNonWhitelistedProperties(objectJSON) {
 	for (let key in objectJSON) {
 		if (objectJSON.hasOwnProperty(key)) {
@@ -57,7 +59,7 @@ function removeNonWhitelistedProperties(objectJSON) {
 
 export function process(sanitizedFileList, schema) {
 	let writeStream = fs.createWriteStream("output.txt");
-
+	knownSchemas = schema;
 	// For each file in files[]
 	for (let x = 0; x < sanitizedFileList.length; x++) {
 		const readline = createInterface({
@@ -68,13 +70,6 @@ export function process(sanitizedFileList, schema) {
 
 		let count = {};
 
-		// <schemaUpdater>
-		// Check if schema contains file[x]
-		if (schema[sanitizedFileList[x]] === undefined) {
-			schema[sanitizedFileList[x]] = [];
-		}
-		// </schemaUpdater>
-
 		readline.on("line", function(line) {
 			lineNumber += 1;
 
@@ -84,20 +79,7 @@ export function process(sanitizedFileList, schema) {
 				if (jsonObject !== undefined) {
 					removeNonWhitelistedProperties(jsonObject);
 
-					// <schemaUpdater>
-					let isNewScheme = true;
-
-					// Check if schema contains jsonObject
-					for (let y = 0; y < schema[sanitizedFileList[x]].length; y++) {
-						if (schema[sanitizedFileList[x]] === schema[sanitizedFileList[x]][y]) {
-							isNewScheme = false;
-						}
-					}
-
-					if (isNewScheme) {
-						schema[sanitizedFileList[x]].push(Object.keys(jsonObject));
-					}
-					// </schemaUpdater>
+					updateSchema(Object.keys(jsonObject), sanitizedFileList[x]);
 
 					if (count[JSON.stringify(jsonObject)] === undefined) {
 						count[JSON.stringify(jsonObject)] = 1;
@@ -117,7 +99,39 @@ export function process(sanitizedFileList, schema) {
 
 			writeStream.write("==> " + sanitizedFileList[x] + " <==" + "\n" + outputJSON + "\n");
 
-			console.log("Starting work on file: " + sanitizedFileList[x]);
+			console.log("Finished work on file: " + sanitizedFileList[x]);
+			if (x >= sanitizedFileList.length - 1) {
+
+				return knownSchemas;
+			}
 		});
 	}
+}
+
+function updateSchema(jsonSchema, filePath) {
+
+	//clean up file path and remove extensions
+	let fileName = filePath.substring(filePath.lastIndexOf("\\") + 1, filePath.indexOf("."));
+
+	//special case for ImagingServices because its inconsistent
+	if (fileName.indexOf("ImagingServices") !== -1) {
+		fileName = "ImagingServices";
+	}
+	//check if the schema contains the current log file
+	if (!knownSchemas.hasOwnProperty(fileName)) {
+		knownSchemas[fileName] = [];
+	}
+
+	let isKnownSchema = false;
+
+	//check if the schema is known
+	for (let schema in knownSchemas[fileName]) {
+		if (knownSchemas[fileName][schema].toString() === jsonSchema.toString()) {
+				isKnownSchema = true;
+			}
+		}
+	//Add the new schema to the list of known schemas
+	if (!isKnownSchema) {
+			knownSchemas[fileName].push(jsonSchema);
+		}
 }

@@ -14,5 +14,5 @@ import { process } from "./src/process";
 
 	let updatedSchema = process(sanitizedFileList, schema);
 
-	writeSchema(schema);
+	writeSchema(updatedSchema);
 })();
