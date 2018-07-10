@@ -12,7 +12,7 @@ export function enumerateFiles() {
 		} else {
 			let folder = file;
 
-			// NOTE: This only goes two folder levels deep
+			// NOTE: This only goes one folder level deep
 			fs.readdirSync(path.join(config.get("basePath"), file)).forEach(function(subFile) {
 				files.push(path.join(config.get("basePath"), folder, subFile));
 			});

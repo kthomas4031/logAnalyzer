@@ -9,6 +9,7 @@ const blacklist = [
 export function sanitize(files) {
 	let sanitizedFiles = [];
 
+	// For each file in files[]
 	for (let x = 0; x < files.length; x++) {
 		let isBlacklisted = false;
 

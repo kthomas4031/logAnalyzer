@@ -1,13 +1,18 @@
 "use strict";
 
-import { sanitize } from "./src/sanitize";
 import { enumerateFiles } from "./src/enumerate";
-import { scanLines } from "./src/scanner";
-import { getSchema } from "./src/schemaRetriever";
+import { readSchema, writeSchema } from "./src/schema";
+import { sanitize } from "./src/sanitize";
+import { process } from "./src/process";
 
-let files = enumerateFiles();
+(async function main() {
+	let files = enumerateFiles();
 
-let sanitizedFiles = sanitize(files);
+	let schema = await readSchema();
 
-getSchema(sanitizedFiles);
-scanLines(sanitizedFiles);
+	let sanitizedFileList = sanitize(files);
+
+	let updatedSchema = process(sanitizedFileList, schema);
+
+	writeSchema(schema);
+})();
