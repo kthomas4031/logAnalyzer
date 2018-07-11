@@ -10,6 +10,8 @@
     "Developing PrizmDoctor Doc Brown": "Developing PrizmDoctor Doc Brown",
     "package-json": "CLI Scripts",
     "Package.json": "Package.json",
+    "project-roadmap": "Development Roadmap",
+    "Development Roadmap": "Development Roadmap",
     "writing-these-docs": "Writing These Docs",
     "Writing These Docs": "Writing These Docs",
     "Docs": "Docs",
@@ -19,7 +21,7 @@
     "Help": "Help",
     "Blog": "Blog",
     "Developing": "Developing",
-    "First Category": "First Category"
+    "Project Roadmap": "Project Roadmap"
   },
   "pages-strings": {
     "Help Translate|recruit community translators for your project": "Help Translate",
