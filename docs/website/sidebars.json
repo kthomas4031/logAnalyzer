@@ -5,6 +5,8 @@
       "package-json",
       "writing-these-docs"
     ],
-    "First Category": ["api"]
+    "Project Roadmap": [
+      "project-roadmap"
+    ]
   }
 }
