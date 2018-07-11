@@ -1,7 +1,10 @@
 {
   "docs": {
-    "New Sidebar": ["developing-prizmdoctor-doc-brown"],
-    "First Category": ["api"],
-    "Second Category": ["doc2"]
+    "Developing": [
+      "developing-prizmdoctor-doc-brown",
+      "package-json",
+      "writing-these-docs"
+    ],
+    "First Category": ["api"]
   }
 }

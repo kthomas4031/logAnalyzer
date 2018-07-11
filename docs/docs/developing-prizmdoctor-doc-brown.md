@@ -1,6 +1,6 @@
 ---
 id: developing-prizmdoctor-doc-brown
-title: developing-prizmdoctor-doc-brown
+title: Developing PrizmDoctor Doc Brown
 sidebar_label: Developing PrizmDoctor Doc Brown
 ---
 

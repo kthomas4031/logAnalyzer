@@ -38,10 +38,12 @@ const siteConfig = {
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
-    {doc: 'developing-prizmdoctor-doc-brown', label: 'Docs'},
-    {doc: 'api', label: 'API'},
-    {page: 'help', label: 'Help'},
-    {blog: true, label: 'Blog'},
+    { doc: 'developing-prizmdoctor-doc-brown', label: 'Docs' },
+    { doc: 'api', label: 'API'},
+    { href: "https://github.com/kthomas4031/logAnalyzer", label: "LogAnalyzer Github" },
+    { href: "https://git.jpg.com/support/PrizmDoctor", label: "PrizmDoctor Github" },
+    { page: 'help', label: 'Help' },
+    { blog: true, label: 'Blog' },
   ],
 
   // If you have users set above, you add it here:
