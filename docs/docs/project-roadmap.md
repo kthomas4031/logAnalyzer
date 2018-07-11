@@ -10,7 +10,7 @@ sidebar_label: Development Roadmap
 
 # Part 2 | PrizmDoctor: Doc Brown
 
-[PrizmDoctor: Doc Brown](https://git.jpg.com/support/PrizmDoctor) will analyze those log and config files to determine potential issues with an installation.
+[PrizmDoctor: Doc Brown](https://git.jpg.com/support/PrizmDoctor) will analyze those log and config files to determine potential issues with an installation. In this portion of the project, a module system will be implemented to make the application pluggable in order to easily analyze different schemas as well as any other options that might change over time.
 
 <!--truncate-->
 
