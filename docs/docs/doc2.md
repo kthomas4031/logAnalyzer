@@ -1,7 +1,7 @@
 ---
 id: doc2
-title: document number 2
+title: doc2
+sidebar_label: Doc 2 Test
 ---
 
-This is a link to [another document.](doc3.md)  
-This is a link to an [external page.](http://www.example.com)
+# Doc 2 Test
