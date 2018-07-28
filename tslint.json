@@ -1,8 +1,7 @@
 {
 	"defaultSeverity": "error",
 	"extends": [
-    "tslint:all",
-    "tslint-eslint-rules"
+        "tslint:all"
 	],
 	"jsRules": {
 		"align": [true, "elements", "members", "parameters", "statements"],
@@ -15,9 +14,11 @@
 		"no-implicit-dependencies": [true, "dev"],
 		"no-magic-numbers": false,
 		"no-namespace": false,
+		"no-shadowed-variable": [true, { "temporalDeadZone": false }],
 		"no-string-literal": false,
 		"no-unused-expression": [true, "allow-new"],
 		"object-literal-key-quotes": [true, "always"],
+		"object-literal-shorthand": false,
 		"object-literal-sort-keys": false,
 		"only-arrow-functions": false,
 		"ordered-imports": false,
@@ -39,9 +40,11 @@
 		"no-implicit-dependencies": [true, "dev"],
 		"no-magic-numbers": false,
 		"no-namespace": false,
+		"no-shadowed-variable": [true, { "temporalDeadZone": false }],
 		"no-string-literal": false,
 		"no-unused-expression": [true, "allow-new"],
 		"object-literal-key-quotes": [true, "always"],
+		"object-literal-shorthand": false,
 		"object-literal-sort-keys": false,
 		"only-arrow-functions": false,
 		"ordered-imports": false,
