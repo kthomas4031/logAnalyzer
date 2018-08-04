@@ -905,6 +905,18 @@
 			"tid",
 			"msg",
 			"exception"
+		],
+		[
+			"time",
+			"gid",
+			"name",
+			"level",
+			"taskid",
+			"pid",
+			"tid",
+			"msg",
+			"reqBegin",
+			"req"
 		]
 	],
 	"PDFConversionService": [
@@ -2127,6 +2139,34 @@
 			"workfileCache",
 			"childServices",
 			"workfileExternalStore",
+			"msg",
+			"time",
+			"v"
+		]
+	],
+	"FileViewer": [
+		[
+			"name",
+			"hostname",
+			"pid",
+			"taskid",
+			"gid",
+			"level",
+			"taskBegin",
+			"taskType",
+			"msg",
+			"time",
+			"v"
+		],
+		[
+			"name",
+			"hostname",
+			"pid",
+			"taskid",
+			"gid",
+			"level",
+			"taskEnd",
+			"duration",
 			"msg",
 			"time",
 			"v"
