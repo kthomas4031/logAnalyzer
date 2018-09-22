@@ -1,6 +1,6 @@
 import * as fs from "fs";
 
-export async function readSchema() {
+export function readSchema() {
 	let readStream = fs.createReadStream("logFileSchema.json");
 
 	let buffer = "";
